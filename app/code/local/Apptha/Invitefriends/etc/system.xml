@@ -1,0 +1,331 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @name         :  Apptha Invite Friends
+ * @version      :  1.0
+ * @author       :  Apptha - http://www.apptha.com
+ * @copyright    :  Copyright (C) 2011 Powered by Apptha
+ * @license      :  http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @Creation Date:  August 2012
+ */
+ -->
+<config>
+    <tabs>
+        <Apptha translate="label" module="invitefriends">
+            <label>Apptha</label>
+            <sort_order>100</sort_order>
+        </Apptha>
+    </tabs>
+    <sections>
+        <invitefriends module="invitefriends" translate="label">
+            <label>Invite Friends</label>
+            <sort_order>200</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <tab>Apptha</tab>
+            <groups>
+            <invitefriends_enable translate="label">
+                    <label>Invite Friends Configuration</label>
+                    <comment><!-- My comments -->
+                    </comment>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                       <enable_invitefriends translate="label">
+                            <label>Enable Invite Friends</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Enable Invite Friends </comment>
+                        </enable_invitefriends>
+
+
+                    </fields>
+                </invitefriends_enable>        
+
+                <credits_invite translate="label">
+                    <label>Credits for Number of Invites</label>
+                    <comment><!-- My comments -->
+                    </comment>
+                    <sort_order>2</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <invite_number translate="label tooltip comment">
+                            <label>Number of Invites</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-number</validate>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Once the above mentioned number of sign ups completed. the invitee will get credited. </comment>
+                        </invite_number>
+                        <amount_invite translate="label tooltip comment">
+                            <label>Credits</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-number</validate>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Based on "Number of invites", the invitee will get the  mentioned credits.</comment>
+                        </amount_invite>                        
+                       </fields>
+                </credits_invite>
+                <bonus_invites translate="label">
+                    <label>Bonus for Number of Invites</label>
+                    <comment><!-- My comments -->
+                    </comment>
+                    <sort_order>3</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                   <fields>
+                       <invite_number translate="label tooltip comment">
+                            <label>Number of Invites</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-number</validate>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>The user who sends most invites will get bonus credits, once the number of sign ups reach the mentioned value.</comment>
+                        </invite_number>
+                        <amount_invite translate="label tooltip comment">
+                            <label>Credits</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-number</validate>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>The bonus credits which will be added to invitee, if the sign ups count reaches "Number of invites" mentioned.</comment>
+                        </amount_invite>                        
+                       </fields>
+                </bonus_invites>
+
+                
+                <purchase_bonus translate="label">
+                    <label>Bonus for invited friend's purchase</label>
+                    <sort_order>4</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <amount_bonus translate="label tooltip comment">
+                            <label>Credits</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-number</validate>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>When invited friend registers and buys any product, this credits will be added to the invitee after below mentioned days </comment>
+                        </amount_bonus>
+                        <days_bonus translate="label tooltip comment">
+                            <label>Days</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-number</validate>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>The purchase bonus will be kept on hold until the above mentioned days.</comment>
+                        </days_bonus>
+                    </fields>
+                </purchase_bonus>
+                <Credits translate="label">
+                    <label>Credits to be used for purchase</label>
+                    <sort_order>5</sort_order>
+                   <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <fixed_percentage translate="label tooltip comment">
+                            <label>Type</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Apptha_Invitefriends_Model_Fixedpercentage</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </fixed_percentage>
+                        <amount_credited translate="label tooltip comment">
+                            <label>Credits in flat rate or percentage</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-number</validate>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Amount entered here will be made as discount while inviteee purchases. It depends upon the type selected.</comment>
+                        </amount_credited>
+                    </fields>
+                </Credits>
+                <email_settings translate="label">
+                    <label>Email Invite Settings</label>
+                    <sort_order>6</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enable_email_invite translate="label">
+                            <label>Enable Email Invite</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Enable Email Invite</comment>
+                        </enable_email_invite>
+
+                        <email_template translate="label">
+                            <label>Select Email Template</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_email_template</source_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </email_template>
+
+                    </fields>
+                </email_settings>
+                <social_invite translate="label">
+                    <label>Social Network Invitation</label>
+                    <sort_order>7</sort_order>
+                    <show_in_website>1</show_in_website>
+                    <show_in_default>1</show_in_default>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                    <enable_fb  translate="label tooltip comment">
+                        <label>Facebook Invitation</label>
+                        <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Facebook Invite</comment>
+                    </enable_fb>
+                        <fb_app translate="label tooltip comment">
+                            <label>Facebook App Key</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-alphanum</validate>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Please Enter  <![CDATA[<a href="https://developers.facebook.com/apps" target="_blank">facebook app id</a>]]></comment>
+                        </fb_app>
+                        <fb_secret translate="label tooltip comment">
+                            <label>Facebook Secret Key</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-alphanum</validate>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                             <comment>Please Enter <![CDATA[<a href="https://developers.facebook.com/apps" target="_blank">facebook app secret key</a>]]></comment>
+                        </fb_secret>
+                        <enable_twitter  translate="label tooltip comment">
+                        <label>Twitter Invitation</label>
+                        <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Twitter Invite</comment>
+                    </enable_twitter>
+                        <twitter_app translate="label tooltip comment">
+                            <label>Twitter Consumer Key</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-alphanum</validate>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                           <comment>Please Enter <![CDATA[<a href="https://dev.twitter.com/apps/new" target="_blank">twitter consumer key</a>]]></comment>
+                        </twitter_app>
+                        <twitter_secret translate="label tooltip comment">
+                            <label>Twitter Consumer Secret</label>
+                            <frontend_type>text</frontend_type>
+                            <validate>validate-alphanum</validate>
+                            <sort_order>6</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Please Enter <![CDATA[<a href="https://dev.twitter.com/apps/new" target="_blank">twitter consumer secret</a>]]></comment>
+                        </twitter_secret>
+                        <enable_gmail  translate="label tooltip comment">
+                        <label>Gmail Invitation</label>
+                        <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>7</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Gmail Invite</comment>
+                    </enable_gmail>
+                    <gmail_clientid translate="label tooltip comment">
+                            <label>Gmail Client ID</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>8</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Please Enter <![CDATA[<a href="https://developers.google.com/youtube/2.0/developers_guide_protocol_oauth2#OAuth2_Register" target="_blank">gmail client id</a>]]></comment>
+                   </gmail_clientid>
+                   <gmail_secretkey translate="label tooltip comment">
+                            <label>Gmail Client Secret</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>9</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Please Enter <![CDATA[<a href="https://developers.google.com/youtube/2.0/developers_guide_protocol_oauth2#OAuth2_Register" target="_blank">gmail client secret</a>]]></comment>
+                   </gmail_secretkey>                   
+                    <enable_link  translate="label tooltip comment">
+                        <label>Invite Link</label>
+                        <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>11</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Reference Link Invite</comment>
+                    </enable_link>
+                    <fbshare_title translate="label tooltip comment">
+                            <label>Facebook Share Title</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>12</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Please Enter Facebook Share Title</comment>
+                   </fbshare_title>
+                   <fbshare_description translate="label tooltip comment">
+                            <label>Facebook Share Description</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>13</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Please Enter Facebook Share Description</comment>
+                   </fbshare_description>
+                    </fields>
+                </social_invite>
+            </groups>
+        </invitefriends>
+    </sections>
+</config>

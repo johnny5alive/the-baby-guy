@@ -1,0 +1,16 @@
+<?php
+    $id_path = $this->getData('id_path');
+    $tmp = explode('/',$id_path);
+    $_product = Mage::getModel('catalog/product')->load($tmp[1]);
+    $_helper = $this->helper('catalog/output');
+    $block = $this->getLayout()->createBlock('catalog/product_list');
+?>
+<a href="<?php echo $_product->getProductUrl() ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(200); ?>" /></a>
+<?php // Product description ?>
+<div class="product-shop">
+    <div class="f-fix">
+        <?php $_productNameStripped = $this->stripTags($_product->getName(), null, true); ?>
+        <h2 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $_productNameStripped; ?>"><?php echo $_helper->productAttribute($_product, $_product->getName() , 'name'); ?></a></h2>
+        <?php echo $block->getPriceHtml($_product);//Mage::helper('core')->currency($_product->getFinalPrice()) ?>
+    </div>
+</div>

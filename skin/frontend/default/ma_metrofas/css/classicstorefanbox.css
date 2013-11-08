@@ -1,0 +1,23 @@
+.fan_box { color: #333333 !important; }
+.fan_box .full_widget { background: none !important; border: 0 !important; }
+.fan_box .full_widget { background: none !important; }
+.fan_box .full_widget .connect_top { background: none !important; }
+.app_content_213989125285052 .fan_box .connections_grid .grid_item img { border: 1px solid #ddd !important; padding: 2px !important;  }
+.fan_box .full_widget .connect_top a {}
+.fan_box .page_stream {}
+.fan_box .connections {  }
+.fan_box .connections .total{}
+.fan_box .connections a {}
+.fan_box .connections_grid .grid_item .name {}
+.fan_box .connections_grid .grid_item img {}
+.fan_box .connect_action a {}
+.fan_box .connect_action .total, .app_content_213989125285052 .fan_box .connections .total {  color: #333; }
+.fan_box .connections { border: 0; }
+.connect_widget { background: none; }
+
+.app_content_213989125285052 .fan_box {
+    color: #333 !important;
+}
+.ma-likebox{
+    border: 1px solid #A6BDCA;
+}

@@ -1,0 +1,35 @@
+<?php
+/**
+ * Visualize Your Attributes
+ *
+ * @category:    AdjustWare
+ * @package:     AdjustWare_Icon
+ * @version      2.0.18
+ * @license:     GPC7g2VHtpIP7j623srVjJmuippj4X9BeOkIuhMsJs
+ * @copyright:   Copyright (c) 2013 AITOC, Inc. (http://www.aitoc.com)
+ */
+$items        = $this->getItemsArray();
+$displayStyle = $this->getColumnsNum(); 
+?>
+<ol>
+<?php if ($displayStyle <=1): // one column ?>
+    <?php foreach ($items as $_item): ?>
+        <li><?php echo $_item?></li>
+    <?php endforeach ?>
+<?php elseif (3 == $displayStyle): // only images ?>
+<li>
+    <div class="adj-icons-filter-one-column">
+    <?php foreach ($items as $_item) echo $_item ?>
+    </div>
+</li>
+<?php else: $n = count($items); $middle = ceil($n/2); //two columns ?>
+<li>
+    <div class="adj-icons-filter-two-column">
+        <?php for ($i=0; $i<$middle; ++$i) echo "<div>{$items[$i]}</div>" ?>
+    </div>
+    <div class="adj-icons-filter-two-column">
+        <?php for ($i=$middle; $i<$n; ++$i) echo "<div>{$items[$i]}</div>" ?>
+    </div>
+</li>
+<?php endif ?>
+</ol>

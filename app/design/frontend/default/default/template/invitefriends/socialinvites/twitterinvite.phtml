@@ -1,0 +1,57 @@
+<?php
+require("invitefriends/twitter/twitteroauth.php");
+require 'invitefriends/config/twconfig.php';
+session_start();
+if (!empty($_GET['oauth_verifier']) && !empty($_SESSION['oauth_token']) && !empty($_SESSION['oauth_token_secret'])) {
+    // We've got everything we need
+    $twitteroauth = new TwitterOAuth(YOUR_CONSUMER_KEY, YOUR_CONSUMER_SECRET, $_SESSION['oauth_token'], $_SESSION['oauth_token_secret']);
+// Let's request the access token
+    $access_token = $twitteroauth->getAccessToken($_GET['oauth_verifier']);
+// Save it in a session var
+    $_SESSION['access_token'] = $access_token;
+// Let's get the user's info
+    $user_info = $twitteroauth->get('account/verify_credentials');
+// Print user's info
+   $username = $user_info->screen_name;    
+}
+
+$trends_url = "http://api.twitter.com/1/statuses/followers/$username.json";
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, $trends_url);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+$curlout = curl_exec($ch);
+curl_close($ch);
+$response = json_decode($curlout, true);
+$refferalUrl = Mage::getModel('invitefriends/customer')->getRefferalLink();
+?>
+<h2><?php echo $this->__('Invite Friends via Twitter');?></h2>
+<ul class="twitter_invite_frnds">
+    <?php
+    foreach ($response as $friends) {
+        $thumb = $friends['profile_image_url'];
+        $url = $friends['screen_name'];
+        $name = $friends['name'];       
+    ?>
+        <li>
+            <a target="_blank" title="<?php echo $name; ?>" href="http://www.twitter.com/<?php echo $url; ?>">
+                <img class="photo-img" src="<?php echo $thumb ?>" border="0" alt="" width="40" />
+            </a>
+            <span><?php echo $name; ?></span>
+<!--            <button type="button" class="button" onclick="sendvalue();"><span><span><?php echo $this->__('Tweet');?></span></span></button>-->
+            <a target="_blank" style=" text-align: right; float: right;" href="http://twitter.com/share?url=<?php echo $refferalUrl; ?>&text=<?php echo '@'.$url; ?>&via=<?php echo Mage::app()->getStore()->getName();?>&related=<?php echo $url;?>">Tweet this</a>
+
+
+        </li>
+        <script type="text/javascript">
+            function sendvalue() {
+            var data = "http://twitter.com/share?url="+encodeURIComponent("<?php echo $refferalUrl; ?>")+"&text=<?php echo '@'.$friends['screen_name'].' '.$refferalUrl; ?>&via=apptha&related=<?php echo $url;?>";
+            alert(data);
+            //window.open('http://twitter.com/share?url=<?php echo $refferalUrl; ?>&text=<?php echo '@'.$url.' '.$refferalUrl; ?>&via=apptha&related=<?php echo $url;?>','','width=600,height=400')
+           //window.location.href = "http://twitter.com/share?url=<?php echo $refferalUrl; ?>&text=<?php echo '@'.$friends['screen_name'].' '.$refferalUrl; ?>&via=apptha&related=<?php echo $url;?>";
+            }
+        </script>
+<?php
+    }
+
+?>
+</ul>

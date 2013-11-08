@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <AdjustWare_Upsell>
+            <version>2.1.2</version>
+        </AdjustWare_Upsell>
+    </modules>
+    <global>
+        <blocks>
+            <catalog>
+                <rewrite>
+        			<!--product_list_upsell>AdjustWare_Upsell_Block_Rewrite_FrontCatalogProductListUpsell</product_list_upsell-->
+        			<product_list_related>AdjustWare_Upsell_Block_Rewrite_FrontCatalogProductListRelated</product_list_related>
+        		</rewrite>     
+            </catalog>
+           
+            <checkout>
+                <rewrite>
+                    <cart_crosssell>AdjustWare_Upsell_Block_Rewrite_FrontCheckoutCartCrosssell</cart_crosssell>
+                </rewrite>
+            </checkout>
+            
+            <adjupsell>
+                    <class>AdjustWare_Upsell_Block</class>
+            </adjupsell>
+            
+        </blocks>
+        <models>
+            <adjupsell>
+                <class>AdjustWare_Upsell_Model</class>
+                <resourceModel>adjupsell_mysql4</resourceModel> 
+            </adjupsell>
+            <adjupsell_mysql4>
+                <class>AdjustWare_Upsell_Model_Mysql4</class> 
+            </adjupsell_mysql4>    
+        </models>  
+        <helpers>
+            <adjupsell>
+                <class>AdjustWare_Upsell_Helper</class>
+            </adjupsell>
+        </helpers>    
+        <resources>
+            <adjupsell_setup>
+                <setup>
+                    <module>AdjustWare_Upsell</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </adjupsell_setup>
+            <adjupsell_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </adjupsell_write>
+            <adjupsell_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </adjupsell_read>
+        </resources>  
+    </global> 
+
+    <adminhtml>
+        <translate>
+            <modules>
+                <AdjustWare_Upsell>
+                    <files>
+                        <default>AdjustWare_Upsell.csv</default>
+                    </files>
+                </AdjustWare_Upsell>
+            </modules>
+        </translate>
+    </adminhtml> 
+    <frontend>
+        <layout>
+            <updates>
+                <adjupsell>
+                    <file>aitupsellcustom.xml</file>
+                </adjupsell>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <catalog>
+            <adjupsell>
+                <enabled>1</enabled>
+                <count>3</count>
+                <block>UpSell</block>
+                <append>1</append>
+                <in_stock_only>0</in_stock_only>
+                <!--<not_use_for>0</not_use_for>-->
+            </adjupsell>  
+        </catalog>
+    </default> 
+</config>
+<!--
+/**
+ * Customers Who Purchased
+ *
+ * @category:    AdjustWare
+ * @package:     AdjustWare_Upsell
+ * @version      2.1.2
+ * @license:     2FAsxXJzc5JeHBuQEqczWVkN1VAQ4c4jbOwkjabuwA
+ * @copyright:   Copyright (c) 2013 AITOC, Inc. (http://www.aitoc.com)
+ */
+-->

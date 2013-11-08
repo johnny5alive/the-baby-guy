@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * @name         :  Apptha Customer Follow Up
+ * @version      :  1.0
+ * @author       :  Apptha - http://www.apptha.com
+ * @copyright    :  Copyright (C) 2011 Powered by Apptha
+ * @license      :  http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @Creation Date:  August 2012
+ */
+ -->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <invitefriends translate="title" module="invitefriends">
+                                        <title>Invite Friends</title>
+                                        <sort_order>1121</sort_order>
+                                    </invitefriends>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                 </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

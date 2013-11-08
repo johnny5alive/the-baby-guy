@@ -1,0 +1,91 @@
+<?php 
+/******************************************************
+ * Website: http://www.magentothem.com
+*******************************************************/
+?> 
+<?php if($this->getConfig('enabled')){ ?>	  <!-- start enable -->
+	<?php $cur_store = Mage::app()->getStore()->getId() ?>
+	<div class="ma-banner7-container">		
+			<div class="flexslider">
+				<div class="ma-loading"></div>
+				<ul class="slides">
+					
+						<?php
+							// Get data banner
+							$slide = $this->getDataBanner7();
+							$path = Mage::getBaseUrl('media');					
+							$qty_Item = $this->getConfig('qty_item');
+							if ($this->getConfig('auto')) { $auto = 'true'; } else { $auto = 'false'; }
+							/* Get max item & qty item */
+							if ($qty_Item > count($slide)) {
+								$qty_Item = count($slide);
+							}
+						?>
+						<?php
+							$i = 1;
+							foreach($slide as $s)
+							{
+								
+								if($i <= $qty_Item) {
+									//Get images slide show
+									$st1 = $s['image'];
+									$p1 = strpos($st1,'banner7');
+									$st2 = substr($st1,$p1+7);
+									$p2 = strpos($st2,'"');
+									$imag = substr($st2,0,$p2);
+							?>
+							<?php if ($s['store_id'] == $cur_store || $s['store_id'] == 0 ): ?>
+								<li>					
+									<?php if( $s['link'] ) { ?>
+										<a href="<?php echo $s['link']?>" title=""><img src="<?php echo $path.'magentothem/banner7'.$imag;?>" alt="" /></a>												
+									<?php } else { ?>
+										<img src="<?php echo $path.'magentothem/banner7'.$imag;?>" alt="" />
+									<?php } ?>
+									<?php if ($this->getConfig('description')){ ?>
+										<div class="banner7-caption hidden-phone">
+											<h2><?php echo $s['title'] ?></h2>
+											<?php echo $s['description'] ?>
+										</div>
+									<?php } ?>
+								</li>
+							<?php $i++; endif; ?>
+						<?php
+								}//end if
+							} // end foreach
+						?>
+				</ul>
+				<script type="text/javascript">
+					$jq(window).load(function(){
+					  $jq('.ma-banner7-container .flexslider').flexslider({
+						<?php if (!$this->getConfig('auto')) { ?>
+						slideshow: false,
+						<?php } ?>
+						animation: "<?php echo $this->getConfig('animation') ?>",
+						slideshowSpeed: <?php echo $this->getConfig('speed') ?>,
+						animationSpeed: <?php echo $this->getConfig('interval') ?>,
+						<?php if (!$this->getConfig('nav_ctrl')) { ?>
+						controlNav: false,
+						<?php } ?>
+						<?php if (!$this->getConfig('next_back')) { ?>
+						directionNav: false,
+						<?php } ?>
+						start: function(slider){
+							$jq('.ma-loading').css("display","none");
+						}
+					  });
+					});
+				</script>
+			</div>
+
+	</div>
+<?php } ?> <!-- end enable -->
+
+
+
+
+
+
+
+
+
+

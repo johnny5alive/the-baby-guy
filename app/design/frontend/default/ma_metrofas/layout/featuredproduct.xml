@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+    </default>
+    <cms_index_index>
+        <reference name="content">
+            <!--<block type="featuredproduct/featuredproduct" name="featuredproduct" template="magentothem/featuredproduct/featuredproduct.phtml" />-->
+        </reference>
+    </cms_index_index>
+</layout> 

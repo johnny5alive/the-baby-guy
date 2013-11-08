@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <AdjustWare_Upsell>
+            <active>true</active>
+            <codePool>local</codePool>
+            <self_name>Customers Who Purchased</self_name>
+            <priority>10020</priority>
+        </AdjustWare_Upsell>
+    </modules>
+</config>
+<!--
+/**
+ * Customers Who Purchased
+ *
+ * @category:    AdjustWare
+ * @package:     AdjustWare_Upsell
+ * @version      2.1.2
+ * @license:     2FAsxXJzc5JeHBuQEqczWVkN1VAQ4c4jbOwkjabuwA
+ * @copyright:   Copyright (c) 2013 AITOC, Inc. (http://www.aitoc.com)
+ */
+-->

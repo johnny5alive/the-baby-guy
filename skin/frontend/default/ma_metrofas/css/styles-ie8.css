@@ -1,0 +1,12 @@
+.contain-size {
+    padding: 0 !important; 
+}
+.ma-newproductslider-container .carousel .newproductslider-item {
+    width: 230px !important;
+}
+.ma-newproductslider-container .item-inner {
+    width: 200px !important;
+}
+
+.products-grid .item-inner { width: 200px; }
+.product-view .product-img-box .more-views li a { width: 80px; height: 80px; }

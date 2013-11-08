@@ -1,0 +1,4705 @@
+2013-10-14T13:45:37+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-10-14 13:45:32
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => 6a32d121a2
+            [email] => flea19760113@msn.com
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70114701
+            [campaign_id] => dad67e379a
+            [merges] => Array
+                (
+                    [EMAIL] => flea19760113@msn.com
+                    [FNAME] => 詹
+                    [LNAME] => 順堅
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 9349
+)
+
+2013-10-18T18:20:06+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+)
+
+    [__pid] => 13933
+)
+
+2013-10-18T18:20:06+00:00 DEBUG (7): Array
+(
+    [0] => WebHook Key invalid! Key Request: c43f8ab55066ca2bchinese. My Key: c43f8ab55066ca2b
+    [__pid] => 13933
+)
+
+2013-10-19T07:38:58+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+)
+
+    [__pid] => 13843
+)
+
+2013-10-19T07:38:58+00:00 DEBUG (7): Array
+(
+    [0] => WebHook Key invalid! Key Request: c43f8ab55066ca2bchinese. My Key: c43f8ab55066ca2b
+    [__pid] => 13843
+)
+
+2013-10-19T17:03:21+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => campaign
+    [fired_at] => 2013-10-19 17:03:13
+    [data] => Array
+        (
+            [id] => e99ed447f0
+            [subject] => 好玩更好買！請跟我這樣做
+            [status] => sent
+            [reason] => 
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 19757
+)
+
+2013-10-19T17:03:21+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => campaign
+    [fired_at] => 2013-10-19 17:03:13
+    [data] => Array
+        (
+            [id] => e99ed447f0
+            [subject] => 好玩更好買！請跟我這樣做
+            [status] => sent
+            [reason] => 
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 2336
+)
+
+2013-10-19T17:03:21+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => campaign
+    [fired_at] => 2013-10-19 17:03:13
+    [data] => Array
+        (
+            [id] => e99ed447f0
+            [subject] => 好玩更好買！請跟我這樣做
+            [status] => sent
+            [reason] => 
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 2990
+)
+
+2013-10-20T11:47:55+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-10-20 11:47:46
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => 670d5976b9
+            [email] => daad.chang@msa.hinet.net
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70123165
+            [campaign_id] => 225121a0d1
+            [merges] => Array
+                (
+                    [EMAIL] => daad.chang@msa.hinet.net
+                    [FNAME] => 張
+                    [LNAME] => 佳如
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14666
+)
+
+2013-10-20T11:47:55+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-10-20 11:47:46
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => 670d5976b9
+            [email] => daad.chang@msa.hinet.net
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70123165
+            [campaign_id] => 225121a0d1
+            [merges] => Array
+                (
+                    [EMAIL] => daad.chang@msa.hinet.net
+                    [FNAME] => 張
+                    [LNAME] => 佳如
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14665
+)
+
+2013-10-20T11:47:56+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-10-20 11:47:47
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => 670d5976b9
+            [email] => daad.chang@msa.hinet.net
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70123165
+            [campaign_id] => 225121a0d1
+            [merges] => Array
+                (
+                    [EMAIL] => daad.chang@msa.hinet.net
+                    [FNAME] => 張
+                    [LNAME] => 佳如
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 30761
+)
+
+2013-10-22T07:28:27+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+)
+
+    [__pid] => 15250
+)
+
+2013-10-22T07:28:27+00:00 DEBUG (7): Array
+(
+    [0] => WebHook Key invalid! Key Request: c43f8ab55066ca2bchinese. My Key: c43f8ab55066ca2b
+    [__pid] => 15250
+)
+
+2013-10-25T05:20:16+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-10-25 05:20:03
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => 6c2f4949cf
+            [email] => smallhemoto@hotmail.com
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70124237
+            [campaign_id] => b491c3aa60
+            [merges] => Array
+                (
+                    [EMAIL] => smallhemoto@hotmail.com
+                    [FNAME] => Chien
+                    [LNAME] => Nettly
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 29718
+)
+
+2013-10-25T05:20:16+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-10-25 05:20:03
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => 6c2f4949cf
+            [email] => smallhemoto@hotmail.com
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70124237
+            [campaign_id] => b491c3aa60
+            [merges] => Array
+                (
+                    [EMAIL] => smallhemoto@hotmail.com
+                    [FNAME] => Chien
+                    [LNAME] => Nettly
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 13277
+)
+
+2013-10-25T05:20:16+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-10-25 05:20:03
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => 6c2f4949cf
+            [email] => smallhemoto@hotmail.com
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70124237
+            [campaign_id] => b491c3aa60
+            [merges] => Array
+                (
+                    [EMAIL] => smallhemoto@hotmail.com
+                    [FNAME] => Chien
+                    [LNAME] => Nettly
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 32238
+)
+
+2013-10-28T12:10:05+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-10-28 12:09:48
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => 1bae29bf74
+            [email] => ann8628@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70152109
+            [campaign_id] => be0f4e07a6
+            [merges] => Array
+                (
+                    [EMAIL] => ann8628@yahoo.com.tw
+                    [FNAME] => 林
+                    [LNAME] => 玟伽
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 25733
+)
+
+2013-10-28T12:10:05+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-10-28 12:09:48
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => 1bae29bf74
+            [email] => ann8628@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70152109
+            [campaign_id] => be0f4e07a6
+            [merges] => Array
+                (
+                    [EMAIL] => ann8628@yahoo.com.tw
+                    [FNAME] => 林
+                    [LNAME] => 玟伽
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 27423
+)
+
+2013-10-28T12:10:05+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-10-28 12:09:48
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => 1bae29bf74
+            [email] => ann8628@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70152109
+            [campaign_id] => be0f4e07a6
+            [merges] => Array
+                (
+                    [EMAIL] => ann8628@yahoo.com.tw
+                    [FNAME] => 林
+                    [LNAME] => 玟伽
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 4995
+)
+
+2013-11-01T03:26:48+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 03:26:28
+    [data] => Array
+        (
+            [action] => delete
+            [reason] => manual
+            [id] => 5a00376971
+            [email] => johnny_c_wong@yahoo.com
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70223273
+            [merges] => Array
+                (
+                    [EMAIL] => johnny_c_wong@yahoo.com
+                    [FNAME] => 
+                    [LNAME] => 
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 3154
+)
+
+2013-11-01T03:26:48+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 03:26:28
+    [data] => Array
+        (
+            [action] => delete
+            [reason] => manual
+            [id] => 5a00376971
+            [email] => johnny_c_wong@yahoo.com
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70223273
+            [merges] => Array
+                (
+                    [EMAIL] => johnny_c_wong@yahoo.com
+                    [FNAME] => 
+                    [LNAME] => 
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 13814
+)
+
+2013-11-01T03:26:48+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 03:26:28
+    [data] => Array
+        (
+            [action] => delete
+            [reason] => manual
+            [id] => 5a00376971
+            [email] => johnny_c_wong@yahoo.com
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70223273
+            [merges] => Array
+                (
+                    [EMAIL] => johnny_c_wong@yahoo.com
+                    [FNAME] => 
+                    [LNAME] => 
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 10166
+)
+
+2013-11-01T03:38:01+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => campaign
+    [fired_at] => 2013-11-01 03:37:42
+    [data] => Array
+        (
+            [id] => aef6a706b2
+            [subject] => 久等了～Mamaky親子購物網新開張！
+            [status] => sent
+            [reason] => 
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 10166
+)
+
+2013-11-01T03:38:01+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => campaign
+    [fired_at] => 2013-11-01 03:37:42
+    [data] => Array
+        (
+            [id] => aef6a706b2
+            [subject] => 久等了～Mamaky親子購物網新開張！
+            [status] => sent
+            [reason] => 
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 513
+)
+
+2013-11-01T03:38:01+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => campaign
+    [fired_at] => 2013-11-01 03:37:42
+    [data] => Array
+        (
+            [id] => aef6a706b2
+            [subject] => 久等了～Mamaky親子購物網新開張！
+            [status] => sent
+            [reason] => 
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 32683
+)
+
+2013-11-01T03:40:33+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:40:14
+    [data] => Array
+        (
+            [email] => stacey58888@gmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14097
+)
+
+2013-11-01T03:40:33+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:40:14
+    [data] => Array
+        (
+            [email] => stacey58888@gmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 13814
+)
+
+2013-11-01T03:40:33+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:40:14
+    [data] => Array
+        (
+            [email] => EileenLin@altek.com.tw
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 3155
+)
+
+2013-11-01T03:40:33+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:40:14
+    [data] => Array
+        (
+            [email] => stacey58888@gmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 16625
+)
+
+2013-11-01T03:40:33+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:40:14
+    [data] => Array
+        (
+            [email] => EileenLin@altek.com.tw
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 24134
+)
+
+2013-11-01T03:40:33+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:40:14
+    [data] => Array
+        (
+            [email] => EileenLin@altek.com.tw
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14132
+)
+
+2013-11-01T03:40:37+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:40:18
+    [data] => Array
+        (
+            [email] => laura@suncolor.com.tw
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 24134
+)
+
+2013-11-01T03:40:37+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:40:18
+    [data] => Array
+        (
+            [email] => laura@suncolor.com.tw
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14091
+)
+
+2013-11-01T03:40:37+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:40:18
+    [data] => Array
+        (
+            [email] => laura@suncolor.com.tw
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14140
+)
+
+2013-11-01T03:42:21+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:02
+    [data] => Array
+        (
+            [email] => cherry680905@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14098
+)
+
+2013-11-01T03:42:21+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:02
+    [data] => Array
+        (
+            [email] => cherry680905@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14132
+)
+
+2013-11-01T03:42:21+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:02
+    [data] => Array
+        (
+            [email] => cherry680905@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14211
+)
+
+2013-11-01T03:42:25+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:06
+    [data] => Array
+        (
+            [email] => s5891242@ms1.ttc.edu.tw
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14211
+)
+
+2013-11-01T03:42:25+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:06
+    [data] => Array
+        (
+            [email] => s5891242@ms1.ttc.edu.tw
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14090
+)
+
+2013-11-01T03:42:25+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:06
+    [data] => Array
+        (
+            [email] => Peggyhsiang@msn.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14132
+)
+
+2013-11-01T03:42:26+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:06
+    [data] => Array
+        (
+            [email] => Peggyhsiang@msn.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 13734
+)
+
+2013-11-01T03:42:26+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:06
+    [data] => Array
+        (
+            [email] => s5891242@ms1.ttc.edu.tw
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14286
+)
+
+2013-11-01T03:42:26+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:06
+    [data] => Array
+        (
+            [email] => Peggyhsiang@msn.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14287
+)
+
+2013-11-01T03:42:27+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:08
+    [data] => Array
+        (
+            [email] => tsaojung622@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14132
+)
+
+2013-11-01T03:42:27+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:08
+    [data] => Array
+        (
+            [email] => karen-0421@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 513
+)
+
+2013-11-01T03:42:27+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:08
+    [data] => Array
+        (
+            [email] => karen-0421@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14106
+)
+
+2013-11-01T03:42:27+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:08
+    [data] => Array
+        (
+            [email] => karen-0421@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 32683
+)
+
+2013-11-01T03:42:28+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:08
+    [data] => Array
+        (
+            [email] => omega329@msn.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14090
+)
+
+2013-11-01T03:42:28+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:08
+    [data] => Array
+        (
+            [email] => malodyw417@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14098
+)
+
+2013-11-01T03:42:28+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:08
+    [data] => Array
+        (
+            [email] => omega329@msn.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14135
+)
+
+2013-11-01T03:42:28+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:08
+    [data] => Array
+        (
+            [email] => malodyw417@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14134
+)
+
+2013-11-01T03:42:28+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:08
+    [data] => Array
+        (
+            [email] => omega329@msn.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14131
+)
+
+2013-11-01T03:42:28+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:08
+    [data] => Array
+        (
+            [email] => tsaojung622@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14210
+)
+
+2013-11-01T03:42:28+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:08
+    [data] => Array
+        (
+            [email] => malodyw417@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14104
+)
+
+2013-11-01T03:42:28+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:08
+    [data] => Array
+        (
+            [email] => tsaojung622@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 13734
+)
+
+2013-11-01T03:42:30+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:10
+    [data] => Array
+        (
+            [email] => lininy2001@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14185
+)
+
+2013-11-01T03:42:30+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:10
+    [data] => Array
+        (
+            [email] => lininy2001@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14285
+)
+
+2013-11-01T03:42:30+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:10
+    [data] => Array
+        (
+            [email] => kangtwo@msn.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14287
+)
+
+2013-11-01T03:42:30+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:10
+    [data] => Array
+        (
+            [email] => lininy2001@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 3155
+)
+
+2013-11-01T03:42:30+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:10
+    [data] => Array
+        (
+            [email] => kangtwo@msn.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14090
+)
+
+2013-11-01T03:42:31+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:12
+    [data] => Array
+        (
+            [email] => mark0522@hotmail.com.tw
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 3224
+)
+
+2013-11-01T03:42:31+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:12
+    [data] => Array
+        (
+            [email] => mark0522@hotmail.com.tw
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14088
+)
+
+2013-11-01T03:42:31+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:12
+    [data] => Array
+        (
+            [email] => mark0522@hotmail.com.tw
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 3153
+)
+
+2013-11-01T03:42:35+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:42:10
+    [data] => Array
+        (
+            [email] => kangtwo@msn.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14135
+)
+
+2013-11-01T03:44:30+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:44:10
+    [data] => Array
+        (
+            [email] => ada_linny@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14400
+)
+
+2013-11-01T03:44:30+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:44:10
+    [data] => Array
+        (
+            [email] => ada_linny@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14134
+)
+
+2013-11-01T03:44:30+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:44:10
+    [data] => Array
+        (
+            [email] => ada_linny@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14135
+)
+
+2013-11-01T03:46:04+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:45:44
+    [data] => Array
+        (
+            [email] => amanda07220@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14135
+)
+
+2013-11-01T03:46:04+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:45:44
+    [data] => Array
+        (
+            [email] => amanda07220@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14324
+)
+
+2013-11-01T03:46:04+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:45:44
+    [data] => Array
+        (
+            [email] => amanda07220@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14481
+)
+
+2013-11-01T03:46:26+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:46:06
+    [data] => Array
+        (
+            [email] => minibo_5@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14090
+)
+
+2013-11-01T03:46:26+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:46:06
+    [data] => Array
+        (
+            [email] => minibo_5@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14214
+)
+
+2013-11-01T03:46:26+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:46:06
+    [data] => Array
+        (
+            [email] => minibo_5@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14134
+)
+
+2013-11-01T03:48:24+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:48:04
+    [data] => Array
+        (
+            [email] => prettywoman_1012@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14674
+)
+
+2013-11-01T03:48:24+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:48:04
+    [data] => Array
+        (
+            [email] => prettywoman_1012@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14630
+)
+
+2013-11-01T03:48:24+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:48:04
+    [data] => Array
+        (
+            [email] => prettywoman_1012@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14610
+)
+
+2013-11-01T03:48:26+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:48:06
+    [data] => Array
+        (
+            [email] => sin_sin_yvonne@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14603
+)
+
+2013-11-01T03:48:26+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:48:06
+    [data] => Array
+        (
+            [email] => sin_sin_yvonne@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14214
+)
+
+2013-11-01T03:48:26+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:48:06
+    [data] => Array
+        (
+            [email] => sin_sin_yvonne@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 13814
+)
+
+2013-11-01T03:51:44+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 03:51:24
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => cdda48549b
+            [email] => clement.hsieh@msn.com
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70125153
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => clement.hsieh@msn.com
+                    [FNAME] => 謝
+                    [LNAME] => 孟志
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14896
+)
+
+2013-11-01T03:51:44+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 03:51:24
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => cdda48549b
+            [email] => clement.hsieh@msn.com
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70125153
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => clement.hsieh@msn.com
+                    [FNAME] => 謝
+                    [LNAME] => 孟志
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14614
+)
+
+2013-11-01T03:51:44+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 03:51:24
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => cdda48549b
+            [email] => clement.hsieh@msn.com
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70125153
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => clement.hsieh@msn.com
+                    [FNAME] => 謝
+                    [LNAME] => 孟志
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14768
+)
+
+2013-11-01T03:54:26+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:54:06
+    [data] => Array
+        (
+            [email] => lyingchi@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 15147
+)
+
+2013-11-01T03:54:26+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:54:06
+    [data] => Array
+        (
+            [email] => kivvy0715@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 15136
+)
+
+2013-11-01T03:54:26+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:54:06
+    [data] => Array
+        (
+            [email] => kivvy0715@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 15044
+)
+
+2013-11-01T03:54:26+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:54:06
+    [data] => Array
+        (
+            [email] => lyingchi@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14626
+)
+
+2013-11-01T03:54:26+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:54:06
+    [data] => Array
+        (
+            [email] => kivvy0715@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 14895
+)
+
+2013-11-01T03:54:26+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 03:54:06
+    [data] => Array
+        (
+            [email] => lyingchi@hotmail.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 15144
+)
+
+2013-11-01T04:05:01+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 04:04:40
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => afe0f85f83
+            [email] => hong.flora@gmail.com
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70116565
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => hong.flora@gmail.com
+                    [FNAME] => hong
+                    [LNAME] => flora
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 15913
+)
+
+2013-11-01T04:05:01+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 04:04:40
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => afe0f85f83
+            [email] => hong.flora@gmail.com
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70116565
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => hong.flora@gmail.com
+                    [FNAME] => hong
+                    [LNAME] => flora
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 16029
+)
+
+2013-11-01T04:05:01+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 04:04:40
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => afe0f85f83
+            [email] => hong.flora@gmail.com
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70116565
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => hong.flora@gmail.com
+                    [FNAME] => hong
+                    [LNAME] => flora
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 16026
+)
+
+2013-11-01T04:30:23+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 04:30:03
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => 8406ba802a
+            [email] => emilycheng_2002@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70143085
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => emilycheng_2002@yahoo.com.tw
+                    [FNAME] => 吳欣儒
+                    [LNAME] => 名字
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 17887
+)
+
+2013-11-01T04:30:23+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 04:30:03
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => 8406ba802a
+            [email] => emilycheng_2002@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70143085
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => emilycheng_2002@yahoo.com.tw
+                    [FNAME] => 吳欣儒
+                    [LNAME] => 名字
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 17888
+)
+
+2013-11-01T04:30:23+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 04:30:03
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => 8406ba802a
+            [email] => emilycheng_2002@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70143085
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => emilycheng_2002@yahoo.com.tw
+                    [FNAME] => 吳欣儒
+                    [LNAME] => 名字
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 17735
+)
+
+2013-11-01T04:55:22+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 04:55:02
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => f3a7ceba96
+            [email] => aambao@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70112897
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => aambao@yahoo.com.tw
+                    [FNAME] => 潘
+                    [LNAME] => 小姐
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 19284
+)
+
+2013-11-01T04:55:22+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 04:55:02
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => f3a7ceba96
+            [email] => aambao@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70112897
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => aambao@yahoo.com.tw
+                    [FNAME] => 潘
+                    [LNAME] => 小姐
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 19529
+)
+
+2013-11-01T04:55:22+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 04:55:02
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => f3a7ceba96
+            [email] => aambao@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70112897
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => aambao@yahoo.com.tw
+                    [FNAME] => 潘
+                    [LNAME] => 小姐
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 19532
+)
+
+2013-11-01T06:10:23+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 06:10:02
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => e36176ef68
+            [email] => note641029@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70221505
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => note641029@yahoo.com.tw
+                    [FNAME] => 葉
+                    [LNAME] => 美惠
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 23746
+)
+
+2013-11-01T06:10:23+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 06:10:02
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => e36176ef68
+            [email] => note641029@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70221505
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => note641029@yahoo.com.tw
+                    [FNAME] => 葉
+                    [LNAME] => 美惠
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 23886
+)
+
+2013-11-01T06:10:23+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 06:10:02
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => e36176ef68
+            [email] => note641029@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70221505
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => note641029@yahoo.com.tw
+                    [FNAME] => 葉
+                    [LNAME] => 美惠
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 23614
+)
+
+2013-11-01T06:30:24+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 06:30:04
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => 7e30480616
+            [email] => gasvinamy@hotmail.com
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 69275409
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => gasvinamy@hotmail.com
+                    [FNAME] => First
+                    [LNAME] => Last
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 23887
+)
+
+2013-11-01T06:30:24+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 06:30:04
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => 7e30480616
+            [email] => gasvinamy@hotmail.com
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 69275409
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => gasvinamy@hotmail.com
+                    [FNAME] => First
+                    [LNAME] => Last
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 23888
+)
+
+2013-11-01T06:30:24+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 06:30:04
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => 7e30480616
+            [email] => gasvinamy@hotmail.com
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 69275409
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => gasvinamy@hotmail.com
+                    [FNAME] => First
+                    [LNAME] => Last
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 22047
+)
+
+2013-11-01T06:55:24+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 06:55:04
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => ad2661ac03
+            [email] => dearsunnie@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70137217
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => dearsunnie@yahoo.com.tw
+                    [FNAME] => lin
+                    [LNAME] => sunnie
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 25540
+)
+
+2013-11-01T06:55:24+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 06:55:04
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => ad2661ac03
+            [email] => dearsunnie@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70137217
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => dearsunnie@yahoo.com.tw
+                    [FNAME] => lin
+                    [LNAME] => sunnie
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 25219
+)
+
+2013-11-01T06:55:24+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 06:55:04
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => ad2661ac03
+            [email] => dearsunnie@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70137217
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => dearsunnie@yahoo.com.tw
+                    [FNAME] => lin
+                    [LNAME] => sunnie
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 26103
+)
+
+2013-11-01T07:43:13+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 07:42:53
+    [data] => Array
+        (
+            [email] => ao3sm3cj86@pchome.com.tw
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 27501
+)
+
+2013-11-01T07:43:13+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 07:42:53
+    [data] => Array
+        (
+            [email] => ao3sm3cj86@pchome.com.tw
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 25540
+)
+
+2013-11-01T07:43:13+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 07:42:53
+    [data] => Array
+        (
+            [email] => ao3sm3cj86@pchome.com.tw
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 27540
+)
+
+2013-11-01T07:43:21+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 07:43:01
+    [data] => Array
+        (
+            [email] => s9023083@pchome.com.tw
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 27539
+)
+
+2013-11-01T07:43:21+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 07:43:01
+    [data] => Array
+        (
+            [email] => s9023083@pchome.com.tw
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 27506
+)
+
+2013-11-01T07:43:21+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-01 07:43:01
+    [data] => Array
+        (
+            [email] => s9023083@pchome.com.tw
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 27535
+)
+
+2013-11-01T08:00:23+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 08:00:03
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => a7d8971542
+            [email] => suhuan7858@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70148909
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => suhuan7858@yahoo.com.tw
+                    [FNAME] => 達棍
+                    [LNAME] => 雅悟
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 27897
+)
+
+2013-11-01T08:00:23+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 08:00:03
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => a7d8971542
+            [email] => suhuan7858@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70148909
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => suhuan7858@yahoo.com.tw
+                    [FNAME] => 達棍
+                    [LNAME] => 雅悟
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 27506
+)
+
+2013-11-01T08:00:23+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 08:00:03
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => a7d8971542
+            [email] => suhuan7858@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70148909
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => suhuan7858@yahoo.com.tw
+                    [FNAME] => 達棍
+                    [LNAME] => 雅悟
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 27540
+)
+
+2013-11-01T09:55:31+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 09:55:11
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => 0f4f1cc92b
+            [email] => fannybelette@free.fr
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70219829
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => fannybelette@free.fr
+                    [FNAME] => STEPHANIE
+                    [LNAME] => BELLET
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 29453
+)
+
+2013-11-01T09:55:31+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 09:55:11
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => 0f4f1cc92b
+            [email] => fannybelette@free.fr
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70219829
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => fannybelette@free.fr
+                    [FNAME] => STEPHANIE
+                    [LNAME] => BELLET
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 29951
+)
+
+2013-11-01T09:55:31+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 09:55:11
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => 0f4f1cc92b
+            [email] => fannybelette@free.fr
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70219829
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => fannybelette@free.fr
+                    [FNAME] => STEPHANIE
+                    [LNAME] => BELLET
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 28968
+)
+
+2013-11-01T12:58:42+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 12:58:22
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => f81de403d7
+            [email] => celineh.wu@msa.hinet.net
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70124661
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => celineh.wu@msa.hinet.net
+                    [FNAME] => Wu
+                    [LNAME] => Celine
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 4675
+)
+
+2013-11-01T12:58:42+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 12:58:22
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => f81de403d7
+            [email] => celineh.wu@msa.hinet.net
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70124661
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => celineh.wu@msa.hinet.net
+                    [FNAME] => Wu
+                    [LNAME] => Celine
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 5237
+)
+
+2013-11-01T12:58:42+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 12:58:22
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => f81de403d7
+            [email] => celineh.wu@msa.hinet.net
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70124661
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => celineh.wu@msa.hinet.net
+                    [FNAME] => Wu
+                    [LNAME] => Celine
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 3314
+)
+
+2013-11-01T16:35:25+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 16:35:05
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => f342e2f077
+            [email] => pin790218@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70151097
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => pin790218@yahoo.com.tw
+                    [FNAME] => 舒萍
+                    [LNAME] => 郭
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 10864
+)
+
+2013-11-01T16:35:25+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 16:35:05
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => f342e2f077
+            [email] => pin790218@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70151097
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => pin790218@yahoo.com.tw
+                    [FNAME] => 舒萍
+                    [LNAME] => 郭
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 10612
+)
+
+2013-11-01T16:35:25+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 16:35:05
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => f342e2f077
+            [email] => pin790218@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70151097
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => pin790218@yahoo.com.tw
+                    [FNAME] => 舒萍
+                    [LNAME] => 郭
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 11051
+)
+
+2013-11-01T17:25:24+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 17:25:04
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => d2248fc0ce
+            [email] => yunwen824@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 69217753
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => yunwen824@yahoo.com.tw
+                    [FNAME] => 魏
+                    [LNAME] => 筠文
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 11284
+)
+
+2013-11-01T17:25:24+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 17:25:04
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => d2248fc0ce
+            [email] => yunwen824@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 69217753
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => yunwen824@yahoo.com.tw
+                    [FNAME] => 魏
+                    [LNAME] => 筠文
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 11280
+)
+
+2013-11-01T17:25:24+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-01 17:25:04
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => d2248fc0ce
+            [email] => yunwen824@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 69217753
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => yunwen824@yahoo.com.tw
+                    [FNAME] => 魏
+                    [LNAME] => 筠文
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 11254
+)
+
+2013-11-02T06:50:25+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-02 06:50:05
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => 86aa455126
+            [email] => arp01xo@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 69282437
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => arp01xo@yahoo.com.tw
+                    [FNAME] => 許
+                    [LNAME] => 誠宜
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 19672
+)
+
+2013-11-02T06:50:26+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-02 06:50:05
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => 86aa455126
+            [email] => arp01xo@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 69282437
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => arp01xo@yahoo.com.tw
+                    [FNAME] => 許
+                    [LNAME] => 誠宜
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 19929
+)
+
+2013-11-02T06:50:26+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-02 06:50:05
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => 86aa455126
+            [email] => arp01xo@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 69282437
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => arp01xo@yahoo.com.tw
+                    [FNAME] => 許
+                    [LNAME] => 誠宜
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 19591
+)
+
+2013-11-02T09:25:24+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-02 09:25:03
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => e596b31434
+            [email] => vickypin24@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70139165
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => vickypin24@yahoo.com.tw
+                    [FNAME] => 陳
+                    [LNAME] => 云蘋
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 20971
+)
+
+2013-11-02T09:25:24+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-02 09:25:03
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => e596b31434
+            [email] => vickypin24@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70139165
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => vickypin24@yahoo.com.tw
+                    [FNAME] => 陳
+                    [LNAME] => 云蘋
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 19674
+)
+
+2013-11-02T09:25:24+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-02 09:25:03
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => e596b31434
+            [email] => vickypin24@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70139165
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => vickypin24@yahoo.com.tw
+                    [FNAME] => 陳
+                    [LNAME] => 云蘋
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 19933
+)
+
+2013-11-02T14:15:23+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-02 14:15:02
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => 71186bc78d
+            [email] => jamie_ho1976@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70105253
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => jamie_ho1976@yahoo.com.tw
+                    [FNAME] => 何
+                    [LNAME] => 慧真
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 24980
+)
+
+2013-11-02T14:15:23+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-02 14:15:02
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => 71186bc78d
+            [email] => jamie_ho1976@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70105253
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => jamie_ho1976@yahoo.com.tw
+                    [FNAME] => 何
+                    [LNAME] => 慧真
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 24661
+)
+
+2013-11-02T14:15:24+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-02 14:15:02
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => abuse
+            [id] => 71186bc78d
+            [email] => jamie_ho1976@yahoo.com.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70105253
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => jamie_ho1976@yahoo.com.tw
+                    [FNAME] => 何
+                    [LNAME] => 慧真
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 22372
+)
+
+2013-11-02T14:56:33+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-02 14:56:12
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => a2a7d4b5e5
+            [email] => dave0616@livemail.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70119185
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => dave0616@livemail.tw
+                    [FNAME] => 王
+                    [LNAME] => 逸宏
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 25219
+)
+
+2013-11-02T14:56:33+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-02 14:56:12
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => a2a7d4b5e5
+            [email] => dave0616@livemail.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70119185
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => dave0616@livemail.tw
+                    [FNAME] => 王
+                    [LNAME] => 逸宏
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 24974
+)
+
+2013-11-02T14:56:33+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => unsubscribe
+    [fired_at] => 2013-11-02 14:56:12
+    [data] => Array
+        (
+            [action] => unsub
+            [reason] => manual
+            [id] => a2a7d4b5e5
+            [email] => dave0616@livemail.tw
+            [email_type] => html
+            [ip_opt] => 207.198.105.29
+            [web_id] => 70119185
+            [campaign_id] => aef6a706b2
+            [merges] => Array
+                (
+                    [EMAIL] => dave0616@livemail.tw
+                    [FNAME] => 王
+                    [LNAME] => 逸宏
+                    [STORECRED] => 
+                    [SHAREURL] => 
+                    [CGROUP] => 
+                    [INTERESTS] => 
+                    [GROUPINGS] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [id] => 12233
+                                    [name] => MAGE_CUSTOMER_GROUPS
+                                    [groups] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [id] => 12413
+                                    [name] => Members w/o Purchase
+                                    [groups] => 
+                                )
+
+                        )
+
+                )
+
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 25335
+)
+
+2013-11-04T03:40:28+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-04 03:40:06
+    [data] => Array
+        (
+            [email] => hprice@infantissima.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 25429
+)
+
+2013-11-04T03:40:29+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-04 03:40:06
+    [data] => Array
+        (
+            [email] => hprice@infantissima.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 25585
+)
+
+2013-11-04T03:40:29+00:00 DEBUG (7): Array
+(
+    [0] => Array
+(
+    [type] => cleaned
+    [fired_at] => 2013-11-04 03:40:06
+    [data] => Array
+        (
+            [email] => hprice@infantissima.com
+            [reason] => hard
+            [campaign_id] => aef6a706b2
+            [list_id] => 21e45be3bd
+        )
+
+)
+
+    [__pid] => 24895
+)
+

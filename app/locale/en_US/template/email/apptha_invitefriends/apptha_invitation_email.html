@@ -1,0 +1,51 @@
+<!--@subject You have a invitation from {{var sender.name}}@-->
+<body style="background:#F6F6F6; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:0; padding:0;">
+<div style="background:#F6F6F6; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:0; padding:0;">
+<table cellspacing="0" cellpadding="0" border="0" height="100%" width="100%">
+<tr>
+    <td align="center" valign="top" style="padding:20px 0 20px 0">
+        <!-- [ header starts here] -->
+        <table bgcolor="#FFFFFF" cellspacing="0" cellpadding="10" border="0" width="650" style="border:1px solid #E0E0E0;">
+            <tr>
+                <td valign="top" align="left"><a href="{{store url=""}}"><img src="{{skin url="images/logo_email.gif" _area='frontend'}}" alt="{{var store.getFrontendName()}}"  style="margin-bottom:10px;" border="0"/></a></td>
+            </tr>
+            <tr>
+                <td valign="top" align="left" style="font: normal 16px arial; color: #121212;">Dear,</td>
+            </tr>
+            <tr>
+                <td valign="top" align="center">
+                    <table cellpadding="0" cellspacing="0" border="0" style="background: #dedede; background: -moz-linear-gradient(top,#FCFCFC, #CCC);
+background: -webkit-gradient(linear, left top, left bottom, from(#FCFCFC), to(#CCC)); border: 1px solid #000; padding: 20px;">
+                        <tr>
+                            <td align="center">
+                                <h3 style="text-align: center;font:bold 21px arial; color: #000; margin: 0; padding: 0 0 10px 0;">Congratulations! </h3>
+                                <span style="font:bold 16px arial; text-align: center; color: #000;">You have been invited to join {{var store.getFrontendName()}}</span>
+                                <small style="font:bold 12px arial; padding-top: 10px; color: #3d3d3d; display: block; text-align: center;">Discover Amazing thinks from great brands</small>
+                                <a href="{{var invitation_link}}" style="display:  block; text-align:  center; width: 150px; background: #039900; border: 1px solid #000; font:bold 14px arial;  color: #fff; text-decoration: none; padding: 5px 0;  margin-top: 20px;">Accept Invitation</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" style="font:normal 14px arial;  color: white;padding: 8px;background: black; border-top: 15px solid white;"><b>{{var sender.name}}</b> wants you to try {{var store.getFrontendName()}}! Create your collection and share the things you love</td>
+            </tr>
+
+        <!-- [ middle starts here] -->
+
+            <tr>
+                <td >
+                    <ul style="margin: 10px 0 0 45px; padding: 0;">
+                        <li style="padding-bottom: 6px;"> <span style="font:normal 14px arial;  color: #453bd4; "> Our Helpline number:  </span><span class="nobr" style="font:normal 14px arial;  color: #453bd4;">{{config path='general/store_information/phone'}}</span></li>
+                        <li> <span  style="font:normal 14px arial;  color: #453bd4;">Our internet feedback option:</span> <a href="mailto:{{config path='trans_email/ident_support/email'}}" style="font:normal 14px arial;  color: #453bd4;">{{config path='trans_email/ident_support/email'}}</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <!-- [ footer starts here] -->
+
+        </table>
+    </td>
+</tr>
+</table>
+</div>
+</body>

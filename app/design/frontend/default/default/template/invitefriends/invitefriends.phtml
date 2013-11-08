@@ -1,0 +1,176 @@
+<?php if(Mage::helper('invitefriends')->isInvitefriendsEnabled()):
+        $creditDetails = Mage::getModel('invitefriends/customer')->creditCalculation();
+$logoSrc = Mage::getStoreConfig('design/header/logo_src');
+$siteLogo = $this->getSkinUrl($logoSrc);
+require("invitefriends/twitter/twitteroauth.php");
+require 'invitefriends/config/twconfig.php';
+session_start();
+$twitteroauth = new TwitterOAuth(YOUR_CONSUMER_KEY, YOUR_CONSUMER_SECRET);
+// Requesting authentication tokens, the parameter is the URL we will be redirected to
+$requestTokenurl = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB).'invitefriends/index/twitterinvite';
+$request_token = $twitteroauth->getRequestToken($requestTokenurl);
+$check = Mage::helper('invitefriends')->getBonusAmount();
+// Saving them into the session
+
+$_SESSION['oauth_token'] = $request_token['oauth_token'];
+$_SESSION['oauth_token_secret'] = $request_token['oauth_token_secret'];
+
+// If everything goes well..
+if ($twitteroauth->http_code == 200) {
+    // Let's generate the URL and redirect
+    $url = $twitteroauth->getAuthorizeURL($request_token['oauth_token']);
+    //header('Location: ' . $url);
+} else {
+    // It's a bad idea to kill the script, but we've got to know when there's an error.
+    //die('Something wrong happened.');
+    $url = '';
+}    
+?>
+<div class="earn_cash">
+<h2><?php echo $this->__('Earn Credits by Inviting friends') ?></h2>
+<h4><?php echo $this->__('Invite your friends and earn credit for yourself when they join');?></h4>
+<div class="clear"></div>
+    <div id="user_credits">
+            <div class="cre_content cre_content1">
+                <div class="first">
+                    <p class="price"><?php echo $creditDetails['total_credits'];?></p>
+                    <p class="price_text"><?php echo $this->__('Total Earned Credits');?></p>
+</div>
+</div>
+            <div class="cre_content ">
+                <div class="second">
+                    <p class="price"><?php echo $creditDetails['upcoming_credits'];?></p>
+                    <p class="price_text"><?php echo $this->__('Upcoming Credits');?></p>
+</div>
+</div>
+            <div class="clear"></div>
+            <div class="cre_content cre_content1">
+                <div class="third">
+                    <p class="price"><?php echo $creditDetails['balance'];?></p>
+                    <p class="price_text"><?php echo $this->__('Available Credits');?></p>
+</div>
+            </div>
+            <div class="cre_content ">
+                <div class="fourth">
+                    <p class="price"><?php echo $creditDetails['used_credits'];?></p>
+                    <p class="price_text"><?php echo $this->__('Used Credits');?></p>
+                </div>
+            </div>
+    </div>
+</div>
+<div class="purchase_bonus invite_sprite">
+    <?php $currencySumbol = Mage::app()->getLocale()->currency(Mage::app()->getStore()->
+                          getCurrentCurrencyCode())->getSymbol();//get currency symbol?>
+    <h3 ><?php echo $this->__('Purchase Bonus');?></h3>
+    <p><?php echo $this->__('If your friends sign up and make purchase, you will earn a ').'<span calss="credit_amt">'.$currencySumbol. Mage::helper('invitefriends')->getPurchaseBonus().'</span>'.$this->__(' credit per friend ');?></p>
+    <?php if( $check == 0)
+    {
+    }
+    else{
+    
+?>
+    <p><?php echo $this->__('If you invite ').Mage::helper('invitefriends')->getBonusInvites().$this->__(' friend/s you will earn a bonus of ').'<span calss="credit_amt">'.$currencySumbol. Mage::helper('invitefriends')->getBonusAmount() .'</span>'?></p>
+    <?php }?>
+</div>
+<?php if(Mage::helper('invitefriends')->enabledSharelink() || Mage::helper('invitefriends')->enabledEmailInvite()):?>
+ <div id="social_share" >
+<?php if(Mage::helper('invitefriends')->enabledSharelink()):?>       
+            <h3><?php echo $this->__('Your Invite Link');?></h3>
+    <p><?php echo $this->__('Share the URL below with your friends on Twitter,Facebook or in an Email.');?></p>
+    <?php $refferalUrl = Mage::getModel('invitefriends/customer')->getRefferalLink();?>
+                <input type="text" name="refferal_link" readonly value="<?php echo $refferalUrl;?>">
+                <a target="_blank" href="http://www.facebook.com/sharer.php?s=100&p[title]=<?php echo Mage::helper('invitefriends')->getfbshareTitle();?>&p[summary]=<?php echo Mage::helper('invitefriends')->getfbshareDescription();?>&p[url]=<?php echo $refferalUrl?>&p[images][0]=<?php echo $siteLogo?>" title="<?php echo $this->__('Share with Facebook');?>">
+                    <img src="<?php echo $this->getSkinUrl('apptha_invitefriends/images/facebook.png')?>" alt="share" />
+                </a>
+                <a target="_blank" href="https://twitter.com/home/?status=<?php echo $refferalUrl ?>" title="<?php echo $this->__('Share with Twitter');?>">
+                    <img src="<?php echo $this->getSkinUrl('apptha_invitefriends/images/twitter.png') ?>" alt="share" />
+                </a>
+        <!--</div>-->
+<?php endif; ?>
+<?php if(Mage::helper('invitefriends')->enabledEmailInvite()):?>
+        <!--<div id="email_share">-->
+    <form id="form-validate" method="post" action="<?php echo $this->getUrl('invitefriends/index/sendEmail')?>">
+               <h3><?php echo $this->__('Invite Friends via Email');?></h3>
+        <p><?php echo $this->__('Addresses separated by commas.');?></p>
+        <div class="clearfix">
+             <div class="invite_grid"><input type="text" name="email" value="" class="input-text required-entry "></div>
+                <button type="submit" title="<?php echo $this->__('Send Invites');?>" class="button" ><span class="invit_btn"><span><?php echo $this->__('Send Invites');?></span></span></button>
+        </div>
+    </form>
+        <?php endif; ?>
+</div>
+ <?php endif; ?>
+
+<?php if((Mage::helper('invitefriends')->enabledFacebookInvite()) || Mage::helper('invitefriends')->enabledTwitterInvite() || Mage::helper('invitefriends')->enabledGmailInvite()): ?>
+<div id="soical_invites" >
+    <h3><?php echo $this->__('Send Invites via Social Networks');?></h3>
+    <p><?php echo $this->__('Scan your address book from any of these services to find people you know.');?></p>
+
+    <?php if(Mage::helper('invitefriends')->enabledFacebookInvite()):?>
+        <a target="_blank" rel="fbinvite_frnds" class="fb_invite_link" href="<?php echo Mage::helper('invitefriends')->getfbinviteUrl();?>" title="<?php echo $this->__('Invite via Facebook');?>">
+            <img src="<?php echo $this->getSkinUrl('apptha_invitefriends/images/fbicon.png')?>" alt="share"/>
+            <?php echo $this->__('Invite via Facebook');?>
+        </a>
+    <?php endif; ?>
+    <?php if(Mage::helper('invitefriends')->enabledTwitterInvite()):?>
+        <a target="_blank" href="<?php echo $url;?>" title="<?php echo $this->__('Invite via Twitter');?>" class="twitter_invite_link">
+            <img src="<?php echo $this->getSkinUrl('apptha_invitefriends/images/twittericon.png') ?>" alt="share" />
+            <?php echo $this->__('Invite via Twitter');?>
+        </a>
+    <?php endif; ?>
+    <?php if(Mage::helper('invitefriends')->enabledGmailInvite()):
+            $clientid = Mage::helper('invitefriends')->getgmailClientid();
+            $redirecturi = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB).'invitefriends/index/gmailinvite';?>
+        <a target="_blank" class="gmail_invite_link" href="https://accounts.google.com/o/oauth2/auth?client_id=<?php echo $clientid;?>&redirect_uri=<?php echo $redirecturi;?>&scope=https://www.google.com/m8/feeds/&response_type=code" title="<?php echo $this->__('Invite via Gmail');?>">
+            <img src="<?php echo $this->getSkinUrl('apptha_invitefriends/images/gmailicon.png')?>" alt="share" />
+            <?php echo $this->__('Invite via Gmail');?>
+        </a>
+    <?php endif; ?>
+
+</div>
+<?php endif; ?>
+<script type="text/javascript">
+    //<![CDATA[
+        var formvalidate = new VarienForm('form-validate');
+    //]]>
+</script>
+<?php endif; ?>
+<?php $app_key = Mage::helper('invitefriends')->getfbappId();?>
+<script src="http://connect.facebook.net/en_US/all.js"> </script>
+<script type="text/javascript">
+    FB.getLoginStatus(function(response) {
+        if (response.status === 'connected') {
+        window.open = null;
+        if (response.authResponse) {                
+                FB.api('/me', function(response) {
+                     var facebook_id = response.id;                     
+                     updateFriendID(facebook_id);
+                })
+            }
+        }
+    });
+</script>
+<?php $getSessionId = Mage::getModel('core/cookie')->get('tokenid');
+if(!$getSessionId) { ?>
+<script type="text/javascript">
+//<![CDATA[
+var strRedirectUrl = "<?php echo $_SERVER['REQUEST_URI'];?>";
+function updateFriendID(facebook_id){
+if(facebook_id != ''){
+    var send_invitation_url = '<?php echo Mage::getBaseUrl(); ?>invitefriends/index/updatefriendid?facebookid='+facebook_id;
+    var xmlhttp;
+    if (window.XMLHttpRequest)
+      {// code for IE7+, Firefox, Chrome, Opera, Safari
+      xmlhttp=new XMLHttpRequest();
+      }
+    else
+      {// code for IE6, IE5
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+      }
+    xmlhttp.open("POST",send_invitation_url,true);
+    xmlhttp.send();
+}
+}
+//]]>
+</script>
+<?php }?>

@@ -1,0 +1,15 @@
+diff -aurBb /home/httpd/htdocs/users/vashkevich/mage14-visualizeattributes/var/ait_patch_orig/compare21012665711884b7e57b466fc5 /home/httpd/htdocs/users/vashkevich/mage14-visualizeattributes/var/ait_patch_modif/compare21012665711884b7e57b466fc5
+--- /home/httpd/htdocs/users/vashkevich/mage14-visualizeattributes/var/ait_patch_orig/compare21012665711884b7e57b466fc5	2010-02-19 11:19:48 +0200
++++ /home/httpd/htdocs/users/vashkevich/mage14-visualizeattributes/var/ait_patch_modif/compare21012665711884b7e57b466fc5	2010-02-19 11:19:48 +0200
+@@ -52,6 +52,11 @@
+                 <h1><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h1>
+             </div>
+ 
++            <!------------------------------  START CODE FOR Visualize Your Attributes Extension ------------------------------->
++            <?php $this->helper('adjicon')->init(array($_product)) ?>
++            <?php echo $this->helper('adjicon')->display($_product)?>
++            <br/>
++            <!------------------------------  FINISH CODE FOR Visualize Your Attributes Extension ------------------------------->
+             <?php if ($this->canEmailToFriend()): ?>
+                 <p class="email-friend"><a href="<?php echo $this->helper('catalog/product')->getEmailToFriendUrl($_product) ?>"><?php echo $this->__('Email to a Friend') ?></a></p>
+             <?php endif; ?>

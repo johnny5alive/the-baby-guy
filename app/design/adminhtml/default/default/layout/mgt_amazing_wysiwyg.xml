@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout>
+  <default>
+    <reference name="head">
+      <action method="addItem"><type>skin_css</type><name>mgt_amazing_wysiwyg/css/redactor/redactor.css</name></action>
+      <action method="addItem"><type>skin_js</type><name>mgt_amazing_wysiwyg/js/redactor/jquery-1.7.min.js</name><params/></action>
+      <action method="addItem"><type>skin_js</type><name>mgt_amazing_wysiwyg/js/redactor/redactor.js</name><params/></action>
+    </reference>
+  </default>
+</layout>

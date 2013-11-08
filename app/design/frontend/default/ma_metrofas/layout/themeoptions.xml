@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+<!-- color tool -->
+<!--
+        <reference name="head">
+            <action method="addCss"><stylesheet>magentothem/colortool/css/ma.cltool.css</stylesheet></action>
+            <action method="addCss"><stylesheet>magentothem/colortool/css/colorpicker.css</stylesheet></action>
+            <action method="addJs"><script>magentothem/ma.jq.slide.js</script></action>
+            <action method="addJs"><script>magentothem/colortool/colorpicker.js</script></action>
+            <action method="addJs"><script>magentothem/colortool/jquery.cookie.js</script></action>
+        </reference>
+        <reference name="content">
+            <block type="themeoptions/themeoptions" name="colortool" template="magentothem/colortool/colortool.phtml" />
+        </reference>
+-->
+<!-- color tool-->
+    </default>
+</layout> 

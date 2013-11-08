@@ -1,0 +1,64 @@
+2013-07-15T07:44:29+00:00 INFO (6): 
+buysafeno: 2000001307150000350
+web: S1210220073
+Td: 100000014
+MN: 185
+webname: 平捷有限公司
+Name: J○○○○○ ○○○g
+note1: 
+note2: 
+ApproveCode: 442002
+Card_NO: 8859
+SendType: 1
+errcode: 00
+errmsg: 成功交易
+ChkValue: C9510086C16F41EE967BAA031E27A08CEF70F9D1
+
+2013-07-15T07:44:32+00:00 INFO (6): 
+buysafeno: 2000001307150000350
+web: S1210220073
+Td: 100000014
+MN: 185
+webname: %e5%b9%b3%e6%8d%b7%e6%9c%89%e9%99%90%e5%85%ac%e5%8f%b8
+Name: J%e2%97%8b%e2%97%8b%e2%97%8b%e2%97%8b%e2%97%8b+%e2%97%8b%e2%97%8b%e2%97%8bg
+note1: 
+note2: 
+ApproveCode: 442002
+Card_NO: 8859
+SendType: 2
+errcode: 00
+errmsg: %e6%88%90%e5%8a%9f%e4%ba%a4%e6%98%93
+ChkValue: C9510086C16F41EE967BAA031E27A08CEF70F9D1
+
+2013-07-15T17:51:59+00:00 INFO (6): 
+buysafeno: 2000001307160000082
+web: S1210220073
+Td: 100000021
+MN: 285
+webname: 平捷有限公司
+Name: J○○○○○ ○○○g
+note1: 
+note2: 
+ApproveCode: 143749
+Card_NO: 8859
+SendType: 1
+errcode: 00
+errmsg: 成功交易
+ChkValue: 1705DA22B3AEC9F3992C61B91DDF26545FE4D60F
+
+2013-07-15T17:52:02+00:00 INFO (6): 
+buysafeno: 2000001307160000082
+web: S1210220073
+Td: 100000021
+MN: 285
+webname: %e5%b9%b3%e6%8d%b7%e6%9c%89%e9%99%90%e5%85%ac%e5%8f%b8
+Name: J%e2%97%8b%e2%97%8b%e2%97%8b%e2%97%8b%e2%97%8b+%e2%97%8b%e2%97%8b%e2%97%8bg
+note1: 
+note2: 
+ApproveCode: 143749
+Card_NO: 8859
+SendType: 2
+errcode: 00
+errmsg: %e6%88%90%e5%8a%9f%e4%ba%a4%e6%98%93
+ChkValue: 1705DA22B3AEC9F3992C61B91DDF26545FE4D60F
+

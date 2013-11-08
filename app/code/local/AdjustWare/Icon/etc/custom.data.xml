@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+    <template>
+        <frontend>
+            <file path="design--frontend--base--default--template--catalog--product--list"></file>
+            <file path="design--frontend--base--default--template--catalog--product--view"></file>
+        </frontend>
+    </template>
+    
+</config>
+<!--
+/**
+ * Visualize Your Attributes
+ *
+ * @category:    AdjustWare
+ * @package:     AdjustWare_Icon
+ * @version      2.0.18
+ * @license:     GPC7g2VHtpIP7j623srVjJmuippj4X9BeOkIuhMsJs
+ * @copyright:   Copyright (c) 2013 AITOC, Inc. (http://www.aitoc.com)
+ */
+-->

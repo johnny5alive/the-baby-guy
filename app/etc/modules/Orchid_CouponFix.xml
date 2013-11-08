@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Orchid_CouponFix>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Orchid_CouponFix>
+    </modules>
+</config> 

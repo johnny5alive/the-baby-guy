@@ -1,0 +1,115 @@
+<?php if( $this->getConfig('enabled') && ($this->getConfig('right')) ): ?>
+	<?php
+		function cut_string_vertnewscroller($string,$number){
+			if(strlen($string) <= $number) {
+				return $string;
+			}
+			else {	
+				if(strpos($string," ",$number) > $number){
+					$new_space = strpos($string," ",$number);
+					$new_string = substr($string,0,$new_space)."..";
+					return $new_string;
+				}
+				$new_string = substr($string,0,$number)."..";
+				return $new_string;
+			}
+		}
+	?>
+	<?php $this->getProducts() ?>
+	<?php $_productCollection=$this->getProductCollection() ?>
+	<div class="ma-new-vertscroller-wrap block"> 
+		<?php				
+			$width_slider = $this->getConfig('width_scroller');
+			$height_slider = $this->getConfig('height_scroller');
+			$items = $this->getConfig('items');
+			$height_item = $height_slider/$this->getConfig('items_show');
+			$qty = $this->getConfig('qty');
+			if ( !$this->getConfig('width_thumbnail') ){
+				$w_thumbnail = 55;
+			} else {
+				$w_thumbnail = $this->getConfig('width_thumbnail');
+			}
+			if( !$this->getConfig('height_thumbnail') ){
+				$h_thumbnail = 55;
+			 }
+			else {
+				$h_thumbnail = $this->getConfig('height_thumbnail');
+			}
+		?>
+		<?php if($this->getConfig('title')){?>
+			<div class="block-title ma-new-vertscroller-title"><strong><span><?php echo $this->getConfig('title')?></span></strong></div>
+		<?php }?>
+		<?php if(!$_productCollection->count()): ?> <!-- start if exist product -->
+			<p class="note-msg"><?php echo $this->__('There are no products matching the selection.') ?></p>
+		<?php else: ?>
+			<div class="block-content ma-new-vertscoller-content">			
+				<ul id ="ma-new-vertscroller-right" class="jcarousel jcarousel-skin-tango new-vertscroller">
+					<?php $_collectionSize = $_productCollection->count() ?>
+					<?php if( !$this->getConfig('items') ) { $_columnCount = 1 ; } else { $_columnCount = $this->getConfig('items'); }?>
+					<?php $i=1; foreach ($_productCollection as $_product): ?>
+						<li class="item <?php if($i==1): ?> first<?php elseif($i == $_collectionSize): ?> last<?php endif; ?>" style="width: <?php echo $width_slider; ?>px; height: <?php echo $height_item; ?>px;">			              
+							<a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize($w_thumbnail, $h_thumbnail); ?>" width="<?php echo $w_thumbnail?>" height="<?php echo $h_thumbnail?>" alt="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" /></a>
+							<h2 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>"><?php echo $this->htmlEscape($_product->getName()) ?></a></h2>
+							<?php $i++; ?>
+							<?php if ( $this->getConfig('review') ): ?>
+								<?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
+							<?php endif; ?>
+							<?php if( $this->getConfig('price') ): ?>
+								<?php echo $this->getPriceHtml($_product, true) ?>
+							<?php endif; ?>
+							<div class="mt-actions">
+								<?php if ($this->getConfig('addtocart')) { ?>
+									<?php if($_product->isSaleable()): ?>
+										<button type="button" title="<?php echo $this->__('Add to Cart') ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+									<?php else: ?>
+										<p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+									<?php endif; ?>
+								<?php }?>
+								<?php if( $this->getConfig('addtowishlist') || $this->getConfig('addtocompare')){?>
+									<ul class="add-to-links">
+										<?php if( $this->getConfig('addtowishlist')){?>
+										<?php if ($this->helper('wishlist')->isAllow()) : ?>
+											<li><a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>" class="link-wishlist"><?php echo $this->__('Add to Wishlist') ?></a></li>
+										<?php endif; ?>
+										<?php } ?>
+										<?php if( $this->getConfig('addtocompare') ){?>
+										<?php if($_compareUrl=$this->getAddToCompareUrl($_product)): ?>
+											<li><span class="separator">|</span> <a href="<?php echo $_compareUrl ?>" class="link-compare"><?php echo $this->__('Add to Compare') ?></a></li>
+										<?php endif; ?>
+										<?php }?>
+									</ul>
+								<?php }?>
+								<?php if( $this->getConfig('description')){?>
+									<div class="ma-desc">
+										<?php if(!$this->getConfig('maxlength')){?>
+											<?php echo nl2br($this->htmlEscape($_product->getShortDescription())) ?>
+										<?php } else {?>
+											<?php echo nl2br(cut_string_vertnewscroller($this->htmlEscape($_product->getShortDescription()),$this->getConfig('maxlength'))) ?>			            
+										<?php }?>			                    
+									</div>
+								<?php }?>
+							</div>
+						</li>
+					<?php endforeach ?>
+				</ul>
+				<script type="text/javascript">decorateGeneric($$('ul.products-grid'), ['odd','even','first','last'])</script>
+				<script type="text/javascript">
+					$jq(document).ready(function() {						
+						$jq('#ma-new-vertscroller-right').jcarousel({
+							vertical: true,
+							wrap: 'circular',
+							auto: <?php echo $this->getConfig('auto') ?>,
+							animation: <?php echo $this->getConfig('animation') ?>,
+							scroll: <?php echo $this->getConfig('items_scroll') ?>
+						});
+						$jq(".ma-new-vertscroller-wrap .jcarousel-container-vertical, .ma-new-vertscroller-wrap .jcarousel-clip-vertical")
+							.css("width","<?php echo $width_slider; ?>px")
+							.css("height","<?php echo $height_slider; ?>px");							
+					});
+				</script>
+			</div>		
+		<?php endif; ?>
+	</div>
+<?php endif; ?>
+
+

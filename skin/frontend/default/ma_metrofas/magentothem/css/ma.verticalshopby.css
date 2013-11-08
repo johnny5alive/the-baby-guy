@@ -1,0 +1,30 @@
+/*============== override shop by  ================*/
+.block-layered-nav dt {
+	position: relative;
+}
+.block-layered-nav dd {
+	display: none;
+}
+.block-layered-nav span.head {
+	position: absolute;
+	top: 0;
+	right: 8px;
+}
+.block-layered-nav span.head a { 
+	background: #f6f6f6 url(../images/menu_down.gif) no-repeat;
+	color:#333333;
+	display:block;
+	height:15px;
+	margin-top:5px;
+	padding:0;
+	width:15px;
+}
+.block-layered-nav span.head a:hover {
+	background: #ff0000 url(../images/menu_up.gif) no-repeat;
+}
+.block-layered-nav dt.selected span.head a {
+	background: #f6f6f6 url(../images/menu_up.gif) no-repeat;
+}
+.block-layered-nav dt.selected span.head a:hover {
+	background: #f6f6f6 url(../images/menu_down.gif) no-repeat;
+}

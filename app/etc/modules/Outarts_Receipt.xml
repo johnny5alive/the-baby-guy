@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Outarts_Receipt>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Outarts_Receipt>
+    </modules>
+</config> 

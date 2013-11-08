@@ -1,0 +1,45 @@
+
+/**
+ * Visualize Your Attributes
+ *
+ * @category:    AdjustWare
+ * @package:     AdjustWare_Icon
+ * @version      2.0.18
+ * @license:     n/a
+ * @copyright:   Copyright (c) 2013 AITOC, Inc. (http://www.aitoc.com)
+ */
+img.adj-icon
+{
+	float:left;
+}
+.adj-icon{
+float:left; 
+padding-left:5px;
+}
+
+.adj-icons-list:after,
+.adj-icons-grid:after,
+.adj-icons-view:after{
+content:"."; display:block; clear:both; font-size:0; line-height:0; height:0; overflow:hidden;
+}
+
+div.adj-icons-filter-one-column {float:left;}
+div.adj-icons-filter-two-column {float:left; width:80px}
+
+/*comment out if we use Layered Navigation Pro ? */
+a.adj-nav-icon{}
+
+.block-layered-nav dd 
+{
+    overflow:hidden;
+}
+.adj-icons-view{overflow:hidden;clear:both;}
+
+.adjicon_icon_img
+{
+    margin-right: 3px;
+}
+.adjicon_icon_img img
+{
+	vertical-align:middle;
+}

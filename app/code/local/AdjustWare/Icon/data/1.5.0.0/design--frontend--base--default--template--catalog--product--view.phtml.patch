@@ -1,0 +1,16 @@
+Only in /home/httpd/htdocs/users/yahnenko/mg15/var/ait_patch_orig/: compare40912982872264d624a7a782e9
+diff -aurBb /home/httpd/htdocs/users/yahnenko/mg15/var/ait_patch_orig/view.phtml /home/httpd/htdocs/users/yahnenko/mg15/var/ait_patch_modif/view.phtml
+--- /home/httpd/htdocs/users/yahnenko/mg15/var/ait_patch_orig/view.phtml	2011-02-03 15:33:36 +0200
++++ /home/httpd/htdocs/users/yahnenko/mg15/var/ait_patch_modif/view.phtml	2011-02-21 13:20:12 +0200
+@@ -50,6 +51,11 @@
+                 <h1><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h1>
+             </div>
+ 
++            <!------------------------------  START CODE FOR Visualize Your Attributes Extension ------------------------------->
++            <?php $this->helper('adjicon')->init(array($_product)) ?>
++            <?php echo $this->helper('adjicon')->display($_product)?>
++            <br/>
++            <!------------------------------  FINISH CODE FOR Visualize Your Attributes Extension ------------------------------->
+             <?php if ($this->canEmailToFriend()): ?>
+                 <p class="email-friend"><a href="<?php echo $this->helper('catalog/product')->getEmailToFriendUrl($_product) ?>"><?php echo $this->__('Email to a Friend') ?></a></p>
+             <?php endif; ?>

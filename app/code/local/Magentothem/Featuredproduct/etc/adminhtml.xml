@@ -1,0 +1,39 @@
+<?xml version="1.0"?> 
+<config>
+	<acl>
+		<resources>
+			<admin>
+				<children>
+					<system>
+						<children>
+							<config>
+								<children>
+									<featuredproduct>
+										<title>Featured Product</title>
+									</featuredproduct>
+								</children>
+							</config>
+						</children>
+					</system>		
+					<magentothem translate="title" module="featuredproduct">
+						<title>Magentothem</title>
+						<sort_order>71</sort_order>               
+						<children>
+							<featuredproduct translate="title" module="featuredproduct">
+								<title>Featured Products</title>
+								<sort_order>0</sort_order>
+								<children>
+									<configuration>
+										<title>Configuration</title>
+										<sort_order>1</sort_order>
+										<action>adminhtml/system_config/edit/section/featuredproduct</action>
+									</configuration>
+								</children>
+							</featuredproduct>
+						</children>
+					</magentothem>					
+				</children>
+			</admin>
+        </resources>
+	</acl>
+</config>

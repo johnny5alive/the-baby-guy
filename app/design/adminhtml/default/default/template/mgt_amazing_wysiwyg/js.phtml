@@ -1,0 +1,10 @@
+<script>
+if (typeof jQuery != 'undefined') { 
+  var $mgt = jQuery.noConflict();
+  $mgt(document).ready(function(){
+    $mgt('.amazing-wysiwyg').redactor({
+      imageUpload: '<?php echo $this->getLoadUrl(); ?>'
+    });
+  });	
+}
+</script>

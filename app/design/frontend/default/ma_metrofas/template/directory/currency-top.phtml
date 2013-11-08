@@ -1,0 +1,23 @@
+<?php if($this->getCurrencyCount()>1): ?>
+<div class="box currency">
+    <div class="currency-inner">
+        <!--<label for="select-language">Currency: </label>-->
+        <?php foreach ($this->getCurrencies() as $_code => $_name): ?>
+            <?php $active = ($_code==$this->getCurrentCurrencyCode()) ? '_active':''; ?>
+            <a href="<?php echo $this->helper('directory/url')->getSwitchCurrencyUrl() . 'currency/' . $_code; ?>" title="Set <?php echo $_code ?> as your chosen currency">
+            <!--<img src="<?php echo Mage::getBaseUrl() . 'media/currency/' . $_code . $active;?>.png" alt="Set <?php echo $_code ?> as your chosen currency" />-->
+            <?php echo $_code ?>
+            </a>
+        <?php endforeach; ?>
+    </div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+function changeCurrency(sObject){
+    if(sObject.value){
+        setLocation('<?php echo $this->helper('directory/url')->getSwitchCurrencyUrl() ?>currency/'+sObject.value);
+    }
+}
+//]]>
+</script>
+<?php endif; ?>

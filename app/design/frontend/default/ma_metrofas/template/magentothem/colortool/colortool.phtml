@@ -1,0 +1,442 @@
+	<?php
+        $_old_body_bg = $this->getConfig("bg_color");
+        $_body_background = 'ffffff';
+        if ( $_COOKIE['body_background_cookie'] ) {
+            $_body_background = $_COOKIE['body_background_cookie'];
+        }
+
+        $_old_main_color = $this->getConfig("main_color");
+        $_main_color = '446CB3';
+        if ( $_COOKIE['main_color_cookie'] ) {
+            $_link_color = $_COOKIE['main_color_cookie'];
+        }
+		
+        $_old_link_color = $this->getConfig("link_color");
+        $_link_color = 'E6415F';
+        if ( $_COOKIE['link_color_cookie'] ) {
+            $_link_color = $_COOKIE['link_color_cookie'];
+        }
+
+    ?>
+    <div class="ma-demo-wrap">
+		<h2 class="ma-demo-title">Theme Options</h2>
+		<div class="ma-demo-option">
+			<div class="cl-wrapper">
+				<div class="cl-container">
+					<div class="cl-table">
+						<div class="cl-tr cl-tr-style">
+							<div class="cl-td-l cl-td-layout1"><a href="<?php echo $this->getUrl().'?___store=en' ?>" title="skin 1" ><span></span><?php echo $this->__('Skin 1') ?></a></div>
+							<div class="cl-td-r cl-td-layout2"><a href="<?php echo $this->getUrl().'?___store=fr' ?>" title="skin 2"><span></span><?php echo $this->__('Skin 2') ?></a></div>
+						</div>
+						<div class="cl-tr cl-tr-style">
+							<div class="cl-td-r cl-td-layout3"><a href="<?php echo $this->getUrl().'?___store=ge' ?>" title="Skin 3"><span></span><?php echo $this->__('Skin 3') ?></a></div>
+							<div class="cl-td-r cl-td-layout4"><a href="<?php echo $this->getUrl().'?___store=pt' ?>" title="Skin 4"><span></span><?php echo $this->__('Skin 4') ?></a></div>
+						</div>
+						<div class="cl-tr cl-tr-style">
+							<div class="cl-td-l cl-td-layout5"><a href="<?php echo $this->getUrl().'?___store=du' ?>" title="Skin 5"><span></span><?php echo $this->__('Skin 5') ?></a></div>
+							<div class="cl-td-r cl-td-layout6"><a href="<?php echo $this->getUrl().'?___store=rs' ?>" title="Skin 6"><span></span><?php echo $this->__('Skin 6') ?></a></div>
+						</div>
+						
+						<div class="cl-tr cl-tr-font">
+							<div class="cl-td-l cl-td-l-font">Font:</div>
+							<div class="cl-td-r cl-td-r-font">
+								
+									<select title="Select Font" id="select-fontselector">
+										<option value="">Select Font</option>
+										<option value="Aclonica">Aclonica</option>
+										<option value="Allan">Allan</option>
+										<option value="Anonymous+Pro">Anonymous Pro</option>
+										<option value="Allerta+Stencil">Allerta Stencil</option>
+										<option value="Allerta">Allerta</option>
+										<option value="Amaranth">Amaranth</option>
+										<option value="Anton">Anton</option>
+										<option value="Arimo">Arimo</option>
+										<option value="Artifika">Artifika</option>
+										<option value="Arvo">Arvo</option>
+										<option value="Asset">Asset</option>
+										<option value="Astloch">Astloch</option>
+										<option value="Bangers">Bangers</option>
+										<option value="Bentham">Bentham</option>
+										<option value="Bevan">Bevan</option>
+										<option value="Bigshot+One">Bigshot One</option>
+										<option value="Bowlby+One">Bowlby One</option>
+										<option value="Brawler">Brawler </option>
+										<option value="Buda:300">Buda</option>
+										<option value="Cabin">Cabin</option>
+										<option value="Calligraffitti">Calligraffitti</option>
+										<option value="Candal">Candal</option>
+										<option value="Cantarell">Cantarell</option>
+										<option value="Cardo">Cardo</option>
+										<option value="Carter One">Carter One</option>
+										<option value="Caudex">Caudex</option>
+										<option value="Chewy">Chewy</option>
+										<option value="Coda">Coda</option>
+										<option value="Coming+Soon">Coming Soon</option>
+										<option value="Copse">Copse</option>
+										<option value="Corben:700">Corben</option>
+										<option value="Cousine">Cousine</option>
+										<option value="Crafty+Girls">Crafty Girls</option>
+										<option value="Crimson+Text">Crimson Text</option>
+										<option value="Crushed">Crushed</option>
+										<option value="Cuprum">Cuprum</option>
+										<option value="Damion">Damion</option>
+										<option value="Dancing+Script">Dancing Script</option>
+										<option value="Didact+Gothic">Didact Gothic</option>
+										<option value="Droid+Sans">Droid Sans</option>
+										<option value="Droid+Serif">Droid Serif</option>
+										<option value="EB+Garamond">EB Garamond</option>
+										<option value="Expletus+Sans">Expletus Sans</option>
+										<option value="Forum">Forum</option>
+										<option value="Francois+One">Francois One</option>
+										<option value="Geo">Geo</option>
+										<option value="Goblin+One">Goblin One</option>
+										<option value="Gravitas+One">Gravitas One</option>
+										<option value="Gruppo">Gruppo</option>
+										<option value="Inconsolata">Inconsolata</option>
+										<option value="Indie+Flower">Indie Flower</option>
+										<option value="Irish+Grover">Irish Grover</option>
+										<option value="Irish+Growler">Irish Growler</option>
+										<option value="Istok+Web">Istok Web</option>
+										<option value="Judson">Judson</option>
+										<option value="Jura"> Jura Regular</option>
+										<option value="Jura:500"> Jura 500</option>
+										<option value="Jura:600"> Jura 600</option>
+										<option value="Kameron">Kameron</option>
+										<option value="Kenia">Kenia</option>
+										<option value="Kranky">Kranky</option>
+										<option value="Kreon">Kreon</option>
+										<option value="Kristi">Kristi</option>
+										<option value="Lato:100">Lato 100</option>
+										<option value="Lato">Lato</option>
+										<option value="Lato:900">Lato 900</option>
+										<option value="League+Script">League Script</option>
+										<option value="Lekton"> Lekton </option>
+										<option value="Limelight"> Limelight </option>
+										<option value="Lobster">Lobster</option>
+										<option value="Lobster Two">Lobster Two</option>
+										<option value="Lora">Lora</option>
+										<option value="Luckiest+Guy">Luckiest Guy</option>
+										<option value="Maiden+Orange">Maiden Orange</option>
+										<option value="Mako">Mako</option>
+										<option value="Maven+Pro"> Maven Pro</option>
+										<option value="Maven+Pro:500"> Maven Pro 500</option>
+										<option value="Maven+Pro:700"> Maven Pro 700</option>
+										<option value="Maven+Pro:900"> Maven Pro 900</option>
+										<option value="Meddon">Meddon</option>
+										<option value="MedievalSharp">MedievalSharp</option>
+										<option value="Megrim">Megrim</option>
+										<option value="Merriweather">Merriweather</option>
+										<option value="Metrophobic">Metrophobic</option>
+										<option value="Michroma">Michroma</option>
+										<option value="Miltonian">Miltonian</option>
+										<option value="Modern Antiqua">Modern Antiqua</option>
+										<option value="Monofett">Monofett</option>
+										<option value="Molengo">Molengo</option>
+										<option value="Muli:300">Muli Light</option>
+										<option value="Muli">Muli Regular</option>
+										<option value="Neucha">Neucha</option>
+										<option value="Neuton">Neuton</option>
+										<option value="News+Cycle">News Cycle</option>
+										<option value="Nixie+One">Nixie One</option>
+										<option value="Nobile">Nobile</option>
+										<option value="Nova+Cut">Nova Cut</option>
+										<option value="Nova+Flat">Nova Flat</option>
+										<option value="Nova+Mono">Nova Mono</option>
+										<option value="Nova+Oval">Nova Oval</option>
+										<option value="Nova+Round">Nova Round</option>
+										<option value="Nova+Script">Nova Script</option>
+										<option value="Nova+Slim">Nova Slim</option>
+										<option value="Nova+Square">Nova Square</option>
+										<option value="Nunito:light"> Nunito Light</option>
+										<option value="Nunito"> Nunito Regular</option>
+										<option value="Oswald">Oswald</option>
+										<option value="Reenie+Beanie">Reenie Beanie</option>
+										<option value="Pacifico">Pacifico</option>
+										<option value="Patrick+Hand">Patrick Hand</option>
+										<option value="Paytone+One">Paytone One</option>
+										<option value="Philosopher">Philosopher</option>
+										<option value="Play">Play</option>
+										<option value="Podkova"> Podkova </option>
+										<option value="PT+Sans">PT Sans</option>
+										<option value="PT+Serif">PT Serif</option>
+										<option value="Puritan">Puritan</option>
+										<option value="Quattrocento">Quattrocento</option>
+										<option value="Radley">Radley</option>
+										<option value="Raleway:100">Raleway</option>
+										<option value="Redressed">Redressed</option>
+										<option value="Rock+Salt">Rock Salt</option>
+										<option value="Rokkitt">Rokkitt</option>
+										<option value="Schoolbell">Schoolbell</option>
+										<option value="Shanti">Shanti</option>
+										<option value="Sigmar+One">Sigmar One</option>
+										<option value="Six+Caps">Six Caps</option>
+										<option value="Slackey">Slackey</option>
+										<option value="Smythe">Smythe</option>
+										<option value="Sniglet:800">Sniglet</option>
+										<option value="Special+Elite">Special Elite</option>
+										<option value="Stardos+Stencil">Stardos Stencil</option>
+										<option value="Sunshiney">Sunshiney</option>
+										<option value="Syncopate">Syncopate</option>
+										<option value="Tangerine">Tangerine</option>
+										<option value="Tenor+Sans"> Tenor Sans </option>
+										<option value="Tinos">Tinos</option>
+										<option value="Ubuntu">Ubuntu</option>
+										<option value="Ultra">Ultra</option>
+										<option value="Unkempt">Unkempt</option>
+										<option value="UnifrakturCook:bold">UnifrakturCook</option>
+										<option value="Varela">Varela</option>
+										<option value="Varela Round">Varela Round</option>
+										<option value="Vibur">Vibur</option>
+										<option value="Vollkorn">Vollkorn</option>
+										<option value="VT323">VT323</option>
+										<option value="Wallpoet">Wallpoet</option>
+										<option value="Wire+One">Wire One</option>
+										<option value="Yeseva+One">Yeseva One</option>
+										<option value="Zeyada">Zeyada</option>
+									</select>
+								
+							</div>
+						</div>
+						
+						<div class="cl-tr cl-tr-main">
+							<div class="cl-td-l">Main Color:</div>
+							<div class="cl-td-r">
+								<div class="colorSelector cl-tool" id="mainColor">
+									<div style="background-color: #<?php  echo $_main_color ; ?>"></div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="cl-tr cl-tr-link">
+							<div class="cl-td-l">Active Color:</div>
+							<div class="cl-td-r">
+								<div class="colorSelector cl-tool" id="linkColor">
+									<div style="background-color: #<?php  echo $_link_color ; ?>"></div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="cl-tr cl-tr-background">
+							<div class="cl-td-l">Background Color:</div>
+							<div class="cl-td-r">
+								<div class="colorSelector cl-tool" id="bodyBackgroundColor">
+									<div style="background-color: #<?php  echo $_body_background ; ?>"></div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="cl-tr">
+							<div class="cl-td-l">Background Image:</div>
+							<div class="cl-td-bg">
+								<div class="cl-pattern">
+										<div id="pattern1" class="cl-image pattern1"></div>
+										<div id="pattern2" class="cl-image pattern2"></div>
+										<div id="pattern3" class="cl-image pattern3"></div>
+										<div id="pattern4" class="cl-image pattern4"></div>
+										<div id="pattern5" class="cl-image pattern5"></div>
+										<div id="pattern6" class="cl-image pattern6"></div>
+										<div id="pattern7" class="cl-image pattern7"></div>
+										<div id="pattern8" class="cl-image pattern8"></div>
+										<div id="pattern9" class="cl-image pattern9"></div>
+										<div id="pattern10" class="cl-image pattern10"></div>
+										<div id="pattern11" class="cl-image pattern11"></div>
+										<div id="pattern12" class="cl-image pattern12"></div>
+										<div id="pattern13" class="cl-image pattern13"></div>
+										<div id="pattern14" class="cl-image pattern14"></div>
+										<div id="pattern15" class="cl-image pattern15"></div>
+										<div id="pattern16" class="cl-image pattern16"></div>
+										<div id="pattern17" class="cl-image pattern17"></div>
+										<div id="pattern18" class="cl-image pattern18"></div>
+										<div id="pattern19" class="cl-image pattern19"></div>
+										<div id="pattern20" class="cl-image pattern20"></div>
+										<div id="pattern21" class="cl-image pattern21"></div>
+										<div id="pattern22" class="cl-image pattern22"></div>
+										<div id="pattern23" class="cl-image pattern23"></div>
+										<div id="pattern24" class="cl-image pattern24"></div>
+										<div id="pattern25" class="cl-image pattern25"></div>
+										<div id="pattern26" class="cl-image pattern26"></div>
+										<div id="pattern27" class="cl-image pattern27"></div>
+										<div id="pattern28" class="cl-image pattern28"></div>
+										<div id="pattern29" class="cl-image pattern29"></div>
+										<div id="pattern30" class="cl-image pattern30"></div>	
+								</div>
+							</div>
+						</div>
+                        <div class="cl-tr cl-row-reset">
+                            <span class="cl-reset"></span>
+                        </div>
+					</div>
+                </div>		
+			</div>
+		</div>
+		<div class="control inactive"><a href="javascript:void(0)"></a></div>
+		<script type="text/javascript">
+			$jq(document).ready( function(){
+				$jq('.control').click(function(){
+					if($jq(this).hasClass('inactive')) {
+						$jq(this).removeClass('inactive');
+						$jq(this).addClass('active');
+						$jq('.ma-demo-wrap').animate({left:'0'}, 500);
+					} else {
+						$jq(this).addClass('inactive');
+						$jq('.ma-demo-wrap').animate({left:'-224px'}, 500);
+					}
+				});
+			});
+		</script>
+	</div>
+<script type="text/javascript">
+//<![CDATA[    
+    $jq('#bodyBackgroundColor,#mainColor, #linkColor').each(function() {
+        var $jqel = $jq(this);
+        /* set time */
+        var date = new Date();
+        date.setTime(date.getTime() + (1440 * 60 * 1000));
+    
+        $jqel.ColorPicker({
+            color: '#0000ff',
+            onChange: function (hsb, hex, rgb) {
+    
+                $jqel.find('div').css('backgroundColor', '#' + hex);
+                switch ($jqel.attr("id")) {			
+					
+                  case 'bodyBackgroundColor' :
+                    $jq("body").css('backgroundColor', '#' + hex);
+                    // set cookie
+                    $jq.cookie('body_background_cookie', hex , { expires: date });
+                    break;
+				// main color
+				  case 'mainColor' :
+					$jq('<style type="text/css">.ma-newproductslider-container .actions, .products-grid .actions, .ma-brand-slider-contain .flex-direction-nav a:hover, .ma-footer-static-container, .ma-nav-mobile-container, .ma-nav-container, .content-sample-block .block1 img, .productpage-sample-block .block2 img  { background-color:#'+hex+'}</style>').appendTo('head');
+					
+										$jq('<style type="text/css">.product-view button.btn-cart:hover span { background-color:#'+hex+' !important}</style>').appendTo('head');
+
+					
+					$jq('<style type="text/css">a:hover, .products-grid .product-name a:hover, .product-name a:hover { color:#'+hex+'}</style>').appendTo('head');
+					
+				  // set cookie
+				  $jq.cookie('main_color_cookie', hex , { expires: date });
+				  break;	
+				
+                  case 'linkColor' :
+                    //$jq("body a").css('color', '#' + hex);
+					$jq('<style type="text/css"> button.button span, .main button.btn-checkout:hover span, .header .form-search button.button:hover span, .ma-newproductslider-container .item-inner:hover .actions, .products-grid .item:hover .actions, .ma-brand-slider-contain .flex-direction-nav a, .ma-brand-slider-contain .flex-direction-nav .flex-next, .ma-new-vertscroller-wrap .jcarousel-next-vertical:hover, .ma-new-vertscroller-wrap .jcarousel-prev-vertical:hover, .add-to-cart input.qty-decrease:hover, .add-to-cart input.qty-increase:hover, .product-prev:hover, .product-next:hover, .ma-thumbnail-container .flex-direction-nav a:hover, .footer-freeshipping .shipping-icon, .wine_menu li.active a, .fish_menu li.active a, .wine_menu li.over a, .fish_menu li.over a, .wine_menu a:hover, .fish_menu a:hover, #back-top, .content-sample-block .block2 img, .productpage-sample-block .block1 img { background-color:#'+hex+'}</style>').appendTo('head');
+					
+					$jq('<style type="text/css"> button.btn-cart:hover span, .product-view button.btn-cart span, .ui-slider .ui-slider-range { background-color:#'+hex+' !important}</style>').appendTo('head');
+					
+					$jq('<style type="text/css"> a, .breadcrumbs li strong, .pager .pages a:hover, .pager .pages .current, .header .welcome-msg a, .header .currency-language .language-switcher a:hover, .header .links li a:hover, .top-cart-contain .price, .block .block-title strong .word2, .block-right-static .block-title strong, .block-subscribe-right .block-title strong, .block-account .block-content li a:hover, .block-account .block-content li.current, .block-layered-nav li:hover, .block-layered-nav li a:hover, .ma-featured-product-title h2 .word2, .ma-newproductslider-title h2 .word2, .products-list .product-name a:hover, .product-view .product-shop .availability span, .price-box .price, .regular-price, .regular-price .price, .block .regular-price, .block .regular-price .price, .special-price .price-label, .special-price .price, .add-to-cart .qty, .product-collateral h2 .word2, .product-view .product-shop .product-sku span, .product-view .product-shop .product-brand span, .product-view .product-shop .add-to-links a:hover, .email-friend a:hover, .ma-footer-static .fcol1 li:hover, .ma-footer-static .fcol1 li a:hover, .mobilemenu li.active a, .mobilemenu a:hover, #ticker a { color:#'+hex+'}</style>').appendTo('head');
+					
+					$jq('<style type="text/css"> .mobilemenu ul a:hover, .mobilemenu ul li.active a, .mobilemenu ul ul a:hover, .mobilemenu ul ul li.active a, .mobilemenu ul li.active ul a:hover, .mobilemenu ul ul ul a:hover, .mobilemenu ul ul ul li.active a, .mobilemenu ul ul li.active ul a:hover, .mobilemenu ul ul ul ul a:hover, .mobilemenu ul ul ul ul li.active a, .mobilemenu ul ul ul li.active ul a:hover, .wine_menu ul li a:hover, .wine_menu ul ul li a:hover, .fish_menu ul li a:hover { color:#'+hex+' !important}</style>').appendTo('head');
+					$jq('<style type="text/css">.ma-newproductslider-container .item-inner:hover, .ma-newproductslider-container .item-inner:hover, .product-tabs a:hover, .product-tabs li.active a, .product-tabs li.active a:hover, .wine_menu .container, .fish_menu ul, .fish_menu div, .fish_menu ul ul, .fish_menu ul div { border-color:#'+hex+'}</style>').appendTo('head');
+					
+                    // set cookie
+                    $jq.cookie('link_color_cookie', hex , { expires: date });
+                    break;			
+				
+                }
+            }
+        });
+    });
+    /* set time */
+    var date = new Date();
+    date.setTime(date.getTime() + (1440 * 60 * 1000));
+	
+	<?php
+		// set default background image
+		$_old_bd_img = '';
+		$_bd_img = '';
+		if ( $_COOKIE['body_image_cookie'] ) {
+			$_bd_img = $_COOKIE['body_image_cookie'];
+		}
+	?>
+		
+	$jq(document).ready(function(){
+		
+		//load selected font
+		$jq("#select-fontselector option").filter(function() {
+			//may want to use $.trim in here
+			return $jq(this).text() == $jq.cookie('font_cookie'); 
+		}).attr('selected', true);
+		//change font
+		$jq(function(){
+			fontSelect=$jq("#select-fontselector");
+			fontUpdate=function(){
+				curFont=$jq("#select-fontselector").val();
+				$jq(".page-title h1, .page-title h2, .block .block-title strong, .block-right-static .block-title h3, .block-subscribe-right .block-title h3, .ma-mostviewed-product-title h2, .ma-upsellslider-container .product-name, .ma-newproductslider-container .product-name, .products-grid .product-name, .ma-featured-product-title h2, .ma-newproductslider-title h2, .products-list .product-name, .product-collateral h2, .product-view .product-shop .product-name h1, .product-view .box-up-sell h2, .footer-freeshipping h3, .footer-subscribe .form-subscribe-header h4, .ma-footer-static .footer-static-title h3, .product-tabs a, .wine_menu a, .fish_menu a, .wine_menu ul li a ").css({ fontFamily: curFont });
+				$jq("<link />",{href:"http://fonts.googleapis.com/css?family="+curFont,rel:"stylesheet",type:"text/css"}).appendTo("head");
+			}
+			fontSelect.change(function(){
+				fontUpdate();
+			}).keyup(function(){
+				fontUpdate();
+			}).keydown(function(){
+				fontUpdate();
+			});
+			
+			$jq("#select-fontselector").trigger("change");
+		})
+		
+		$jq('#select-fontselector').change(function() {
+			$jq.cookie('font_cookie', $jq(this).val(), { expires: date });
+		});
+		$jq(".page-title h1, .page-title h2, .block .block-title strong, .block-right-static .block-title h3, .block-subscribe-right .block-title h3, .ma-mostviewed-product-title h2, .ma-upsellslider-container .product-name, .ma-newproductslider-container .product-name, .products-grid .product-name, .ma-featured-product-title h2, .ma-newproductslider-title h2, .products-list .product-name, .product-collateral h2, .product-view .product-shop .product-name h1, .product-view .box-up-sell h2, .footer-freeshipping h3, .footer-subscribe .form-subscribe-header h4, .ma-footer-static .footer-static-title h3, .product-tabs a, .wine_menu a, .fish_menu a, .wine_menu ul li a").css({ fontFamily: $jq.cookie('font_cookie') }); 
+		$jq("<link />",{href:"http://fonts.googleapis.com/css?family="+$jq.cookie('font_cookie'),rel:"stylesheet",type:"text/css"}).appendTo("head");
+		
+		//set cookie
+		$jq("body").css('backgroundColor', '#<?php echo $_body_background ?>');
+		$jq("body").css('background-image', $jq.cookie('body_image_cookie'));
+		$jq("body").css('background-repeat','repeat');
+		
+		// main color
+
+		$jq('<style type="text/css">.ma-newproductslider-container .actions, .products-grid .actions, .ma-brand-slider-contain .flex-direction-nav a:hover, .ma-footer-static-container, .ma-nav-mobile-container, .ma-nav-container, .content-sample-block .block1 img, .productpage-sample-block .block2 img  { background-color:#'+$jq.cookie('main_color_cookie')+'}</style>').appendTo('head');
+		
+							$jq('<style type="text/css">.product-view button.btn-cart:hover span { background-color:#'+$jq.cookie('main_color_cookie')+' !important}</style>').appendTo('head');
+
+		
+		$jq('<style type="text/css">a:hover, .products-grid .product-name a:hover, .product-name a:hover { color:#'+$jq.cookie('main_color_cookie')+'}</style>').appendTo('head');
+					
+		
+		//link color
+		$jq('<style type="text/css">button.button span, .main button.btn-checkout:hover span, .header .form-search button.button:hover span, .ma-newproductslider-container .item-inner:hover .actions, .products-grid .item:hover .actions, .ma-brand-slider-contain .flex-direction-nav a, .ma-brand-slider-contain .flex-direction-nav .flex-next, .ma-new-vertscroller-wrap .jcarousel-next-vertical:hover, .ma-new-vertscroller-wrap .jcarousel-prev-vertical:hover, .add-to-cart input.qty-decrease:hover, .add-to-cart input.qty-increase:hover, .product-prev:hover, .product-next:hover, .ma-thumbnail-container .flex-direction-nav a:hover, .footer-freeshipping .shipping-icon, .wine_menu li.active a, .fish_menu li.active a, .wine_menu li.over a, .fish_menu li.over a, .wine_menu a:hover, .fish_menu a:hover, #back-top, .content-sample-block .block2 img, .productpage-sample-block .block1 img  { background-color:#'+$jq.cookie('link_color_cookie')+'}</style>').appendTo('head');
+		$jq('<style type="text/css"> button.btn-cart:hover span, .product-view button.btn-cart span, .ui-slider .ui-slider-range { background-color:#'+$jq.cookie('link_color_cookie')+' !important}</style>').appendTo('head');
+		
+		$jq('<style type="text/css">a, .breadcrumbs li strong, .pager .pages a:hover, .pager .pages .current, .header .welcome-msg a, .header .currency-language .language-switcher a:hover, .header .links li a:hover, .top-cart-contain .price, .block .block-title strong .word2, .block-right-static .block-title strong, .block-subscribe-right .block-title strong, .block-account .block-content li a:hover, .block-account .block-content li.current, .block-layered-nav li:hover, .block-layered-nav li a:hover, .ma-featured-product-title h2 .word2, .ma-newproductslider-title h2 .word2, .products-list .product-name a:hover, .product-view .product-shop .availability span, .price-box .price, .regular-price, .regular-price .price, .block .regular-price, .block .regular-price .price, .special-price .price-label, .special-price .price, .add-to-cart .qty, .product-collateral h2 .word2, .product-view .product-shop .product-sku span, .product-view .product-shop .product-brand span, .product-view .product-shop .add-to-links a:hover, .email-friend a:hover, .ma-footer-static .fcol1 li:hover, .ma-footer-static .fcol1 li a:hover, .mobilemenu li.active a, .mobilemenu a:hover, #ticker a  { color:#'+$jq.cookie('link_color_cookie')+'}</style>').appendTo('head');
+		$jq('<style type="text/css">.mobilemenu ul a:hover, .mobilemenu ul li.active a, .mobilemenu ul ul a:hover, .mobilemenu ul ul li.active a, .mobilemenu ul li.active ul a:hover, .mobilemenu ul ul ul a:hover, .mobilemenu ul ul ul li.active a, .mobilemenu ul ul li.active ul a:hover, .mobilemenu ul ul ul ul a:hover, .mobilemenu ul ul ul ul li.active a, .mobilemenu ul ul ul li.active ul a:hover, .wine_menu ul li a:hover, .wine_menu ul ul li a:hover, .fish_menu ul li a:hover { color:#'+$jq.cookie('link_color_cookie')+' !important}</style>').appendTo('head');
+		
+		$jq('<style type="text/css"> .ma-newproductslider-container .item-inner:hover, .ma-newproductslider-container .item-inner:hover, .product-tabs a:hover, .product-tabs li.active a, .product-tabs li.active a:hover, .wine_menu .container, .fish_menu ul, .fish_menu div, .fish_menu ul ul, .fish_menu ul div { border-color:#'+$jq.cookie('link_color_cookie')+'}</style>').appendTo('head');
+		
+		//set background image
+		$jq('.cl-pattern div').click(function(){
+			$jq("body").css('background-image', 'url(<?php echo $this->getSkinUrl('magentothem/colortool/images/pattern/'); ?>'+this.id+'.png)');
+			$jq("body").css('background-repeat','repeat');
+			$jq.cookie('body_image_cookie', 'url(<?php echo $this->getSkinUrl('magentothem/colortool/images/pattern/'); ?>'+this.id+'.png)', { expires: date });
+		});
+	
+		//set cookie for theme color
+		var cl = $jq(".cl-row-themeskin");
+		cl.find("a").each(function() {
+			$jq(this).click(function(){
+				$jq.cookie('style_color', $jq(this).attr('title') , { expires: date });
+				location.reload();
+			});
+		});
+	});
+		
+	
+    //reset button
+    $jq('.cl-reset').click(function(){
+		
+		$jq.cookie('font_cookie','');
+		$jq.cookie('main_color_cookie','');
+		$jq.cookie('link_color_cookie','');
+		
+        $jq.cookie('body_image_cookie','');	
+		$jq("body").css('background-image', 'url(<?php echo $this->getSkinUrl('magentothem/colortool/images/pattern/').$_old_bd_img; ?>)');
+		
+        $jq.cookie('body_background_cookie','');
+        $jq("body").css('backgroundColor', '#<?php echo $_old_body_bg ?>');
+		location.reload();
+    });
+//]]>
+</script>

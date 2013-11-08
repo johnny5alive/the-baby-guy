@@ -1,0 +1,51 @@
+"Please Enter your twitter email","Please Enter your twitter email"
+Submit,送出
+"Please Enter your linked email",請輸入您連結的郵件
+Submit,送出
+"Email Address",電子郵件
+"Forgot Your Password",忘記您的密碼?
+"Dont have an account?",還不是會員
+"Create One!",加入
+"New User? Sign Up",歡迎加入
+"First Name",姓名
+"Last Name",姓氏
+Password,密碼
+"Confirm Password",確認密碼
+"Sign Up Now!",現在就加入!
+"Already have an account?",已經是會員?
+Login,登入
+"Enter your Email Address here to receive a link to change password.",更改密碼的連結將稍後寄給您
+"Enter Your Email",輸入您的郵件
+"Sign in with",登入使用
+"Sign in",登入
+"Your account has been successfully connected through",您的帳戶現在已經跟連結
+"Thank you for registering with",現在您加入
+"You will receive welcome email with registration info in a moment.",我們將立刻寄出歡迎信給您.
+"User profile can\'t provide all required info, please register and then connect with Apptha Social login.","使用者有/沒有輸入所有必需欄位,煩請重新註冊並連絡我們"
+"Twitter Login connection failed",推特登入連結失敗
+"This email is already is registered!",這個郵件已經在Mamaky被註冊了
+"This email is already associated with",這個郵件屬於
+"Facebook Login connection failed",FB登入連結失敗
+"Google Login connection failed",Google登入連結失敗
+"Yahoo Login connection failed",Yahoo登入連結失敗
+"Linkedin Login connection failed",LinkedIn登入連結失敗
+"This email is already is registered!",這個郵件已經被註冊
+"This email is already associated with",這個信箱屬於
+"Thank you for registering with",謝謝您在[Mamaky]註冊
+"You will receive welcome email with registration info in a moment.",我們將立刻寄出歡迎信給您.
+"If you are a registered VAT customer, please click <a href=""%s"">here</a> to enter you shipping address for proper VAT calculation",
+"Invalid Email Address or Password",無效的信箱或密碼
+"Account confirmation is required. Please, check your email for the confirmation link. To resend the confirmation email please <a href=""%s"">click here</a>.","Account confirmation is required. Please, check your email for the confirmation link. To resend the confirmation email please <a href=""%s"">click here</a>."
+"Account Not Confirmed","Account Not Confirmed"
+"Invalid customer data","Invalid customer data"
+"Already exists","Already exists"
+"Cannot save the customer.","Cannot save the customer."
+"This field is required",此為必填欄位
+"If there is an account associated with",是否有其他帳戶連結此
+"you will receive an email with a link to reset your password",重設密碼的連結將寄送給您
+"Password doesnot match",密碼不符
+"Password cannot be less than 6",密碼必須超過六個字元以上
+Facebook,Facebook
+Google+,Google+
+Yahoo,Yahoo
+Twitter,Twitter

@@ -1,0 +1,14 @@
+<?php if($this->getConfig('enabled')){?> <!-- start enable module -->
+<div class="likebox-block">
+	<div class="likebox-content">
+		<div class="ma-likebox">
+			<?php //echo $this->getContentLikebox();?>
+			<script type="text/javascript">
+			//<![CDATA[
+			document.write('<iframe scrolling="no" frameborder="0" allowtransparency="true" style="border:none; overflow:hidden; width:100%;height:242px;" src="http://www.facebook.com/connect/connect.php?href=<?php echo $this->getConfig('lb_url'); ?>&amp;width=294&amp;locale=&amp;css=<?php echo $this->getSkinUrl('css/classicstorefanbox.css') ?>?ts=154528&amp;connections=12&amp;height=264"></iframe>');
+			//]]>
+			</script>
+		</div>
+	</div>
+</div>
+<?php }//end enabled?>

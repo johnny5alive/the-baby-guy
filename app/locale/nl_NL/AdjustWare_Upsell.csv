@@ -1,0 +1,14 @@
+"Customers Who Purchased This Also Purchased","Klanten die dit hadden gekocht hebben ook de volgende producten gekocht"
+Enabled,Ingeschakeld
+Block,Blok
+"Products Count","Producten Aantal"
+"Append Products","Producten Bijvoegen"
+"Products, assigned by admin, will not be displayed, if you choose “Disabled”. If you choose “Prepend”, the products will be displayed first. If you choose “Append”, the products will be displayed only if there are available placeholders in the blocks.","Producten, toegewezen door admin, zullenl niet worden weergegeven, als u kiest voor ""Uitgeschakeld"". Als u kiest voor ""Vooraan toevoegen"", dan zullen de producten als eerste worden weergegeven. Als u kiest voor ""Bijvoegen"", dan zullen de producten alleen worden weergegeven als er beschikbaar plaatshouders zijn in de blokken."
+"Show In Stock Only","Toon Alleen Op Voorraad"
+"The system will show only in stock products.","Het systeem zal alleen producten op voorraad tonen."
+Append,Bijvoegen
+Prepend,"Vooraan toevoegen"
+Disabled,Uitgeschakeld
+"Related Products","Behorende Producten"
+Up-sells,Up-sells
+Cross-sells,Cross-sells

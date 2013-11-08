@@ -1,0 +1,105 @@
+/*
+ * jQuery FlexSlider v2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+
+ 
+/* Browser Resets */
+.ma-banner7-container .flex-container a:active,
+.ma-banner7-container .flexslider a:active,
+.ma-banner7-container .flex-container a:focus,
+.ma-banner7-container .flexslider a:focus  {outline: none;}
+.ma-banner7-container .slides,
+.ma-banner7-container .flex-control-nav,
+.ma-banner7-container .flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+
+/* FlexSlider Necessary Styles
+*********************************/
+.ma-banner7-container { margin: 0; }
+.ma-banner7-container .flexslider {margin: 0; padding: 0;}
+.ma-banner7-container .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.ma-banner7-container .flexslider .slides img {width: 100%; display: block;}
+.ma-banner7-container .flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.ma-banner7-container .slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .ma-banner7-container .slides {display: block;} 
+* html .ma-banner7-container .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .ma-banner7-container .slides > li:first-child {display: block;}
+
+
+/* FlexSlider Default Theme
+*********************************/
+.ma-banner7-container .flexslider {margin: 0 0; position: relative; zoom: 1;}
+.ma-banner7-container .flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
+.ma-banner7-container .loading .flex-viewport {max-height: 300px;}
+.ma-banner7-container .flexslider .slides {zoom: 1;}
+
+.ma-banner7-container .carousel li {margin-right: 5px}
+
+
+/* Direction Nav */
+.ma-banner7-container .flex-direction-nav {*height: 0;}
+.ma-banner7-container .flex-direction-nav a {width: 45px; height: 45px; margin: -20px 0 0; display: block; background: url(../images/btn-slideshow.png) no-repeat 0 0; position: absolute; top: 50%; cursor: pointer; text-indent: -9999px; }
+.ma-banner7-container .flex-direction-nav .flex-next { background-position: 100% 0; right: 10px; }
+.ma-banner7-container .flex-direction-nav .flex-next:hover { background-position: 100% 100%; }
+.ma-banner7-container .flex-direction-nav .flex-prev { left: 10px;}
+.ma-banner7-container .flex-direction-nav .flex-prev:hover { background-position: 0 100%; }
+.ma-banner7-container .flexslider:hover .flex-next { }
+.ma-banner7-container .flexslider:hover .flex-prev { }
+.ma-banner7-container .flexslider:hover .flex-next:hover, .ma-banner7-container .flexslider:hover .flex-prev:hover {opacity: 1;}
+.ma-banner7-container .flex-direction-nav .flex-disabled {opacity: .3!important; filter:alpha(opacity=30); cursor: default;}
+
+/* Control Nav */
+.ma-banner7-container .flex-control-nav { position: absolute; bottom: 10px; left: 50%; margin-left: -40px; text-align: center;}
+.ma-banner7-container .flex-control-nav li { margin: 0 3px; display: inline-block; zoom: 1; *display: inline;}
+.ma-banner7-container .flex-control-paging li a {width: 13px; height: 13px; display: block; cursor: pointer; text-indent: -9999px; }
+.ma-banner7-container .flex-control-paging li a:hover { cursor: pointer; }
+.ma-banner7-container .flex-control-paging li a.flex-active {  cursor: default; }
+
+.ma-banner7-container .flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
+.ma-banner7-container .flex-control-thumbs li {width: 25%; float: left; margin: 0;}
+.ma-banner7-container .flex-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}
+.ma-banner7-container .flex-control-thumbs img:hover {opacity: 1;}
+.ma-banner7-container .flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
+
+@media screen and (max-width: 860px) {
+  .ma-banner7-container .flex-direction-nav .flex-prev {opacity: 1; left: 0;}
+  .ma-banner7-container .flex-direction-nav .flex-next {opacity: 1; right: 0;}
+}
+.ma-banner7-container .banner7-caption {
+  width:96%;
+	background: url(../images/banner-des.png);
+	padding: 5px 2% 25px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 30px;
+	font-family:Myriad Pro;
+}
+.ma-banner7-container .banner7-caption h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.ma-banner7-container .banner7-caption h2 span { font-size:43px; }
+.ma-banner7-container .ma-loading {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	z-index: 99;
+	background: url(../images/loader.gif) no-repeat 50% 50% ;
+	top: 50%;
+	left: 50%;
+	margin: -8px 0 0 -8px;
+	min-height: 210px;
+}

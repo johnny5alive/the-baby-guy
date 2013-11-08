@@ -1,0 +1,54 @@
+2013-07-15T09:51:35+00:00 INFO (6): {"buysafeno":"8000001307150000458","web":"S1210220081","MN":"517","Td":"100000015","webname":"\u5e73\u6377\u6709\u9650\u516c\u53f8","Name":"J\u25cb\u25cb\u25cb\u25cb\u25cb \u25cb\u25cb\u25cbg","note1":"","note2":"","ApproveCode":"","Card_NO":"","UserNo":"","PayDate":"20130715","SendType":"1","errcode":"00","errmsg":"\u4ea4\u6613\u6210\u529f","PayType":"","ChkValue":"3A21752122F18A0AE5F728061CCC778C92025C80"}buysafeno: 8000001307150000458
+web: S1210220081
+Td: 100000015
+MN: 517
+webname: 平捷有限公司
+Name: J○○○○○ ○○○g
+note1: 
+note2: 
+SendType: 1
+errcode: 00
+errmsg: 交易成功
+ChkValue: 3A21752122F18A0AE5F728061CCC778C92025C80
+
+2013-07-15T09:51:39+00:00 INFO (6): {"buysafeno":"8000001307150000458","web":"S1210220081","MN":"517","Td":"100000015","webname":"%e5%b9%b3%e6%8d%b7%e6%9c%89%e9%99%90%e5%85%ac%e5%8f%b8","Name":"J%e2%97%8b%e2%97%8b%e2%97%8b%e2%97%8b%e2%97%8b+%e2%97%8b%e2%97%8b%e2%97%8bg","note1":"","note2":"","ApproveCode":"","Card_NO":"","UserNo":"","paycode":"","PayType":"","SendType":"2","errcode":"00","errmsg":"%e6%88%90%e5%8a%9f%e4%ba%a4%e6%98%93","ChkValue":"3A21752122F18A0AE5F728061CCC778C92025C80"}buysafeno: 8000001307150000458
+web: S1210220081
+Td: 100000015
+MN: 517
+webname: %e5%b9%b3%e6%8d%b7%e6%9c%89%e9%99%90%e5%85%ac%e5%8f%b8
+Name: J%e2%97%8b%e2%97%8b%e2%97%8b%e2%97%8b%e2%97%8b+%e2%97%8b%e2%97%8b%e2%97%8bg
+note1: 
+note2: 
+SendType: 2
+errcode: 00
+errmsg: %e6%88%90%e5%8a%9f%e4%ba%a4%e6%98%93
+ChkValue: 3A21752122F18A0AE5F728061CCC778C92025C80
+
+2013-07-15T17:56:52+00:00 INFO (6): 
+buysafeno: 8000001307160000091
+web: S1210220081
+Td: 100000022
+MN: 285
+webname: 平捷有限公司
+Name: J○○○○○ ○○○g
+note1: 
+note2: 
+SendType: 1
+errcode: 00
+errmsg: 交易成功
+ChkValue: DED8760DD49A839CA0819B27C8FC0B62DC82B8AD
+
+2013-07-15T17:56:53+00:00 INFO (6): 
+buysafeno: 8000001307160000091
+web: S1210220081
+Td: 100000022
+MN: 285
+webname: %e5%b9%b3%e6%8d%b7%e6%9c%89%e9%99%90%e5%85%ac%e5%8f%b8
+Name: J%e2%97%8b%e2%97%8b%e2%97%8b%e2%97%8b%e2%97%8b+%e2%97%8b%e2%97%8b%e2%97%8bg
+note1: 
+note2: 
+SendType: 2
+errcode: 00
+errmsg: %e6%88%90%e5%8a%9f%e4%ba%a4%e6%98%93
+ChkValue: DED8760DD49A839CA0819B27C8FC0B62DC82B8AD
+

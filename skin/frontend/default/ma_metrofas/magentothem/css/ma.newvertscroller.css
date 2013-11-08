@@ -1,0 +1,67 @@
+.ma-new-vertscroller-wrap .jcarousel-container {
+}
+#ma-new-vertscroller-right, #ma-new-vertscroller-left {
+	/*height: 5555px !important;*/
+}
+
+.ma-new-vertscroller-wrap  .jcarousel-container-vertical {
+    width: auto !important;
+    height: 345px;
+    padding: 5px 0;
+}
+.ma-new-vertscroller-wrap  .jcarousel-clip {
+    overflow: hidden;
+}
+.ma-new-vertscroller-wrap  .jcarousel-clip-vertical {
+    width: auto !important;
+    height: 345px;
+}
+.ma-new-vertscroller-wrap  .jcarousel-item {
+    width: 100% !important;
+    height: 130px;
+	padding: 0 !important; 
+}
+.ma-new-vertscroller-wrap .product-image {
+	float: left;
+	width: 75px;
+	margin: 0 15px 10px 0;
+}
+.ma-new-vertscroller-wrap .product-name  {
+	margin: 0 0 5px;
+}
+
+.ma-new-vertscroller-wrap  .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+.ma-new-vertscroller-wrap .block-content li.item {
+	padding: 0;
+}
+
+/**
+ *  Vertical Buttons
+ */
+.ma-new-vertscroller-wrap .jcarousel-next-vertical, 
+.ma-new-vertscroller-wrap  .jcarousel-prev-vertical {
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	top: -44px;
+	cursor: pointer;
+	display: none !important;
+}
+.ma-new-vertscroller-wrap .jcarousel-next-vertical {
+	right: 0;
+}
+
+.ma-new-vertscroller-wrap  .jcarousel-next-vertical:hover,
+.ma-new-vertscroller-wrap  .jcarousel-next-vertical:focus {
+
+}
+.ma-new-vertscroller-wrap  .jcarousel-prev-vertical {
+	right: 25px;
+}
+.ma-new-vertscroller-wrap  .jcarousel-prev-vertical:hover,
+.ma-new-vertscroller-wrap  .jcarousel-prev-vertical:focus {
+
+}

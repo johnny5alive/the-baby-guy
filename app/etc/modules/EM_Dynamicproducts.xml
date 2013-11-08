@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <EM_Dynamicproducts>
+            <active>true</active>
+            <codePool>local</codePool>
+        </EM_Dynamicproducts>
+    </modules>
+</config> 

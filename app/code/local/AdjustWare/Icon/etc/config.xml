@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <AdjustWare_Icon>
+            <version>2.0.18</version>
+        </AdjustWare_Icon>
+    </modules>
+    <admin>
+        <routers>
+			<adjicon>
+				<use>admin</use>
+				<args>
+					<module>AdjustWare_Icon</module>
+					<frontName>adjicon</frontName>
+				</args>
+			</adjicon>
+        </routers>
+    </admin>     
+    <adminhtml>
+		<menu>
+		    <catalog>
+                <children>
+                    <attributes>
+                        <children>
+                            <adjicon translate="title" module="adjicon">
+                                <title>Manage Attribute Icons</title>
+                                <sort_order>300</sort_order>
+                                <action>adjicon/adminhtml_icon</action>
+                            </adjicon>
+                        </children>
+                    </attributes>
+                </children>
+            </catalog>
+		</menu>
+		
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+            		    <catalog>
+                            <children>
+                                <attributes>
+                                    <children>
+                                        <adjicon translate="title" module="adjicon">
+                                            <title>Manage Attribute Icons</title>
+                                            <sort_order>300</sort_order>
+                                        </adjicon>
+                                    </children>
+                                </attributes>
+                            </children>
+                        </catalog>
+                    </children>
+                </admin>
+            </resources>
+        </acl> 
+        <translate>
+            <modules>
+                <AdjustWare_Icon>
+                    <files>
+                        <default>AdjustWare_Icon.csv</default>
+                    </files>
+                </AdjustWare_Icon>
+            </modules>
+        </translate>
+        <events>
+            <controller_action_predispatch>
+                <observers>
+                    <adjicon>
+                        <class>adjicon/observer</class>
+                        <method>bindConfigChanges</method>
+                    </adjicon>
+                </observers>
+            </controller_action_predispatch>
+            <controller_action_postdispatch>
+                <observers>
+                    <adjicon>
+                        <class>adjicon/observer</class>
+                        <method>resizeIcons</method>
+                    </adjicon>
+                </observers>
+            </controller_action_postdispatch>
+        </events>
+    </adminhtml> 
+    <frontend>
+        <translate>
+            <modules>
+                <AdjustWare_Icon>
+                    <files>
+                        <default>AdjustWare_Icon.csv</default>
+                    </files>
+                </AdjustWare_Icon>
+            </modules>
+        </translate>
+        <layout>
+            <updates>
+                <adjicon>
+                    <file>adjicon.xml</file>
+                </adjicon>
+            </updates>
+        </layout>
+    </frontend> 
+    
+    
+   
+    <global> 
+     <!-- todo: handle attribute deletion 
+        <events>       
+            <checkout_type_onepage_save_order>
+                <observers>
+                    <adjicon>
+                        <type>singleton</type>
+                        <class>adjicon/observer</class>
+                        <method>processOrderSaved</method>
+                    </adjicon>
+                </observers>
+            </checkout_type_onepage_save_order> 
+        </events>  
+        -->
+        
+        <models>
+            <adjicon>
+                <class>AdjustWare_Icon_Model</class>
+                <resourceModel>adjicon_mysql4</resourceModel>
+            </adjicon>
+            <adjicon_mysql4>
+                <class>AdjustWare_Icon_Model_Mysql4</class>
+                <entities>
+                    <icon>
+                        <table>adjicon</table>
+                    </icon>
+                    <attribute>
+                        <table>adjicon_attribute</table>
+                    </attribute>
+                </entities>
+            </adjicon_mysql4>
+        </models>     
+    
+        <blocks>
+            <adjicon>
+                <class>AdjustWare_Icon_Block</class>
+            </adjicon>
+            <catalog>
+                <rewrite>
+        			<layer_filter_attribute>AdjustWare_Icon_Block_Rewrite_FrontCatalogLayerFilterAttribute</layer_filter_attribute>
+        			<layer_view>AdjustWare_Icon_Block_Rewrite_FrontCatalogLayerView</layer_view>
+        		</rewrite> 
+            </catalog>            
+            <catalogsearch>
+                <rewrite>
+                    <layer>AdjustWare_Icon_Block_Rewrite_FrontCatalogSearchLayer</layer>
+                    <layer_filter_attribute>AdjustWare_Icon_Block_Rewrite_FrontCatalogSearchLayerFilterAttribute</layer_filter_attribute>
+                </rewrite>
+            </catalogsearch>
+        </blocks>
+        <helpers>
+            <adjicon>
+                <class>AdjustWare_Icon_Helper</class>
+            </adjicon>
+        </helpers>
+        <resources>
+            <adjicon_setup>
+                <setup>
+                    <module>AdjustWare_Icon</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </adjicon_setup>
+            <adjicon_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </adjicon_write>
+            <adjicon_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </adjicon_read>
+        </resources>
+    </global> 
+
+    <default>
+        <design>
+            <adjicon>
+                <resize>1</resize>
+                <width>20</width>
+                <height>20</height>
+                <keep_frame>1</keep_frame>
+                <keep_ratio>1</keep_ratio>
+            </adjicon>  
+        </design>
+    </default> 
+
+</config>
+<!--
+/**
+ * Visualize Your Attributes
+ *
+ * @category:    AdjustWare
+ * @package:     AdjustWare_Icon
+ * @version      2.0.18
+ * @license:     GPC7g2VHtpIP7j623srVjJmuippj4X9BeOkIuhMsJs
+ * @copyright:   Copyright (c) 2013 AITOC, Inc. (http://www.aitoc.com)
+ */
+-->

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<config>
+		<menu>
+		    <catalog>
+                <children>
+                    <attributes>
+                        <children>
+                            <adjicon translate="title" module="adjicon">
+                                <title>Manage Attribute Icons</title>
+                                <sort_order>300</sort_order>
+                                <action>adjicon/adminhtml_icon</action>
+                            </adjicon>
+                        </children>
+                    </attributes>
+                </children>
+            </catalog>
+		</menu>
+		
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+            		    <catalog>
+                            <children>
+                                <attributes>
+                                    <children>
+                                        <adjicon translate="title" module="adjicon">
+                                            <title>Manage Attribute Icons</title>
+                                            <sort_order>300</sort_order>
+                                        </adjicon>
+                                    </children>
+                                </attributes>
+                            </children>
+                        </catalog>
+                    </children>
+                </admin>
+            </resources>
+        </acl> 
+</config>
+
+<!--
+/**
+ * Visualize Your Attributes
+ *
+ * @category:    AdjustWare
+ * @package:     AdjustWare_Icon
+ * @version      2.0.18
+ * @license:     GPC7g2VHtpIP7j623srVjJmuippj4X9BeOkIuhMsJs
+ * @copyright:   Copyright (c) 2013 AITOC, Inc. (http://www.aitoc.com)
+ */
+-->

@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Esafe Buysafe Extension
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so one can be sent to you a copy immediately.
+ *
+ * @category   Esafe
+ * @package    Esafe_Buysafe
+ * @author     Jiang Sungjin
+ * @author     Jin Kang
+ * @copyright  Copyright (c) 2013 Skybear.co. Ltd. (http://www.myskybear.com)
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <modules>
+        <Esafe_Buysafe>
+            <version>1.0.0</version>
+            <depends>
+                <Mage_Payment />
+            </depends>
+        </Esafe_Buysafe>
+    </modules>
+    <global>
+    	<models>
+    		<buysafe>
+	    		<class>Esafe_Buysafe_Model</class>
+	    	</buysafe>
+    	</models>
+    	<helpers>
+    		<buysafe>
+    			<class>Esafe_Buysafe_Helper</class>
+    		</buysafe>
+    	</helpers>
+    	<blocks>
+            <buysafe>
+            	<class>Esafe_Buysafe_Block</class>
+            </buysafe>
+        </blocks>
+        <resources>
+            <buysafe_setup>
+                <setup>
+                    <module>Esafe_Buysafe</module>
+                </setup>
+                <connection>
+                    <use>directory_setup</use>
+                </connection>
+            </buysafe_setup>
+            <buysafe_write>
+                <connection>
+                    <use>local_write</use>
+                </connection>
+            </buysafe_write>
+            <buysafe_read>
+                <connection>
+                    <use>local_read</use>
+                </connection>
+            </buysafe_read>
+        </resources>
+    </global>
+    <frontend>
+        <routers>
+            <buysafe>
+                <use>standard</use>
+                <args>
+                    <module>Esafe_Buysafe</module>
+                    <frontName>buysafe</frontName>
+                </args>
+            </buysafe>
+        </routers>
+        <secure_url>
+            <buysafe>/buysafe/buysafe</buysafe>
+        </secure_url>
+    </frontend>
+	<default>
+        <payment>
+            <buysafe>
+                <active>0</active>
+                <title>Esafe - Buysafe</title>
+                <test>0</test>
+                <webcode></webcode>
+                <webpass></webpass>
+                <model>buysafe/buysafe</model>
+                <order_status>1</order_status>
+                <allowspecific>0</allowspecific>
+            </buysafe>
+        </payment>
+    </default>
+</config>

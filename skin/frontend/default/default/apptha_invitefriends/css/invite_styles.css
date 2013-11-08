@@ -1,0 +1,113 @@
+.earn_cash {background: white;padding: 15px; overflow: hidden;}
+.clear{clear:both;}
+.earn_cash h2{font-size: 28px;color: #464646;font-weight: bold;}
+.earn_cash h4{font-size: 16px;color: #999; border-bottom: 1px solid #e0e0e0; margin-bottom: 15px; padding-bottom: 5px;}
+#user_credits{}
+#user_credits div.cre_content div{width: 294px; height: 154px;}
+#user_credits div.cre_content p{padding: 0 0 0 12px; margin: 0;}
+#user_credits div.cre_content{ padding:7px; float: left;
+                 -moz-box-shadow: 0px 0px 5px #999;
+                 -webkit-box-shadow: 0px 0px 5px #999;
+                  box-shadow: 0px 0px 5px #999;
+        }
+#user_credits .cre_content1{margin: 0 25px 25px 0;}
+#user_credits .first{background: url(../images/img1.png) no-repeat 50%;}
+#user_credits .second{background: url(../images/img2.png) no-repeat 50%;}
+#user_credits .third{background: url(../images/img3.png) no-repeat 50%;}
+#user_credits .fourth{background: url(../images/img4.png) no-repeat 50%;}
+#user_credits .first, #user_credits .third{}
+#user_credits .second, #user_credits .fourth{}
+#user_credits div.cre_content .price, #user_credits div.cre_content .price_text{color: #FADB4C; text-shadow: 1px 1px black; }
+#user_credits div.cre_content .price{font-size: 48px;font-weight: bold; line-height: 100%; padding-top: 5px;}
+#user_credits div.cre_content .price_text{font-size: 13px; font-weight: bold;}
+
+.purchase_bonus{background-color: #fff; border: 1px solid #e3e3e3; text-align: left; padding: 0px 20px 0px 120px;
+background: url(../images/invite_sprite.png) 0 100% no-repeat;
+}
+.purchase_bonus h3, #social_share h3, #soical_invites h3 {color: #464646; font-size: 20px;}
+.purchase_bonus h3{ margin: 8px 0 5px 0;}
+#social_share h3 {margin: 0px 0 5px 0;}
+.purchase_bonus p, #social_share p{color:#000; margin: 0 0 5px 0;}
+.purchase_bonus p span{color: #b50000; font-weight: bold;}
+
+#social_share, #soical_invites{background-color: #fff; border: 1px solid #e3e3e3; padding: 15px 15px 25px 15px;margin-top: 15px;}
+#social_share a{text-decoration: none;}
+#social_share button span.invit_btn{float: left;}
+#social_share button{margin: 0px;}
+#social_share form#form-validate{margin-top: 15px;display: block;}
+#social_share input[type="text"]{border: 1px solid #d0d0d0; width: 80%; padding: 5px; line-height: 18px;
+-moz-box-shadow:inset 0px 0px 5px #dfdfdf;
+-webkit-box-shadow:inset 0px 0px 5px #dfdfdf;
+box-shadow:inset 0px 0px 5px #dfdfdf;}
+
+#soical_invites a{text-decoration: none; padding: 0px 20px 0 0; margin-right: 15px; font-weight: bold; height: 32px;display: inline-block;}
+#soical_invites a img{vertical-align: middle;}
+#soical_invites .fb_invite_link img{margin: 0 15px 0 10px;}
+#soical_invites .twitter_invite_link img{margin: 0 15px 0 5px;}
+#soical_invites .gmail_invite_link img{margin: 0 15px 0 5px;}
+#soical_invites .fb_invite_link{ color: #fff; text-shadow: 0px 1px black;
+border: 1px solid #00549F;
+background: rgb(13,120,190); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(13,120,190,1) 0%, rgba(13,99,170,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(13,120,190,1)), color-stop(100%,rgba(13,99,170,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(13,120,190,1) 0%,rgba(13,99,170,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(13,120,190,1) 0%,rgba(13,99,170,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(13,120,190,1) 0%,rgba(13,99,170,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(13,120,190,1) 0%,rgba(13,99,170,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d78be', endColorstr='#0d63aa',GradientType=0 ); /* IE6-9 */
+
+}
+#soical_invites .twitter_invite_link{color: #fff; text-shadow: 0px 1px black;
+border: 1px solid #1B94BC;
+background: rgb(87,213,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(87,213,255,1) 0%, rgba(23,173,223,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(87,213,255,1)), color-stop(100%,rgba(23,173,223,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(87,213,255,1) 0%,rgba(23,173,223,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(87,213,255,1) 0%,rgba(23,173,223,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(87,213,255,1) 0%,rgba(23,173,223,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(87,213,255,1) 0%,rgba(23,173,223,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57d5ff', endColorstr='#17addf',GradientType=0 ); /* IE6-9 */
+
+}
+#soical_invites .gmail_invite_link{color: #000; text-shadow: 0px 1px #fff;
+border: 1px solid #BDBDBC;
+background: rgb(254,254,254); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(254,254,254,1) 0%, rgba(215,215,215,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,254,254,1)), color-stop(100%,rgba(215,215,215,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(215,215,215,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(215,215,215,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(215,215,215,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(254,254,254,1) 0%,rgba(215,215,215,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#d7d7d7',GradientType=0 ); /* IE6-9 */
+}
+
+.gmail_invite button, .twitter_invite_frnds button{float: right; display: block;}
+.gmail_invite li, .twitter_invite_frnds li{margin-bottom: 10px; }
+.twitter_invite_frnds img{vertical-align: middle; margin-right: 10px;}
+
+ul.invite_my_acc{width: 100%; overflow: hidden;}
+ul.invite_my_acc li{width: 50%; float: left;}
+.previous{text-decoration: none;}
+.invite_grid{position: relative; float: left; width: 84%;}
+.invite_grid input{width: 97% !important;}
+.col-main{float: left;}
+.col-left{float: right;}
+
+
+.col1-layout #user_credits{ width: 75%; margin: 0 auto;}
+.col1-layout #user_credits .cre_content1{margin: 0 35px 25px 0;}
+
+.col3-layout #user_credits{width:100%;}
+.col3-layout #user_credits div.cre_content{width: 66%; margin: 0 auto 15px auto; float: none;}
+.col3-layout #user_credits div.cre_content div{width: auto;}
+.col3-layout #user_credits #social_share, #soical_invites{padding: 7px}
+.col3-layout .invite_grid{width:78%;}
+.col3-layout #social_share button span.invit_btn {margin-left: 5px;}
+.col3-layout .earn_cash h4{font-size: 15px;}
+.col3-layout #soical_invites .fb_invite_link img {margin: 0 5px 0 5px;}
+.col3-layout #soical_invites .twitter_invite_link img {margin: 0 2px 0 2px;}
+.col3-layout #soical_invites .gmail_invite_link img {margin: 0 2px 0 2px;}
+.col3-layout #soical_invites a{padding: 0px 3px 0 0; margin:0;}
+
+
+

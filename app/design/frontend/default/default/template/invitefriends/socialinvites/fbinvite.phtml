@@ -1,0 +1,75 @@
+<?php
+/*
+ * @Author      : Apptha Team
+ * @File        : facebook_init.phtml
+ * @Date        : May2012
+ * @copyright   : Copyright (c) 2012 (www.apptha.com)
+ * @license     : http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+?>
+<?php $app_key = Mage::helper('invitefriends')->getfbappId();?>
+<div id="fb-root"></div>
+<script src="http://connect.facebook.net/en_US/all.js"> </script>
+
+<script type="text/javascript">
+    //<![CDATA[
+    window.fbAsyncInit = function() {
+        FB.init({appId  : '<?php echo $app_key; ?>',
+            status : true,
+            cookie : true,
+            xfbml  : true
+        });
+
+        //FB.Canvas.setAutoResize(true);
+
+    };
+
+document.observe('click', function(e){
+    var target = e.findElement('a[rel^=fbinvite_frnds]') || e.findElement('button[rel^=fbinvite_frnds]');
+    if (target && target.readAttribute('rel')=='fbinvite_frnds') {
+        e.stop();
+
+        FB.login(function(response_login) {
+            if (response_login.authResponse) {                
+                FB.api('/me', function(response_auth) {                    
+                    FB.ui({method: 'apprequests', message: 'Your friend has requested you to join to explore interesting products that suits you.', data: 'tracking information for the user',filters:['app_non_users','app_users','all']},
+                    function(response_invite){
+                        send_wall_invitation_init(response_invite,response_auth);
+                    });
+                })
+            }
+        });
+
+    }
+});
+//]]>
+</script>
+<?php $refferalUrl = Mage::getModel('invitefriends/customer')->getRefferalLink();?>
+<script type="text/javascript">
+//<![CDATA[
+var strRedirectUrl = "<?php echo $_SERVER['REQUEST_URI'];?>";
+function send_wall_invitation_init(response_invite,response_auth){
+if(response_invite != '' && response_auth != ''){    
+    var send_invitation_url = '<?php echo Mage::getBaseUrl(); ?>invitefriends/index/updateFbuserid?fbinvite_request_to='+response_invite.to+'&fbinvite_request_from='+response_auth.id;
+    var xmlhttp;
+    if (window.XMLHttpRequest)
+      {// code for IE7+, Firefox, Chrome, Opera, Safari
+      xmlhttp=new XMLHttpRequest();
+      }
+    else
+      {// code for IE6, IE5
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+      }
+    xmlhttp.onreadystatechange=function()
+      {
+      if (xmlhttp.readyState==4 && xmlhttp.status==200)
+        {
+            window.location.href = strRedirectUrl;
+        }
+      }     
+    xmlhttp.open("POST",send_invitation_url,true);
+    xmlhttp.send();
+}
+}
+//]]>
+</script>

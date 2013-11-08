@@ -1,0 +1,14 @@
+"Customers Who Purchased This Also Purchased","Customers Who Purchased This Also Purchased"
+Enabled,Enabled
+Block,Block
+"Products Count","Products Count"
+"Append Products","Append Products"
+"Products, assigned by admin, will not be displayed, if you choose “Disabled”. If you choose “Prepend”, the products will be displayed first. If you choose “Append”, the products will be displayed only if there are available placeholders in the blocks.","Products, assigned by admin, will not be displayed, if you choose “Disabled”. If you choose “Prepend”, the products will be displayed first. If you choose “Append”, the products will be displayed only if there are available placeholders in the blocks."
+"Show In Stock Only","Show In Stock Only"
+"The system will show only in stock products.","The system will show only in stock products."
+Append,Append
+Prepend,Prepend
+Disabled,Disabled
+"Related Products","Related Products"
+Up-sells,Up-sells
+Cross-sells,Cross-sells

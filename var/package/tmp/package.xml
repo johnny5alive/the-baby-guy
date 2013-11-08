@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<package>
+    <name>AW_Aheadmetrics</name>
+    <version>1.0.3.2</version>
+    <stability>stable</stability>
+    <license uri="https://ecommerce.aheadworks.com/AW-LICENSE.txt">EULA</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>aheadMetrics gives you all-round analytics of your ecommerce store. Your sales, customers and products data measurable in any dimensions, real-time.</summary>
+    <description>The aheadMetrics service allows online merchants to better understand their business and plan activites by providing with a great variety of useful reports.&#xD;
+Once you install the extension and connect it to your aheadMetrics account the following information becomes available:&#xD;
+&#xD;
+Sales overview&#xD;
+Gives you information on how your sales are going at a glance.&#xD;
+Sales statistics&#xD;
+If you need to learn the average order amount and item final price data, just generate the Sales statistics report. To make the information more obvious, the data is displayed on the chart. Moreover, the other sales data (the number of orders, items, subtotal, tax, discounts, etc.) is reflected in this report type as well.&#xD;
+Bestsellers&#xD;
+The Bestsellers report lists the best selling products in your store. It displays information about the products your customers most frequently purchased over a period of time &#x2013; SKU, name, quantity of items sold, total, etc.&#xD;
+Sales by hour&#xD;
+With Sales by hour report you can find out the time of the day when purchases are made more frequently in your online store. Basing on this information you can correct your marketing efforts to push up sales.&#xD;
+Sales by day of week&#xD;
+The information on sales at different week days is the best you can have while planning your business strategy. Generate the Sales by day of week report to find out the worst days of sales and take measures to improve your customers&#x2019; activity at this period.&#xD;
+Sales by product&#xD;
+This report type is a great tool for checking sales of any product for any period of time! Need to compare the sales of several products? It&#x2019;s a breeze for this report as well!&#xD;
+Sales by country&#xD;
+If you&#x2019;re operating on a global level, the Sales by Country report can be especially helpful for you. It allows you to view the items purchased during any period of time; the amount and total price of the products purchased; and an easy-to-read world map showing where purchases were made.&#xD;
+Sales report&#xD;
+With Sales report it&#x2019;s simple to display the purchase date and time of products sold during a specified period. Filtering option allows you to sort the data according to any value you&#x2019;d like - SKU, product name, manufacturer, etc.&#xD;
+Sales detailed&#xD;
+If you need to get the complete picture of your sales, generate the Sales detailed report. Moreover, it allows you to display sales data on the chart and set up the pre-defined reporting period range.&#xD;
+Users activity&#xD;
+Observe your customers&#x2019; activities and learn how many new accounts, reviews and orders were made in your online store for any period of time. The chart allows you to get the visual idea of the information gathered.&#xD;
+Sales by customer group&#xD;
+Dividing customers in groups is very powerful marketing tool. But without the analysis it becomes senseless. This report type gives you the opportunity to see the sales by all your groups of customers within defined period of time.&#xD;
+Products by customer&#xD;
+This report allows you to learn how many products have been bought at a time by the majority/minority of your customers.&#xD;
+New vs. returning customers&#xD;
+The New vs. Returning Customers report allows you to make a comparative analysis of new customers who made the 1st order during the selected period with returning customers who made the 2nd and more orders within the same time.&#xD;
+Sales by coupon code&#xD;
+To conduct effective promotions, online merchants should analyze the previous ones. With our service, you can get the complete information about orders made with coupons usage &#x2013; number of orders and items, subtotal, total, refunded sum, etc.&#xD;
+Sales by payment type&#xD;
+If you need to analyze how customers prefer to pay for their purchases in your store, use the Sales by Payment Type report. Thus you can compare sales data grouped by payment methods and decide whether this or that method is still worth using.&#xD;
+Sales by ZIP code&#xD;
+If your customers are mainly from one city, state or country, you can require the information on sales in different regions. The Sales by ZIP Code report displays sales data grouped by ZIP code.&#xD;
+Sales by country&#xD;
+The Customers by country report displays sales data grouped by country. This report type allows you to compare the total number of accounts created in your store for a certain period of time with the quantity of accounts from which orders have been made.&#xD;
+User wishlists&#xD;
+With the Users Wishlists report, you can observe which products have been added to customers&#x2019; wishlists. Moreover, you can find out when the product has been added and how many days this item is in the wishlist. The customer&#x2019;s information is displayed as well.&#xD;
+Sales by (sub)category&#xD;
+If you have many products and categories, it is hard to get the idea of the sales from this or that category without the ability to make the sales analysis by category or subcategory. Fortunately, our service allows you to look at your business from this side as well.&#xD;
+Sales by attributes&#xD;
+Due to some reason, the Sales by attribute report is missed in the majority of reporting tools though this information is critical for online merchants. We are glad to give you this ability to analyze your sales by product size, color, manufacturer or any other attribute.&#xD;
+Sales by customer parameters&#xD;
+The data on sales by customer parameters is vital for developing and correcting marketing strategy. If you know, for example, what age group is less active, you can offer them special promotions or apply any other marketing tricks to motivate them to but more in your store.&#xD;
+Orders by status&#xD;
+Lets you see all orders by any status, inluding custom ones&#xD;
+</description>
+    <notes>+ Magento dashboard integration&#xD;
++ stability and minor bug fixes &#xD;
++ significantly improved performance</notes>
+    <authors><author><name>aheadworks</name><user>aheadworks</user><email>helpdesk@aheadworks.com</email></author></authors>
+    <date>2013-08-08</date>
+    <time>11:33:20</time>
+    <contents><target name="magecommunity"><dir name="AW"><dir name="Aheadmetrics"><dir name="Block"><dir name="Adminhtml"><dir name="Dashboard"><file name="Head.php" hash="75798ff47a2947a05c0825d986755227"/></dir><file name="Dashboard.php" hash="aaabd6e5258ecda04b04da918874a23f"/><dir name="Page"><file name="Head.php" hash="24011d1a1c292f9c4d0052baa19099a2"/></dir></dir></dir><dir name="Helper"><file name="Config.php" hash="2b114c013770bfb1e5da2f93afd4846d"/><file name="Data.php" hash="b016383c951b211b28892c868b29cd53"/><file name="Fieldsmap.php" hash="f37d784baa782e4172dcc5265ecfeaaf"/></dir><dir name="Model"><file name="Crontab.php" hash="1e48e33e3b935e3db77fb3536e620293"/><file name="Observer.php" hash="955913925a5c6fe003565094b74de814"/><dir name="Resource"><dir name="Sync"><file name="Collection.php" hash="fff0e7ee2a0d97d5db2861a706970ca5"/></dir><file name="Sync.php" hash="1485eb6735ddc25a439d19c0699bc0aa"/></dir><file name="Sync.php" hash="501ed6693dbf70f24d2577f3af412370"/></dir><dir name="controllers"><file name="AheadmetricsController.php" hash="6adf26fcde308ad3886410e248a396ee"/><file name="AuthController.php" hash="92a764eed5c60ac45b4f967aec0d4f49"/><file name="SyncController.php" hash="94bc29a3704eb1830e7f35de18ac127d"/></dir><dir name="etc"><file name="config.xml" hash="2a7cae9ca14fa86a430237ea7da22e9a"/><file name="system.xml" hash="b493f2997fd0d8342cb2da8cb7a1abd6"/></dir><dir name="sql"><dir name="awaheadmetrics_setup"><file name="mysql4-install-1.0.0.php" hash="dfbbd36b2ab28f31dd93285944380645"/><file name="mysql4-upgrade-1.0.0-1.0.1.php" hash="b49e72c837a0aefbcd795efa8e60f38c"/><file name="mysql4-upgrade-1.0.1-1.0.2.7.php" hash="b49e72c837a0aefbcd795efa8e60f38c"/><file name="mysql4-upgrade-1.0.2.7-1.0.2.8.php" hash="b49e72c837a0aefbcd795efa8e60f38c"/><file name="mysql4-upgrade-1.0.2.8-1.0.3.1.php" hash="b49e72c837a0aefbcd795efa8e60f38c"/><file name="mysql4-upgrade-1.0.3.1-1.0.3.2.php" hash="ffbd2ae7e0b00246f87fcab6b49ff0a0"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="aw_aheadmetrics.xml" hash="c08012ba8fa5fc4e0f97cfbe36696ea1"/></dir><dir name="template"><dir name="aw_aheadmetrics"><file name="dashboard.phtml" hash="59396fda784a21139f3ca417e64a301b"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="AW_Aheadmetrics.xml" hash="515da962ac5e89f11461f4178879a83f"/></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="aw_aheadmetrics"><file name="config.js" hash="e8247ebe5c52f285947dfb92b8197d22"/></dir></dir></dir></dir></target><target name="magelocale"><dir><dir name="en_US"><file name="AW_Aheadmetrics.csv" hash="c9cbe126345ec34f770b36b480f056c2"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.13</min><max>6.0.0</max></php></required></dependencies>
+</package>

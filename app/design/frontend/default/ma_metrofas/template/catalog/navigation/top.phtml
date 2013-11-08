@@ -1,0 +1,82 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2011 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+/**
+ * Top menu for store
+ *
+ * @see Mage_Catalog_Block_Navigation
+ */
+?>
+<?php
+/**
+ * $this->renderCategoriesMenuHtml() supports optional arguments:
+ * int Level number for list item class to start from
+ * string Extra class of outermost list items
+ * string If specified wraps children list in div with this class
+ */
+?>
+<?php
+    $_curUrl = Mage::helper('core/url')->getCurrentUrl();
+    $_homeUrl = $this->getUrl('');    
+?>
+<?php $_menu = $this->renderCategoriesMenuHtml(0,'level-top') ?>
+<?php if($_menu): ?>
+<div class="ma-nav-mobile-container hidden-desktop">
+	<div class="container">
+		<div class="navbar">
+			<div id="navbar-inner" class="navbar-inner navbar-inactive">
+				<a class="btn btn-navbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<span class="brand">Main Menu</span>
+				<ul id="ma-mobilemenu" class="mobilemenu nav-collapse collapse">
+					<?php echo $_menu ?>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="ma-nav-container visible-desktop">
+	<div class="container">
+	<div class="contain-size">
+		<div class="ma-nav-inner">
+			<ul id="nav" class="<?php echo Mage::getStoreConfig('themeoptions/themeoptions_config/menu_style') ?>">
+					<?php if( Mage::getSingleton('cms/page')->getIdentifier() == 'home' && Mage::app()->getFrontController()->getRequest()->getRouteName() == 'cms'): ?>
+						<li class="home active"><a href="<?php echo $this->getUrl('')?>" title="Home"><span><?php echo $this->__('Home')?></span></a></li>
+					<?php else: ?>
+						<li class="home"><a href="<?php echo $this->getUrl('')?>" title="Home"><span><?php echo $this->__('Home')?></span></a></li>
+					<?php endif; ?>
+					
+				<?php echo $_menu ?>
+			</ul>
+		</div>
+	</div>
+	</div>
+</div>
+<?php endif; ?>

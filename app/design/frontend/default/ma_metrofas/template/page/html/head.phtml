@@ -1,0 +1,108 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2010 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<meta http-equiv="Content-Type" content="<?php echo $this->getContentType() ?>" />
+<title><?php echo $this->getTitle() ?></title>
+<meta name="description" content="<?php echo htmlspecialchars($this->getDescription()) ?>" />
+<meta name="keywords" content="<?php echo htmlspecialchars($this->getKeywords()) ?>" />
+<meta name="robots" content="<?php echo htmlspecialchars($this->getRobots()) ?>" />
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+<link rel="icon" href="<?php echo $this->getFaviconFile(); ?>" type="image/x-icon" />
+<link rel="shortcut icon" href="<?php echo $this->getFaviconFile(); ?>" type="image/x-icon" />
+<?php $_font = Mage::getStoreConfig('themeoptions/themeoptions_config/font') ?>
+<link media="all" href="<?php echo $this->getSkinUrl()?>css/styles.css3.php?url=<?php echo $this->getSkinUrl()?>" type="text/css" rel="stylesheet" />
+
+<?php if ($_font && $_font != 'Brandon') : ?>
+<link href='http://fonts.googleapis.com/css?family=<?php echo str_replace(' ', '+', $_font); ?>:200,300,400,500,600,700,800' rel='stylesheet' type='text/css' />
+<?php endif; ?>
+
+
+
+<!--[if lt IE 7]>
+<script type="text/javascript">
+//<![CDATA[
+    var BLANK_URL = '<?php echo $this->helper('core/js')->getJsUrl('blank.html') ?>';
+    var BLANK_IMG = '<?php echo $this->helper('core/js')->getJsUrl('spacer.gif') ?>';
+//]]>
+</script>
+<![endif]-->
+<?php echo $this->getCssJsHtml() ?>
+<?php echo $this->getChildHtml() ?>
+<?php echo $this->helper('core/js')->getTranslatorScript() ?>
+<?php echo $this->getIncludes() ?>
+
+<?php $_menu_style = Mage::getStoreConfig('themeoptions/themeoptions_config/menu_style'); ?>
+<?php $_main_color = Mage::getStoreConfig('themeoptions/themeoptions_config/main_color'); ?>
+<?php $_link_color = Mage::getStoreConfig('themeoptions/themeoptions_config/link_color'); ?>
+<?php $_body_background = Mage::getStoreConfig('themeoptions/themeoptions_config/body_background'); ?>
+<?php $_bg_pattern = Mage::getStoreConfig('themeoptions/themeoptions_config/bg_pattern'); ?>
+
+<!-- set css color -->
+<?php $_style_color = Mage::getStoreConfig('themeoptions/themeoptions_config/theme_color') ?>
+<?php if ( $_style_color ) { ?>
+    <link rel="stylesheet" type="text/css" href="<?php echo $this->getSkinUrl('css/styles_'.$_style_color.'.css'); ?>" media="screen" />
+<?php } else { ?>
+    <link rel="stylesheet" type="text/css" href="<?php echo $this->getSkinUrl('css/styles_skin1.css'); ?>" media="screen" />
+<?php } ?>
+
+<!-- MENU -->
+<?php if ( $_menu_style == 'wine_menu') { ?>
+    <link rel="stylesheet" type="text/css" href="<?php echo $this->getSkinUrl('css/wide_menu.css'); ?>" media="screen"/>
+<?php } else { ?>
+    <link rel="stylesheet" type="text/css" href="<?php echo $this->getSkinUrl('css/fish_menu.css'); ?>" media="screen"/>
+<?php } ?>
+
+<style type="text/css">
+
+    /*google font*/
+    <?php if ($_font) : ?>
+        .page-title h1, .page-title h2, .block .block-title strong, .block-right-static .block-title h3, .block-subscribe-right .block-title h3, .ma-mostviewed-product-title h2, .ma-upsellslider-container .product-name, .ma-newproductslider-container .product-name, .products-grid .product-name, .ma-featured-product-title h2, .ma-newproductslider-title h2, .products-list .product-name, .product-collateral h2, .product-view .product-shop .product-name h1, .product-view .box-up-sell h2, .footer-freeshipping h3, .footer-subscribe .form-subscribe-header h4, .ma-footer-static .footer-static-title h3, .product-tabs a, .wine_menu a, .fish_menu a, .wine_menu ul li a { font-family: '<?php echo $_font; ?>';}
+    <?php endif; ?>
+    
+    <?php if($_main_color): ?>
+        .ma-newproductslider-container .actions, .products-grid .actions, .ma-brand-slider-contain .flex-direction-nav a:hover, .ma-footer-static-container, .ma-nav-mobile-container, .ma-nav-container, .content-sample-block .block1 img, .productpage-sample-block .block2 img  { background-color:<?php echo $_main_color ?>; }
+        .product-view button.btn-cart:hover span { background-color:<?php echo $_main_color ?> !important; }
+        a:hover, .products-grid .product-name a:hover, .product-name a:hover { color:<?php echo $_main_color ?>; }
+        
+    <?php endif; ?>
+    
+    <?php if($_link_color): ?>
+        button.button span, .main button.btn-checkout:hover span, .header .form-search button.button:hover span, .ma-newproductslider-container .item-inner:hover .actions, .products-grid .item:hover .actions, .ma-brand-slider-contain .flex-direction-nav a, .ma-brand-slider-contain .flex-direction-nav .flex-next, .ma-new-vertscroller-wrap .jcarousel-next-vertical:hover, .ma-new-vertscroller-wrap .jcarousel-prev-vertical:hover, .add-to-cart input.qty-decrease:hover, .add-to-cart input.qty-increase:hover, .product-prev:hover, .product-next:hover, .ma-thumbnail-container .flex-direction-nav a:hover, .footer-freeshipping .shipping-icon, .wine_menu li.active a, .fish_menu li.active a, .wine_menu li.over a, .fish_menu li.over a, .wine_menu a:hover, .fish_menu a:hover, #back-top, .content-sample-block .block2 img, .productpage-sample-block .block1 img { background-color:<?php echo $_link_color ?>; }
+        button.btn-cart:hover span, .product-view button.btn-cart span, .ui-slider .ui-slider-range { background-color:<?php echo $_link_color ?> !important; }
+        a, .breadcrumbs li strong, .pager .pages a:hover, .pager .pages .current, .header .welcome-msg a, .header .currency-language .language-switcher a:hover, .header .links li a:hover, .top-cart-contain .price, .block .block-title strong .word2, .block-right-static .block-title strong, .block-subscribe-right .block-title strong, .block-account .block-content li a:hover, .block-account .block-content li.current, .block-layered-nav li:hover, .block-layered-nav li a:hover, .ma-featured-product-title h2 .word2, .ma-newproductslider-title h2 .word2, .products-list .product-name a:hover, .product-view .product-shop .availability span, .price-box .price, .regular-price, .regular-price .price, .block .regular-price, .block .regular-price .price, .special-price .price-label, .special-price .price, .add-to-cart .qty, .product-collateral h2 .word2, .product-view .product-shop .product-sku span, .product-view .product-shop .product-brand span, .product-view .product-shop .add-to-links a:hover, .email-friend a:hover, .ma-footer-static .fcol1 li:hover, .ma-footer-static .fcol1 li a:hover, .mobilemenu li.active a, .mobilemenu a:hover, #ticker a { color:<?php echo $_link_color ?>; }
+        .mobilemenu ul a:hover, .mobilemenu ul li.active a, .mobilemenu ul ul a:hover, .mobilemenu ul ul li.active a, .mobilemenu ul li.active ul a:hover, .mobilemenu ul ul ul a:hover, .mobilemenu ul ul ul li.active a, .mobilemenu ul ul li.active ul a:hover, .mobilemenu ul ul ul ul a:hover, .mobilemenu ul ul ul ul li.active a, .mobilemenu ul ul ul li.active ul a:hover, .wine_menu ul li a:hover, .wine_menu ul ul li a:hover, .fish_menu ul li a:hover  { color:<?php echo $_link_color ?> !important; }
+         .ma-newproductslider-container .item-inner:hover, .ma-newproductslider-container .item-inner:hover, .product-tabs a:hover, .product-tabs li.active a, .product-tabs li.active a:hover, .wine_menu .container, .fish_menu ul, .fish_menu div, .fish_menu ul ul, .fish_menu ul div  { border-color: <?php echo $_link_color ?>; }
+    <?php endif; ?>
+
+    <?php if($_body_background): ?>
+        body { background-color: <?php echo $_body_background ?>;}
+    <?php endif; ?>
+    
+    <?php if($_bg_pattern): ?>
+        body { background-image: url(<?php echo $this->getSkinUrl('images/pattern/').$_bg_pattern.'.png' ?>) ; background-repeat: repeat; }
+    <?php endif; ?>   
+
+</style>

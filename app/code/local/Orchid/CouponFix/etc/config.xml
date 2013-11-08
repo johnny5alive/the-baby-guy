@@ -1,0 +1,25 @@
+<config>
+    <modules>
+            <Orchid_CouponFix>
+                    <version>0.1.0</version>
+            </Orchid_CouponFix>
+    </modules>
+    <global>
+        <models>
+            <couponfix>
+                <class>Orchid_CouponFix_Model</class>
+            </couponfix>
+	</models>
+	<events>
+		<sales_order_payment_cancel>
+		<observers>
+		  <orchid_couponfix_observer>
+		    <type>singleton</type>
+		    <class>Orchid_CouponFix_Model_Observer</class>
+		    <method>cancel</method>
+		  </orchid_couponfix_observer>
+		</observers>
+		</sales_order_payment_cancel>     
+	</events>
+    </global>
+</config>

@@ -1,0 +1,28 @@
+<?php if($this->getConfig('enabled')){ ?>
+    <script type="text/javascript">
+  
+        $jq(document).ready(function() {
+            $jq("#twitter").getTwitter({
+                userName: "<?php echo $this->getConfig('twitter_id') ?>",
+                numTweets: <?php echo $this->getConfig('tweet_show') ?>,
+                loaderText: "Loading tweets...",
+                slideIn: true,
+                slideDuration: 750,
+                <?php if($this->getConfig('enabled')) { ?>
+                showHeading: true ,
+                <?php } else { ?>
+                showHeading: false ,
+                <?php } ?>
+                headingText: "<?php echo $this->getConfig('heading_title') ?>",
+                showProfileLink: false,
+                showTimestamp: <?php echo $this->getConfig('show_time') ?>,
+                includeRetweets: false,
+                excludeReplies: true
+            });
+        });
+
+    </script>
+    
+    <div id="twitter">
+    </div>
+<?php } ?>

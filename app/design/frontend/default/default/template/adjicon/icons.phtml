@@ -1,0 +1,18 @@
+<?php
+/**
+ * Visualize Your Attributes
+ *
+ * @category:    AdjustWare
+ * @package:     AdjustWare_Icon
+ * @version      2.0.18
+ * @license:     GPC7g2VHtpIP7j623srVjJmuippj4X9BeOkIuhMsJs
+ * @copyright:   Copyright (c) 2013 AITOC, Inc. (http://www.aitoc.com)
+ */
+$_icons = $this->getIcons() ?>
+<?php if (count($_icons)): ?>
+<div class="adj-icons-<?php echo $this->getMode() ?>" >
+<?php foreach ($_icons as $icon): ?>
+<div class="adj-icon"><img title="<?php echo $this->htmlEscape($icon['title'])?>" alt="<?php echo $this->htmlEscape($icon['title'])?>" src="<?php echo Mage::getBaseUrl('media') . 'icons/' . $icon['filename']?>"></div>
+<?php endforeach; ?>
+</div>
+<?php endif; ?>

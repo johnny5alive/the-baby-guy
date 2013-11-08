@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <catalog>
+            <groups>
+                <adjupsell translate="label comment" module="adjupsell">
+                    <label>Customers Who Purchased This Also Purchased</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>110</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enabled translate="label">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>
+                        <block translate="label">
+                            <label>Block</label>
+                            <frontend_type>multiselect</frontend_type>
+                            <source_model>adjupsell/source_block</source_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </block>
+                        <count translate="label">
+                            <label>Products Count</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </count>
+                        <append translate="label">
+                            <label>Append Products</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adjupsell/source_append</source_model>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Products, assigned by admin, will not be displayed, if you choose “Disabled”. If you choose “Prepend”, the products, assigned by admin, will be displayed first. If you choose “Append”, the products, assigned by admin, will be displayed only if there are available placeholders in the blocks.]]></comment>
+                        </append>
+                        <in_stock_only translate="label">
+                            <label>Show In Stock Only</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                           <comment><![CDATA[The system will show only in stock products.]]></comment>
+                        </in_stock_only>
+                        <title translate="label">
+                            <label>Title</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </title>
+                    </fields>
+                </adjupsell>
+            </groups>
+        </catalog>
+    </sections>
+</config>
+<!--
+/**
+ * Customers Who Purchased
+ *
+ * @category:    AdjustWare
+ * @package:     AdjustWare_Upsell
+ * @version      2.1.2
+ * @license:     2FAsxXJzc5JeHBuQEqczWVkN1VAQ4c4jbOwkjabuwA
+ * @copyright:   Copyright (c) 2013 AITOC, Inc. (http://www.aitoc.com)
+ */
+-->

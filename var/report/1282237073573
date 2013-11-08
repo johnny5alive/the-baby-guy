@@ -1,0 +1,6 @@
+a:4:{i:0;s:0:"";i:1;s:506:"#0 /var/www/mamaky-live/app/code/core/Mage/Core/Model/App.php(842): Mage_Core_Model_App->throwStoreException()
+#1 /var/www/mamaky-live/app/code/core/Mage/Core/Model/App.php(491): Mage_Core_Model_App->getStore()
+#2 /var/www/mamaky-live/app/code/core/Mage/Core/Model/App.php(274): Mage_Core_Model_App->_initCurrentStore('default', 'store')
+#3 /var/www/mamaky-live/app/Mage.php(615): Mage_Core_Model_App->init('default', 'store', Array)
+#4 /var/www/mamaky-live/install.php(128): Mage::app('default')
+#5 {main}";s:3:"url";s:12:"/install.php";s:11:"script_name";s:12:"/install.php";}

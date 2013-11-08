@@ -1,0 +1,14 @@
+<script type="text/javascript">
+    var ajax_cart_show_popup = <?php echo (int)Mage::getStoreConfig('j2tajaxcheckout/default/j2t_ajax_cart_show_popup', Mage::app()->getStore()->getId());?>;
+</script>
+
+<div class="j2t-overlay" id="j2t-overlay" style="display: none;">&nbsp;</div>
+
+<div style="display: none; width: 260px; height: 50px; top: 550px; background:#fff;" class="j2tajax-progress" id="j2t_ajax_progress">
+        <img src="<?php echo $this->getSkinUrl();?>images/j2t/ajax-loader.gif" alt=""/>
+        <p><?php echo $this->__('loading...');?></p>
+</div>
+<div style="display: none; width: 260px; height: 104px; position: fixed; top: 496px; background:#fff;" class="j2tajax-confirm" id="j2t_ajax_confirm">
+        &nbsp;
+</div>
+

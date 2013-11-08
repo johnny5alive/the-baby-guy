@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * @category    EM
+ * @package     EM_FlexibleWidget
+ * @copyright   Copyright (c) 2009 Irubin Consulting Inc. DBA Varien (http://www.varien.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+-->
+<config>
+    <modules>
+        <EM_Flexiblewidget>
+            <version>0.0.1</version>
+        </EM_Flexiblewidget>
+    </modules>
+    <admin>
+        <routers>
+            <flexiblewidget>
+                <use>admin</use>
+                <args>
+                    <module>EM_Flexiblewidget</module>
+                    <frontName>flexiblewidget</frontName>
+                </args>
+            </flexiblewidget>
+        </routers>
+    </admin>
+    <global>
+        <helpers>
+            <flexiblewidget>
+                <class>EM_Flexiblewidget_Helper</class>
+            </flexiblewidget>
+        </helpers>
+        <blocks>
+             <flexiblewidget>
+                <class>EM_Flexiblewidget_Block</class>
+             </flexiblewidget>
+        </blocks>
+        <models>
+             <flexiblewidget>
+                <class>EM_Flexiblewidget_Model</class>
+                <resourceModel>flexiblewidget_mysql4</resourceModel>
+             </flexiblewidget>
+             
+             <flexiblewidget_mysql4>
+                <class>EM_Flexiblewidget_Model_Mysql4</class>
+                <entities>
+                    <list>
+                        <table>catalog_product_entity</table>
+                    </list>
+                </entities>
+            </flexiblewidget_mysql4>
+        </models>
+    </global>
+
+	<frontend>
+		<layout>
+			<updates>
+				<flexiblewidget>
+					<file>em_flexiblewidget.xml</file>
+				</flexiblewidget>
+			</updates>
+		</layout>
+	</frontend>
+</config>

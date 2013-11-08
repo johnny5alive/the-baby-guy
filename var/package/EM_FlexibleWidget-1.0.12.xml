@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+    <name>EM_FlexibleWidget</name>
+    <version>1.0.12</version>
+    <stability>stable</stability>
+    <license>GNU/GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Widget shows products from specific criteria</summary>
+    <description>Widget shows products from specific criteria</description>
+    <notes>Version 1.0.12 - 09/26/2011
+
+Version 1.0.11:
+- Fix flat category / products does not work.
+
+Version 1.0.7:
+- Fix case-sensitive problem
+
+Version 1.0.6:
+- Improve performance.
+
+Version 1.0.5:
+- Fix slow performance.
+
+Version 1.0.4:
+- Faster database query</notes>
+    <authors><author><name>EMThemes</name><user>auto-converted</user><email>tvlgiao@gmail.com</email></author></authors>
+    <date>2011-09-26</date>
+    <time>08:22:02</time>
+    <contents><target name="magecommunity"><dir name="EM"><dir name="Flexiblewidget"><dir name="Block"><file name="Chooser.php" hash="185d2d088047a79b42d32023d90bd0f1"/><file name="List.php" hash="105217f890affb18582446ce914906a4"/></dir><dir name="controllers"><dir name="Admin"><file name="ChooserController.php" hash="9b64207a0c3ece656f13630a4f62450d"/></dir></dir><dir name="etc"><file name="config.xml" hash="8aff04f2d86eba966f9a7a09c17ff36b"/><file name="widget.xml" hash="d5b820130733ed98a3b723674bbc7774"/></dir><dir name="Helper"><file name="Data.php" hash="75ad12f913c265fd2d9f69755d64d6de"/></dir><dir name="Model"><dir name="Mysql4"><dir name="List"><file name="Collection.php" hash="ed9243f845b339510b006161db53ff5f"/></dir><file name="List.php" hash="afdb397c808519591dbdc569f33fb047"/></dir><file name="AttributeSet.php" hash="68b3fcffcda9d1ce13501f157cd08ef6"/><file name="List.php" hash="7c192add0874f1ed86fdee64995ca6b7"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="em_flexiblewidget.xml" hash="e21803ece629b25ac7ae4a57d223143d"/></dir><dir name="template"><dir name="flexiblewidget"><file name="credits.phtml" hash="11d0790dad364c9959032926f5dc7392"/><file name="list.phtml" hash="d08ead7c3e32802f3c11a66555d37b24"/><file name="text.phtml" hash="d22203dc74c3fdd7b66773020be7ffcc"/><file name="tree.phtml" hash="230aeaffb602467c6f3457626491c534"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="EM_Flexiblewidget.xml" hash="dd110a68d232f8813a6120e84b536d21"/></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>

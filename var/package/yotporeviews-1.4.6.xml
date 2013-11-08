@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package>
+    <name>yotporeviews</name>
+    <version>1.4.6</version>
+    <stability>stable</stability>
+    <license uri="http://www.yotpo.com/terms-of-service">YOTPO TERMS OF SERVICE</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Yotpo is a plug and play social review solution for your website</summary>
+    <description>As you probably know, reviews on product pages keep shoppers on your site and lead to substantial increase in conversion rates. A big part of the success of commercial websites such as Amazon is driven by the many consumer reviews they display on each product.&#xD;
+&#xD;
+Most shopping cart platforms offer a built-in reviews feature. However, there are 2 challenges with reviews for small and mid-size ecommerce sites:&#xD;
+&#xD;
+Getting  your shoppers to leave reviews to achieve a critical mass of reviews&#xD;
+&#xD;
+Getting consumers to trust the reviews on you site &#xD;
+&#xD;
+Generate more reviews&#xD;
+&#xD;
+Yotpo has been designed from the ground up to maximize the amount of reviews on your site.  Leaving a review with Yotpo is a simple, fun and social experience similar to posting on Facebook. &#xD;
+&#xD;
+Increase your review trust factor&#xD;
+&#xD;
+With the Yotpo platform, your shoppers can see the real social identity and level of expertise of your reviewers.  This results in higher conversion rates and return visits because we trust friends and experts.&#xD;
+&#xD;
+Have an amazing social experience&#xD;
+&#xD;
+Leverage the social graph of your customers to both the benefit of other consumers and you as a website. Automatically engage with your customers on FB and Twitter using the Yotpo social review system.</description>
+    <notes>- product url's issue fix&#xD;
+- extensive support for placing reviews widget in a tab</notes>
+    <authors><author><name>Yotpo</name><user>auto-converted</user><email>omri@yotpo.com</email></author></authors>
+    <date>2013-09-29</date>
+    <time>09:40:03</time>
+    <contents><target name="magecommunity"><dir name="Yotpo"><dir name="Yotpo"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Form"><file name="Button.php" hash="abcc46ce29901dce87fc223d46990287"/></dir></dir></dir></dir><file name="Conversion.php" hash="2baf47f1277e9fd908e0877de469da94"/><file name="Yotpo.php" hash="88f1ea44836d11e9b3b47cb8683b64fa"/></dir><dir name="Helper"><file name="ApiClient.php" hash="3648732ee484bc1ea5320161a8023bea"/><file name="Data.php" hash="40708d3d14278efb2c3a9d58e993d1af"/><file name="Utils.php" hash="0dbb6196798fe3b5fc20135fb195549e"/></dir><dir name="Model"><dir name="Export"><file name="Csv.php" hash="a8aea79763cd937127bb2d75fbb0748a"/><file name="Observer.php" hash="6b9ba0c791f75ff5a6fb20ce9d4eada3"/></dir><dir name="Mail"><file name="Observer.php" hash="39f5f20e7defbcff336dea6bd1f33577"/></dir><dir name="Mysql4"><dir name="Richsnippet"><file name="Collection.php" hash="5a997e395cd5a0dc27894d2e9ec327ef"/></dir><file name="Richsnippet.php" hash="cdc9d5fdd5a06b549598f2e3bb9c9e0d"/></dir><dir name="Resource"><dir name="Mysql4"><file name="Setup.php" hash="932946055a150ebd6190f876b12a2aa6"/></dir></dir><file name="Richsnippet.php" hash="427221345a44e9fd0cc3829f9af7eab5"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="YotpoController.php" hash="e2fc30b8f7994484a810b73ace3fdb7f"/></dir><dir name="Review"><file name="ExportController.php" hash="cd6c8c992bb0ed3ef77b88b2078a93e7"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="bfe07bca1c4319a1460d899a1d2e3fd5"/><file name="config.xml" hash="51e50bf436652124f0369d285fee0e1f"/><file name="system.xml" hash="0f6dbd3f4c6a3bfd2947b8cd735b725b"/></dir><dir name="lib"><dir name="oauth-php"><dir name="library"><dir name="body"><file name="YotpoOAuthBodyContentDisposition.php" hash="7a4962e2ad002a755a3d7bd1b2239010"/></dir><dir name="signature_method"><file name="YotpoOAuthSignatureMethod.class.php" hash="4f95c685208d22a4ba1b1b9fb491db57"/><file name="YotpoOAuthSignatureMethod_HMAC_SHA1.php" hash="4a71334d170eaacb61927cdcc90bcef1"/><file name="YotpoOAuthSignatureMethod_MD5.php" hash="956a676d9d167ad26ca2a3f239fccf10"/><file name="YotpoOAuthSignatureMethod_PLAINTEXT.php" hash="797d8f09cfd8bf77d2a31cb3fc097e82"/><file name="YotpoOAuthSignatureMethod_RSA_SHA1.php" hash="478ffd2bc57c9fcfb415fe9af694530e"/></dir><dir name="store"><dir name="postgresql"><file name="pgsql.sql" hash="2591c752d846c2d1911e243569d9d10f"/></dir><file name="YotpoOAuthStore2Leg.php" hash="f1bd2fc546e2f68ead04833f29165a53"/><file name="YotpoOAuthStoreAbstract.class.php" hash="9c91a75d44f12055deb5932d736daff9"/></dir><file name="YotpoOAuthException2.php" hash="b6c40a5f0aa8c30b2950a45aa929ec42"/><file name="YotpoOAuthRequest.php" hash="67bef5a51730fd6a46e80b69d0daca53"/><file name="YotpoOAuthRequestLogger.php" hash="b3b1a32a5279a3be878d732be65e6a99"/><file name="YotpoOAuthRequestSigner.php" hash="62d4b8957b47c0bd7a09bb8b436cd146"/><file name="YotpoOAuthRequester.php" hash="750ba9d59f65a0511488bde3b8a17833"/><file name="YotpoOAuthStore.php" hash="23220d5e8f11403eb10e6289ae2032df"/></dir><file name="LICENSE" hash="891a962fa38f0ad4b5cc34ae7315a290"/><file name="README" hash="b0c7f83edfe6d50a58e76fade1c37f82"/></dir></dir><dir name="sql"><dir name="yotpo_setup"><file name="mysql4-install-1.4.4.php" hash="690715d8014af8ea994c7abc03494e31"/></dir></dir></dir><file name=".DS_Store" hash="a2d7a9261a4c94b0d50ec24de7f20b60"/></dir></target><target name="mageetc"><dir name="modules"><file name="Yotpo_Yotpo.xml" hash="1afc178951ae42041a1df71d61b76d23"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="yotpo"><file name="bottomline.phtml" hash="7f692c6abc0823a4c16f83ca8bad72d3"/><file name="conversion.phtml" hash="5a315a321f013d2c34f3f7e2447350eb"/><file name="default_reviews.phtml" hash="521d3530f53cf096003f60f4747a2172"/><file name="reviews.phtml" hash="4ff8691e64722fb089c8cc2873872785"/></dir></dir><dir name="layout"><file name="yotpo.xml" hash="96c874ad5759f0e67dd1bd7e07760e78"/></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="yotpo"><dir name="system"><dir name="config"><file name="button.phtml" hash="937219fed44daba87df7574ee3e15816"/></dir></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>

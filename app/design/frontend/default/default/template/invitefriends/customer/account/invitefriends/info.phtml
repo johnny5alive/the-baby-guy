@@ -1,0 +1,14 @@
+<?php $creditDetails = Mage::getModel('invitefriends/customer')->creditCalculation();?>
+    <ul class="invite_my_acc">
+            
+               <li>
+                            <p class="amount"><?php echo $this->__('Total Earned Credits: ').$creditDetails['total_credits'];?></p>
+                            <p class="amount"><?php echo $this->__('Upcoming Credits: ').$creditDetails['upcoming_credits'];?></p>
+                </li>
+                <li>
+                            <p class="amount"><?php echo $this->__('Available Credits: ').$creditDetails['balance'];?></p>
+                            <p class="amount"><?php echo $this->__('Used Credits: ').$creditDetails['used_credits'];?></p>
+                </li>
+
+        
+    </ul>

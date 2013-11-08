@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+
+    <catalog_product_view>
+        <reference name="product.info">
+                <block type="adjupsell/rewrite_frontCatalogProductListUpsell" name="product.info.aitupsell" as="aitoc_upsell_products" template="aitcommonfiles/upsell.phtml">
+                    <action method="setColumnCount"><columns>4</columns></action>
+                    <action method="setItemLimit"><type>upsell</type><limit>4</limit></action>
+                </block>
+        </reference>
+    </catalog_product_view>
+</layout>

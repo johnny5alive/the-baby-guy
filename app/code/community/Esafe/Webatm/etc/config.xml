@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Esafe Webatm Extension
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so one can be sent to you a copy immediately.
+ *
+ * @category   Esafe
+ * @package    Esafe_Webatm
+ * @author     Jiang Sungjin
+ * @author     Jin Kang
+ * @copyright  Copyright (c) 2013 Skybear.co. Ltd. (http://www.myskybear.com)
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <modules>
+        <Esafe_Webatm>
+            <version>1.0.0</version>
+            <depends>
+                <Mage_Payment />
+            </depends>
+        </Esafe_Webatm>
+    </modules>
+    <global>
+    	<models>
+    		<webatm>
+	    		<class>Esafe_Webatm_Model</class>
+	    	</webatm>
+    	</models>
+    	<helpers>
+    		<webatm>
+    			<class>Esafe_Webatm_Helper</class>
+    		</webatm>
+    	</helpers>
+    	<blocks>
+            <webatm>
+            	<class>Esafe_Webatm_Block</class>
+            </webatm>
+        </blocks>
+        <resources>
+            <webatm_setup>
+                <setup>
+                    <module>Esafe_Webatm</module>
+                </setup>
+                <connection>
+                    <use>directory_setup</use>
+                </connection>
+            </webatm_setup>
+            <webatm_write>
+                <connection>
+                    <use>local_write</use>
+                </connection>
+            </webatm_write>
+            <webatm_read>
+                <connection>
+                    <use>local_read</use>
+                </connection>
+            </webatm_read>
+        </resources>
+    </global>
+    <frontend>
+        <routers>
+            <webatm>
+                <use>standard</use>
+                <args>
+                    <module>Esafe_Webatm</module>
+                    <frontName>webatm</frontName>
+                </args>
+            </webatm>
+        </routers>
+        <secure_url>
+            <webatm>/webatm/webatm</webatm>
+        </secure_url>
+    </frontend>
+	<default>
+        <payment>
+            <webatm>
+                <active>0</active>
+                <title>Esafe - WebATM</title>
+                <test>0</test>
+                <webcode></webcode>
+                <webpass></webpass>
+                <model>webatm/webatm</model>
+                <order_status>1</order_status>
+                <allowspecific>0</allowspecific>
+            </webatm>
+        </payment>
+    </default>
+</config>

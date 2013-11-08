@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <customer_account translate="label">
+        <reference name="customer_account_navigation">
+            <action method="addLink" translate="label" ifconfig="invitefriends/invitefriends_enable/enable_invitefriends">
+                <name>invitefriends</name>
+                <path>invitefriends/invitefriends/</path>
+                <label>My Credits</label>
+            </action>
+        </reference>
+    </customer_account>
+     <invitefriends_invitefriends_index>
+    	<update handle="customer_account"/>
+        <reference name="head">
+            <action method="addCss"><stylesheet>apptha_invitefriends/css/invite_styles.css</stylesheet></action>
+        </reference>
+    	<reference name="content">
+	        <block type="invitefriends/invitefriends" name="customer_invitefriends_dashboard" template="invitefriends/customer/account/invitefriends.phtml">
+	            <block type="invitefriends/invitefriends_info" name="customer_invitefriends_info" as="info" template="invitefriends/customer/account/invitefriends/info.phtml"/>
+	            <block type="invitefriends/invitefriends_transaction" name="customer_invitefriends_transaction" as="transaction" template="invitefriends/customer/account/invitefriends/transaction.phtml">
+	            	<action method="setPageSize"><page_size>15</page_size></action>
+	            </block>
+	        </block>
+        </reference>
+    </invitefriends_invitefriends_index>
+    <invitefriends_index_fbinvite>
+	    <reference name="content">
+		    <block type="invitefriends/invites" name="customer_fb_invite" as="totals" template="invitefriends/socialinvites/fbinvite.phtml">
+		   </block>
+            </reference>
+    </invitefriends_index_fbinvite>
+    <invitefriends_index_gmailinvite>
+        <reference name="head">
+            <action method="addCss"><stylesheet>apptha_invitefriends/css/invite_styles.css</stylesheet></action>
+        </reference>
+	    <reference name="content">
+		    <block type="invitefriends/invites" name="customer_gmail_invite" as="totals" template="invitefriends/socialinvites/gmailinvite.phtml">
+		   </block>
+            </reference>
+    </invitefriends_index_gmailinvite>
+    <invitefriends_index_twitterinvite>
+        <reference name="head">
+            <action method="addCss"><stylesheet>apptha_invitefriends/css/invite_styles.css</stylesheet></action>
+        </reference>
+	    <reference name="content">
+		    <block type="invitefriends/invites" name="customer_twitter_invite" as="totals" template="invitefriends/socialinvites/twitterinvite.phtml">
+		   </block>
+            </reference>
+    </invitefriends_index_twitterinvite>
+    <default>
+        <reference name="after_body_start">
+            <block type="invitefriends/template" template="invitefriends/socialinvites/fbinvite.phtml" name="fbinvite_init" />
+        </reference>
+         <reference name="top.links">            
+             <block type="invitefriends/invitefriends" name="invitefriends_link">
+                <action method="addInvitefriends"></action>
+            </block>
+        </reference>
+    </default>
+    <invitefriends_index_index>
+        <reference name="head">
+            <action method="addCss"><stylesheet>apptha_invitefriends/css/invite_styles.css</stylesheet></action>
+        </reference>
+          <reference name="root">
+            <action method="setTemplate"><template>page/2columns-right.phtml</template></action>
+        </reference>
+        <reference name="content">
+            <block type="invitefriends/invitefriends" name="invitefriends" template="invitefriends/invitefriends.phtml" />
+        </reference>        
+    </invitefriends_index_index>
+</layout> 

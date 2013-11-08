@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>addthis_sharingtool</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://www.apache.org/licenses/LICENSE-2.0">Apache</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>AddThis Sharing Tool</summary>
+    <description>AddThis helps users to share your product and drive viral traffic.</description>
+    <notes>Fixed SSL compatibility errors&#xD;
+Fixed issue with Bundle products</notes>
+    <authors><author><name>AddThis</name><user>AddThisTeam</user><email>plugins@addthis.com</email></author></authors>
+    <date>2013-04-16</date>
+    <time>07:20:06</time>
+    <contents><target name="magecommunity"><dir name="AddThis"><dir name="SharingTool"><dir name="Block"><file name="Share.php" hash="826c73cf37d6b60cc973fc0e3f9f1625"/></dir><dir name="Helper"><file name="Data.php" hash="d78c69dd706b97e39ef4c856c3c9d938"/></dir><dir name="Model"><file name="Observer.php" hash="5c9b5d0935bfbe2bddda81be9bfbee77"/><dir name="Source"><file name="Buttons.php" hash="36747ed838586886dd8d7c5412db6183"/><file name="Languages.php" hash="c2527e95cfc81de57230fc41413da30e"/><file name="Menuhover.php" hash="403712eca479672709c8d400c3e8fb71"/><file name="Menuversions.php" hash="7c68a011a001b44f202f5774c32880ba"/><file name="Uihover.php" hash="619d9e5d96f15da367af4096ab448f5a"/></dir></dir><dir name="etc"><file name="config.xml" hash="eb698194f5a047a2fbbf38a382640a79"/><file name="system.xml" hash="bdad69dd1ecf5e79b480a74f44064778"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="addthis"><dir name="sharingtool"><file name="share.phtml" hash="05f831833fe7ae703cb40268cf20430e"/></dir></dir></dir><dir name="layout"><file name="sharingtool.xml" hash="c3408376e653249f8c26c64a65190877"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="AddThis_SharingTool.xml" hash="40c4518a253bec346ad54824bdfef229"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

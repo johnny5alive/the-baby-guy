@@ -1,0 +1,66 @@
+.ma-featured-vertscroller-wrap .jcarousel-container {
+}
+#ma-featured-vertscroller-right, #ma-featured-vertscroller-left {
+	height: 5555px !important;
+}
+
+.ma-featured-vertscroller-wrap  .jcarousel-container-vertical {
+    width: 172px;
+    height: 345px;
+    padding: 35px 10px;
+}
+.ma-featured-vertscroller-wrap  .jcarousel-clip {
+    overflow: hidden;
+}
+.ma-featured-vertscroller-wrap  .jcarousel-clip-vertical {
+    width: 172px;
+    height: 345px;
+}
+.ma-featured-vertscroller-wrap  .jcarousel-item {
+    width: 172px;
+    height: 130px;
+}
+.ma-featured-vertscroller-wrap .product-image {
+	float: left;
+	margin: 5px 10px 10px 0;
+}
+.ma-featured-vertscroller-wrap .product-name  {
+	margin: 0 0 5px;
+}
+
+.ma-featured-vertscroller-wrap  .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+.ma-featured-vertscroller-wrap .block-content li.item {
+	padding: 0;
+}
+
+/**
+ *  Vertical Buttons
+ */
+.ma-featured-vertscroller-wrap .jcarousel-next-vertical, 
+.ma-featured-vertscroller-wrap  .jcarousel-prev-vertical {
+    background: transparent url(../images/arrow-updown.png) no-repeat 0 0;
+	width: 60px;
+	height: 14px;
+	position: absolute;
+	left: 35%;
+	cursor: pointer;
+}
+.ma-featured-vertscroller-wrap .jcarousel-next-vertical {
+    bottom: 5px;
+	background-position: 0 100%;
+}
+
+.ma-featured-vertscroller-wrap  .jcarousel-next-vertical:hover,
+.ma-featured-vertscroller-wrap  .jcarousel-next-vertical:focus {
+    background-position: 0 -28px;
+}
+.ma-featured-vertscroller-wrap  .jcarousel-prev-vertical {
+    top: 5px;
+}
+.ma-featured-vertscroller-wrap  .jcarousel-prev-vertical:hover,
+.ma-featured-vertscroller-wrap  .jcarousel-prev-vertical:focus {
+    background-position: 0 -14px;
+}

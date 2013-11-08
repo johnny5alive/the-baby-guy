@@ -1,0 +1,128 @@
+	<?php
+		function cut_string($string,$number){
+			if(strlen($string) <= $number) {
+				return $string;
+			}
+			else {	
+				if(strpos($string," ",$number) > $number){
+					$new_space = strpos($string," ",$number);
+					$new_string = substr($string,0,$new_space)."..";
+					return $new_string;
+				}
+				$new_string = substr($string,0,$number)."..";
+				return $new_string;
+			}
+		}
+	?>
+<?php if($this->getConfig('enabled')){ // start enable module?> 
+	<?php $this->getProducts() ?>
+	<?php $_productCollection=$this->getProductCollection() ?>
+	<div class="ma-featured-products">
+		<?php if($this->getConfig('title')){?>
+			<div class="ma-featured-product-title"><h2><?php echo $this->getConfig('title')?></h2></div>
+		<?php }?>
+		<?php if(!$_productCollection->count()): ?> <!-- start if exist product -->
+			<p class="note-msg"><?php echo $this->__('There are no products matching the selection.') ?></p>
+		<?php else: ?>
+			<div class="category-products row-fluid">
+			    <?php $_collectionSize = $_productCollection->count() ?>
+			    <?php if( !$this->getConfig('items') ) { $_columnCount = 1 ; } else { $_columnCount = $this->getConfig('items'); }?>
+			    <?php $i=0; foreach ($_productCollection as $_product): ?>
+			        <?php if ( $i++ % $_columnCount==0): ?>
+			        <ul class="products-grid <?php if( $i == 1 ) echo ' first';?>">
+			        <?php endif ?>
+			        	<?php 
+			        		if ( !$this->getConfig('width') ){
+			        			$w=135;
+			        		} else {
+			        			$w = $this->getConfig('width');
+			        		}
+			        		if( !$this->getConfig('height') ){
+			        			$h=135;
+							 }
+			        		else {
+			        			$h = $this->getConfig('height');
+			        		}
+			        	?>
+			            <li class="span3 item<?php if(($i-1)%$_columnCount==0): ?> first<?php elseif($i%$_columnCount==0): ?> last<?php endif; ?>">
+							<div class="item-inner">
+								<a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize($w,$h); ?>"  alt="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" /></a>
+								<div class="product-details">	
+									<h2 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>"><?php echo $this->htmlEscape($_product->getName()) ?></a></h2>
+									<?php if ( $this->getConfig('review') ): ?>
+									<?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
+									<?php endif; ?>
+									<?php echo $this->getPriceHtml($_product, true) ?>
+									<div class="actions">
+										<?php if ($this->getConfig('addtocart')) { ?>
+											<?php if($_product->isSaleable()): ?>
+												<button type="button" title="<?php echo $this->__('Add to Cart') ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+											<?php else: ?>
+												<p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+											<?php endif; ?>
+										<?php }?>
+										<?php if( $this->getConfig('addtowishlist') || $this->getConfig('addtocompare')){?>
+											<ul class="add-to-links">
+												<?php if( $this->getConfig('addtowishlist')){?>
+												<?php if ($this->helper('wishlist')->isAllow()) : ?>
+													<li><a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>" class="link-wishlist" title="<?php echo $this->__('Add to Wishlist') ?>" rel="tooltip"><?php echo $this->__('Add to Wishlist') ?></a></li>
+												<?php endif; ?>
+												<?php } ?>
+												<?php if( $this->getConfig('addtocompare') ){?>
+												<?php if($_compareUrl=$this->getAddToCompareUrl($_product)): ?>
+													<li><span class="separator">|</span> <a href="<?php echo $_compareUrl ?>" class="link-compare" title="<?php echo $this->__('Add to Compare') ?>" rel="tooltip"><?php echo $this->__('Add to Compare') ?></a></li>
+												<?php endif; ?>
+												<?php }?>
+											</ul>
+										<?php }?>
+									</div>
+									<?php if( $this->getConfig('description')){?>
+									<div class="ma-desc">
+										<?php if(!$this->getConfig('maxlength')){?>
+											<?php echo nl2br($this->htmlEscape($_product->getShortDescription())) ?>
+										<?php } else {?>
+											<?php echo nl2br(cut_string($this->htmlEscape($_product->getShortDescription()),$this->getConfig('maxlength'))) ?>			            
+										<?php }?>			                    
+									</div>
+									<?php }?>
+								</div>
+								<!--	Label	-->
+								<?php
+									$newFromDate = Mage::getModel('catalog/product')->load($_product->getID())->getNewsFromDate();
+									$newToDate = Mage::getModel('catalog/product')->load($_product->getID())->getNewsToDate();                 
+									$now = date("Y-m-d H:m:s");
+									
+									// Get the Special Price
+									$specialprice = Mage::getModel('catalog/product')->load($_product->getId())->getSpecialPrice(); 
+									// Get the Special Price FROM date
+									$specialPriceFromDate = Mage::getModel('catalog/product')->load($_product->getId())->getSpecialFromDate();
+									// Get the Special Price TO date
+									$specialPriceToDate = Mage::getModel('catalog/product')->load($_product->getId())->getSpecialToDate();
+									// Get Current date
+																				   
+									if($newFromDate <= $now && $newToDate >= $now && Mage::getStoreConfig('themeoptions/themeoptions_config/new_label')) {
+								?>
+										<div class="label-pro-new"></div>
+								<?php }	?>
+								
+								<?php 								 
+									if ($specialprice){
+										if($specialPriceFromDate <= $now && $specialPriceToDate >= $now && Mage::getStoreConfig('themeoptions/themeoptions_config/sale_label')) {
+								?>
+												<div class="label-pro-sale"></div>
+								<?php
+									} }
+								?> 
+							</div>
+			            </li>
+			        <?php if ($i%$_columnCount==0 || $i==$_collectionSize): ?>
+			        </ul>
+		        <?php endif ?> <!--  -->
+		        <?php endforeach ?>
+		        <script type="text/javascript">decorateGeneric($$('ul.products-grid'), ['odd','even','first','last'])</script>				
+			</div>		
+		<?php endif; ?> <!-- end exist product -->
+	</div> <!-- end products list -->
+<?php } ?>
+
+
