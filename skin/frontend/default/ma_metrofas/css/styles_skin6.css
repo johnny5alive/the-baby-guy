@@ -6498,3 +6498,15 @@ tr.summary-details-excluded { font-style:italic; }
 .menu-container .product-item .product-name a {height:auto;line-height:20px;}
 .menu-container .show-product .product-item  {width:250px;margin:0px 20px 0px 0px;}
 .menu-container .show-product .product-item.product-last {margin:0px;}
+/* sub pages */
+.subpage-banner {
+    left: 0; position: absolute;
+    width: 100%; margin: -25px 0 0;
+}
+.subpage-content {
+    clear: both;
+    float: left;
+    margin: 39% 0 0;
+    width: 100%;
+}
+
