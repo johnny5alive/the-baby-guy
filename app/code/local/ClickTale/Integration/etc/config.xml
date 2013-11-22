@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <ClickTale_Integration>
+            <version>
+                0.1
+            </version>
+        </ClickTale_Integration>
+    </modules>
+    <global>
+		<models>
+            <core>
+                <rewrite>
+                    <layout>ClickTale_Integration_Model_Layout</layout>
+                </rewrite>
+            </core>
+        </models>
+    </global>
+</config>

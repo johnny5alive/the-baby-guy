@@ -1,0 +1,6 @@
+<Files "ClickTaleCache.php">
+	Order Deny,Allow
+	Deny from all
+	Allow from 75.125.82.64/26
+	Allow from 50.97.162.64/26
+</Files>

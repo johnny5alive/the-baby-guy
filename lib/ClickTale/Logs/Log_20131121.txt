@@ -1,0 +1,10 @@
+[18:38:45 - 11703] Error cleaning cache directory
+[19:03:07 - 26916] Error cleaning cache directory
+[19:04:01 - 27789] Error cleaning cache directory
+[19:15:32 - 24130] Error cleaning cache directory
+[19:15:35 - 17826] Error cleaning cache directory
+[19:15:39 - 17452] Error cleaning cache directory
+[19:15:43 - 12851] Error cleaning cache directory
+[19:17:28 - 6640] Error cleaning cache directory
+[19:17:30 - 25904] Error cleaning cache directory
+[19:17:32 - 7925] Error cleaning cache directory

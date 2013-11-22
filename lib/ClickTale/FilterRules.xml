@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RegexReplaceActionSettings>
+	<Rules xmlns="">
+	<!--<Rule>
+			<Enabled>true</Enabled>
+			<Name>ClickTale script</Name>
+			<Find><![CDATA[<script\s*src="http://(nexuson/CTN|ctn/CTN|www\.clicktale\.net|s\.clicktale\.net)/WR.\.js"\s*type="text/javascript">\s*</script>]]></Find>
+			<Replace></Replace>
+			<IgnoreCase>true</IgnoreCase>
+		</Rule>-->
+		<Rule>
+			<Name>Empty comment region with &lt;!-- ClickTaleExcludeBlock --&gt;</Name>
+			<Find><![CDATA[/<!--[ ]*ClickTaleExcludeBlock[ ]*-->.*?<!--[ ]*EndClickTaleExcludeBlock[ ]*(.*?)-->/is]]></Find>
+			<Replace><![CDATA[$1]]></Replace>
+			<IgnoreCase>true</IgnoreCase>
+		</Rule>
+		<Rule>
+			<Name>Empty javascript comment region with /* ClickTaleExcludeBlock */ substitution allowed in closing comment "ClickTaleExcludeBlock"</Name>
+			<Find><![CDATA[~\/\*[\s]*ClickTaleExcludeBlock[\s]*\*/[\s\S\n\r\t]*?/\*[\s]*EndClickTaleExcludeBlock[\s]*([\s\S\n\r\t]*?)\*\/~is]]></Find>
+			<Replace><![CDATA[$1]]></Replace>
+			<IgnoreCase>true</IgnoreCase>
+		</Rule>
+	</Rules>
+</RegexReplaceActionSettings>
