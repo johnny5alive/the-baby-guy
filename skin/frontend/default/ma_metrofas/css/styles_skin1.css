@@ -6461,17 +6461,11 @@ tr.summary-details-excluded { font-style:italic; }
 
 }
 /* sub pages */
-.subpage-banner {
-    left: 0; position: absolute;
-    width: 100%; margin: -25px 0 0;
-}
-.subpage-content {
-    clear: both;
-    float: left;
-    margin: 35% 0 0;
-    width: 100%;
-}
-
-
-
-
+.attributesplash-page-view .subpage-banner {left: 0; position: absolute;    width: 100%; margin: -25px 0 0;}
+.attributesplash-page-view .subpage-content {
+    clear: both;    float: left;    margin: 39% 0 0;    width: 100%;}
+.attributesplash-page-view .category-image img {
+    left: 0;    margin-top: -25px;    position: absolute;    width: 100%; max-height:533px;}
+.attributesplash-page-view .category-products { margin: 35% 0 0;}
+.attributesplash-page-view .category-description {    margin: 79px 0 10px;}
+.category-description.std {    margin: 45% 0 -34%;}
